@@ -1,0 +1,37 @@
+
+state={
+	id=670
+	name="STATE_670"
+
+	history={
+		owner = LAO
+		add_core_of = LAO
+		add_core_of = LIN
+		victory_points = {
+			1464 10 
+		}
+		victory_points = {
+			1563 1 
+		}
+		victory_points = {
+			4539 1 
+		}
+		victory_points = {
+			4613 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1374 1390 1464 1507 1520 1563 1577 1592 4539 4554 4568 4613 7103 7356 7426 10330 10356 10453 10456 10496 12210 12332 12392 12433 13231 13232 13233 13234 13235 13236 13238 
+	}
+	manpower=1684000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

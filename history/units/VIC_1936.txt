@@ -1,0 +1,340 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "National Liberation Front"
+
+	division_names_group = VIC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+
+	}
+}
+
+units = {
+
+	division = {			
+		name = "Viet Cong 07"
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}			
+	division = {			
+		name = "Viet Cong 08"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+
+	division = {			
+		name = "Viet Cong 09"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 11"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 08"		
+		location = 7347
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+
+	division = {			
+		name = "Viet Cong 09"		
+		location = 7347
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 11"		
+		location = 7347
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 12"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 13"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 14"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 15"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 16"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 15"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 16"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 26"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 27"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 28"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 29"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 26"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 27"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 28"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 29"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 30"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	division = {			
+		name = "Viet Cong 01"
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}			
+	division = {			
+		name = "Viet Cong 02"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 03"
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}			
+	division = {			
+		name = "Viet Cong 04"		
+		location = 4223
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 05"
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}			
+	division = {			
+		name = "Viet Cong 06"		
+		location = 7238
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Viet Cong 02"		
+		location = 13218
+		division_template = "National Liberation Front"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}

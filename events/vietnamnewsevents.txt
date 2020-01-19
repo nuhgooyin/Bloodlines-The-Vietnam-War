@@ -1,0 +1,33 @@
+add_namespace = vietnamnews
+
+##Event: The People's War
+news_event = {
+	id = vietnamnews.1
+	title = vietnamnews.1.title
+	desc = vietnamnews.1.desc
+	picture = GFX_news_event_017
+
+	is_triggered_only = no
+
+	fire_only_once = yes
+
+	major = yes
+	trigger = {
+		trigger = {
+	NOT = {
+		TAG = VIT
+	}
+		date > 1960.2.11
+	}
+}
+	mean_time_to_happen = {
+		days = 10
+	}
+	option = {
+		name = vietnamnews.1.a
+		trigger = {
+			NOT = {
+				TAG = VIT
+			}
+	}
+}

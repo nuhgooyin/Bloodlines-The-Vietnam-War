@@ -1,0 +1,53 @@
+ideas = {
+
+	country = {
+		VIC_guerrilla_warfare = {
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = socialist_science_focus
+
+			modifier = {
+				attrition = -3
+				out_of_supply_factor = -3
+				supply_consumption_factor = -3
+			}
+		}
+		VIC_general_staff = {
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = general_staff
+			
+			modifier = {
+				command_power_gain_mult = 0.5
+				ai_focus_defense_factor = 10
+				ai_focus_aggressive_factor = -1
+			}
+		}
+		VIC_liberate_the_south = {
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = liberate_the_south
+
+			modifier = {
+				army_defence_factor = 0.3
+				army_morale_factor = 0.1
+				army_org_factor = 0.2
+				surrender_limit = 0.20
+			}
+		}
+	}
+}
+

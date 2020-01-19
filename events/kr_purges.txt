@@ -1,0 +1,33 @@
+add_namespace = comkhmer
+
+country_event = {
+	id = comkhmer.1
+	title = comkhmer.1.t
+	desc = comkhmer.1.d
+	picture = GFX_report_event_soviet_purge_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = comkhmer.1.a
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = comkhmer.2
+	title = comkhmer.2.t
+	desc = comkhmer.2.d
+	picture = GFX_report_event_soviet_purge_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = comkhmer.2.a
+		add_stability = 0.09
+	}
+}

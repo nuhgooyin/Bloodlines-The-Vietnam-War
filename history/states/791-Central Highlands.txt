@@ -1,0 +1,34 @@
+
+state={
+	id=791
+	name="STATE_791"
+	resources={
+		steel=50.000
+	}
+
+	history={
+		add_core_of = VIN
+		add_core_of = VIT
+		add_core_of = VIC
+		owner = VIN
+		victory_points = {
+			13218 1 
+		}
+		victory_points = {
+			1400 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1400 1605 4363 12150 12176 13225 
+	}
+	manpower=1639000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

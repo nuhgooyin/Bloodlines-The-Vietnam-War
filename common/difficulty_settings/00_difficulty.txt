@@ -1,0 +1,50 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "Strengthen The Republic of Vietnam"
+		modifier = diff_strong_ai_generic
+		countries = { VIN }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen The Democratic Republic of Vietnam"
+		modifier = diff_strong_ai_generic
+		countries = { VIT }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Democratic Kampuchea"
+		modifier = diff_strong_ai_generic
+		countries = { CMN }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen The Kingdom of Cambodia"
+		modifier = diff_strong_ai_generic
+		countries = { CAM }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Kingdom of Laos"
+		modifier = diff_strong_ai_generic
+		countries = { LAO }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Pathet Lao"
+		modifier = diff_strong_ai_generic
+		countries = { LIN }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen The United States"
+		modifier = diff_strong_ai_generic
+		countries = { USA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen The People's Republic of China"
+		modifier = diff_strong_ai_generic
+		countries = { PRC }
+		multiplier = 2.0
+	}
+}

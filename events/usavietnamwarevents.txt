@@ -1,0 +1,267 @@
+add_namespace = usanamwar
+
+country_event = {
+	id = usanamwar.1
+	title = usanamwar.1.t
+	desc = usanamwar.1.d
+	picture = GFX_report_event_uncle_sam
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = USA
+		NOT = { has_idea = USA_increased_intervention }
+		date > 1963.12.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = usanamwar.6.a
+		remove_ideas = {
+			USA_neutrality_bill
+		}
+		add_ideas = {
+			USA_increased_intervention
+		}
+		set_rule = { can_send_volunteers = yes }
+		ai_strategy = {
+			type = send_volunteers_desire
+			id = "VIN"
+			value = 400
+		}
+	}
+}
+
+country_event = {
+	id = usanamwar.2
+	title = usanamwar.2.t
+	desc = usanamwar.2.d
+	picture = GFX_report_event_1960_uselection
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = USA
+		NOT = { has_idea = USA_increased_intervention }
+		date > 1961.1.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = usanamwar.7.a
+		retire_country_leader = yes
+	create_country_leader = {
+		name = "John F. Kennedy"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_USA_John_F_Kennedy.dds"
+		expire = "1963.11.1"
+		ideology = liberalism
+		traits = {
+		}
+	}
+	}
+}
+
+country_event = {
+	id = usanamwar.3
+	title = usanamwar.3.t
+	desc = usanamwar.3.d
+	picture = GFX_idea_report_event_usmilitaryaide1
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = USA
+		NOT = { has_idea = USA_increased_intervention }
+		date > 1961.2.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = usanamwar.8.a
+			VIN = {
+				country_event = {
+					id = vinnamwar.5
+				}
+			}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = -20000
+		producer = USA
+	}
+	}
+}
+
+country_event = {
+	id = usanamwar.8
+	title = usanamwar.8.t
+	desc = usanamwar.8.d
+	picture = GFX_report_event_us_embassy_attack_tet
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = usanamwar.10.a
+	}
+}
+
+country_event = {
+	id = usanamwar.9
+	title = usanamwar.9.t
+	desc = usanamwar.9.d
+	picture = GFX_report_event_jfk_assasinated
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = USA
+		NOT = { has_idea = USA_increased_intervention }
+		date > 1963.11.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = usanamwar.11.a
+		kill_country_leader = yes
+	create_country_leader = {
+		name = "Lyndon B. Johnson"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_USA_Lyndon_B_Johnson.dds"
+		expire = "1969.1.1"
+		ideology = liberalism
+		traits = {
+		}
+	}
+	}
+}
+
+country_event = {
+	id = usanamwar.10
+	title = usanamwar.10.t
+	desc = usanamwar.10.d
+	picture = GFX_report_event_parispeaceaccords
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = USA
+		NOT = { has_idea = USA_neutrality_bill }
+		date > 1973.1.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = usanamwar.12.a
+			VIN = {
+				country_event = {
+					id = vinnamwar.46
+				}
+			}
+			VIT = {
+				country_event = {
+					id = vitnamwar.39
+				}
+			}
+			PRC = {
+				country_event = {
+					id = prcnamwar.5
+				}
+			}
+			CMN = {
+				country_event = {
+					id = cmnnamwar.2
+				}
+			}
+			CAM = {
+				country_event = {
+					id = camnamwar.1
+				}
+			}
+			LAO = {
+				country_event = {
+					id = laonamwar.2
+				}
+			}
+			LIN = {
+				country_event = {
+					id = linnamwar.1
+				}
+			}
+		remove_ideas = {
+			USA_neutrality_bill
+		}
+		add_ideas = {
+			USA_neutrality_bill
+		}
+		set_rule = { can_send_volunteers = no }
+	}
+}
+
+country_event = {
+	id = usanamwar.11
+	title = usanamwar.11.t
+	desc = usanamwar.11.d
+	picture = GFX_report_event_USA_RichardNixonElection
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = USA
+		NOT = { has_idea = USA_neutrality_bill }
+		date > 1968.12.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = usanamwar.13.a
+		retire_country_leader = yes
+	create_country_leader = {
+		name = "Richard Nixon"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_USA_RichardNixon.dds"
+		expire = "1974.8.1"
+		ideology = conservatism
+		traits = {
+		}
+	}
+	}
+}

@@ -1,0 +1,254 @@
+﻿capital = 741 #Phnom Penh NOT on the map as VP!
+
+oob = "CMN_1936"
+
+set_research_slots = 2
+set_stability = 0.7
+set_war_support = 0.8
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+
+add_manpower = 150000 {
+}
+
+add_ideas = {
+	CMN_guerrilla_warfare
+	CMN_military_staff
+}
+
+give_guarantee = VIT {
+}
+
+give_guarantee = LIN {
+}
+
+give_guarantee = VIC {
+}
+
+add_political_power = 1000 {
+}
+
+navy_experience = 100 {
+}
+
+army_experience = 300 {
+}
+
+air_experience = 100 {
+}
+
+add_command_power = 100 {
+}
+
+add_equipment_to_stockpile ={
+    type = infantry_equipment
+    amount = 5000
+    producer = CMN
+}
+
+add_opinion_modifier = {
+    target = VIT
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = LIN
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = VIC
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = VIN
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = LAO
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = CAM
+    modifier = hostile_status
+}
+
+add_opinion_modifier = {
+    target = PRC
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = USA
+    modifier = large_decrease
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 15
+	communism = 85
+	neutrality = 0
+}
+
+create_country_leader = {
+	name = "Tou Samouth" 
+	desc = ""
+	picture = "gfx/leaders/CMN/portrait_CMN_tou_samouth.dds"
+	expire = "1962.1.1"
+	ideology = anarchist_communism
+	traits = {
+		
+	}
+}
+
+#non standard english alphabet character
+create_country_leader = {
+	name = "Sisowath Youtévong"
+	desc = ""
+	picture = "gfx/leaders/CMN/Sisowath_Youtevong.dds"
+	expire = "1953.3.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Norodom Sihanouk" 
+	desc = ""
+	picture = "gfx/leaders/CMN/NorodomSihanouk.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Pol Pot"
+	portrait_path = "gfx/leaders/Asia/Pol_Pot.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 4
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Khieu Samphan"
+	portrait_path = "gfx/leaders/Asia/Khieu_Samphan.dds"
+	traits = { urban_assault_specialist hill_fighter }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Tou Samouth"
+	id = 238
+	portrait_path = "gfx/leaders/CMN/portrait_CMN_tou_samouth.dds"
+	expire = "1962.1.1"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Leng Sary"
+	portrait_path = "gfx/leaders/Asia/Leng_Sary.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 4
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nuon Chea"
+	portrait_path = "gfx/leaders/Asia/NuonChea.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+#couldnt find anything historical on fascism
+

@@ -1,0 +1,45 @@
+state={
+	id=790
+	name="STATE_790"
+	resources={
+		tungsten=35.000
+	}
+	
+	history={
+		add_core_of = VIN
+		add_core_of = VIT
+		add_core_of = VIC
+		owner = VIN
+		victory_points = {
+			13240 3 
+		}
+		victory_points = {
+			10137 3 
+		}
+		
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
+			arms_factory = 1
+			dockyard = 1
+			13240 = {
+				naval_base = 4
+
+			}
+			10137 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		1248 4255 4379 7229 10137 10180 10309 13239 13240 
+	}
+	manpower=2269480
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,412 @@
+﻿capital = 789 #Saigon
+
+oob = "VIN_1936"
+
+set_research_slots = 3
+set_stability = 60
+set_war_support = 0
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_secondary_battery = 1
+		basic_fire_control_system = 1
+	}
+}
+
+create_faction = "Anti-Communist Forces" {
+}
+
+add_to_faction = CAM {
+}
+
+add_to_faction = LAO {
+}
+
+add_manpower = 800000 {
+}
+
+give_guarantee = CAM {
+}
+
+give_guarantee = LAO {
+}
+
+add_political_power = 1000 {
+}
+
+navy_experience = 100 {
+}
+
+army_experience = 300 {
+}
+
+air_experience = 100 {
+}
+
+add_command_power = 100 {
+}
+
+add_ideas = {
+	VIN_disjointed_government
+	VIN_incompetent_officers
+	VIN_diem_administration
+
+}
+
+set_convoys = 250
+
+add_equipment_to_stockpile ={
+    type = infantry_equipment
+    amount = 25000
+    producer = VIN
+}
+
+add_opinion_modifier = {
+    target = CAM
+    modifier = anti_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = VIT
+    modifier = hostile_status
+}
+
+add_opinion_modifier = {
+    target = VIC
+    modifier = hostile_status
+}
+
+add_opinion_modifier = {
+    target = LAO
+    modifier = anti_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = CMN
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = LIN
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = PRC
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = USA
+    modifier = shares_common_interest
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1954.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 55
+	fascism = 0
+	communism = 45
+	neutrality = 0
+}
+
+#NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
+
+create_country_leader = {
+	name = "Phan Bôi Châu" 
+	desc = ""
+	picture = "gfx/leaders/VIN/Phan_Boi_Chau"
+	expire = "1953.3.1"
+	ideology = fascism_ideology 
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ho Chí Minh" 
+	desc = ""
+	picture = "gfx/leaders/VIN/Ho_Chi_Minh.dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ngô Đình Diêm"
+	desc = ""
+	picture = "gfx/leaders/VIN/Ngo_Dinh_Diem.dds"
+	expire = "1963.11.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nguyen Tuong Tam"
+	desc = ""
+	picture = "gfx/leaders/VIN/Nguyen_Tuoung_Tam.dds"
+	expire = "1953.3.1"
+	ideology = moderatism
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Ngô Quang Truong"
+	portrait_path = "gfx/leaders/Asia/Ngo_Quang_Truong.dds"
+	traits = { logistics_wizard fast_planner inspirational_leader}
+	skill = 4
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Cao Văn Viên"
+	portrait_path = "gfx/leaders/Asia/Cao_Van_Vien.dds"
+	traits = { fortress_buster swamp_fox jungle_rat}
+	skill = 4
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Duong Văn Minh"
+	portrait_path = "gfx/leaders/Asia/duongvanminh.dds"
+	traits = { urban_assault_specialist bearer_of_artillery spotter}
+	skill = 6
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Huynh Văn Cao"
+	portrait_path = "gfx/leaders/Asia/caohuynh.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 5
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Nguyen Chánh Thi"
+	portrait_path = "gfx/leaders/Asia/nguyenchanhthi.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 3
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Tran Văn Đôn"
+	portrait_path = "gfx/leaders/Asia/tranvandon.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Lê Quang Tung"
+	portrait_path = "gfx/leaders/Asia/lequangtung.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 5
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ngo Dinh Nhu"
+	id = 235
+	portrait_path = "gfx/leaders/Asia/ngodinhnhu.dds"
+	expire = "1963.11.1"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 4
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ngo Dinh Diem"
+	id = 234
+	portrait_path = "gfx/leaders/Asia/ngo_dinh_diem.dds"
+	expire = "1963.11.1"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 6
+	attack_skill = 4
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nguyen Huu Co"
+	portrait_path = "gfx/leaders/Asia/nguyenhuuco.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ton That Dinh"
+	portrait_path = "gfx/leaders/VIN/tonthatdinh.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Chung Tan Cang"
+	portrait_path = "gfx/leaders/Asia/Chung_Tan_Cang.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Le Quang My"
+	portrait_path = "gfx/leaders/Asia/lequangmy.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+
+

@@ -1,0 +1,127 @@
+bookmarks = {
+	bookmark = {
+		name = "Blood Blood Blood"
+		desc = "BLOOD_BLOOD_BLOOD_DESC"
+		date = 1959.11.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "VIN"
+		default = yes
+
+		"VIN"={
+			history = "VIN_TENSIONS_RISE_DESC"
+			ideology = democratic
+			ideas = {
+				VIN_disjointed_government
+				VIN_incompetent_officers
+				VIN_diem_administration
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"VIT"={
+			history = "VIT_TENSIONS_RISE_DESC"
+			ideology = communism
+			ideas = {
+				VIT_popular_government
+				VIT_weak_economy
+				VIT_general_staff
+				VIT_guerrilla_warfare
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"VIC"={
+			history = "VIC_TENSIONS_RISE_DESC"
+			ideology = communism
+			ideas = {
+				VIC_guerrilla_warfare
+				VIC_general_staff
+				VIC_liberate_the_south
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"LAO"={
+			history = "LAO_TENSIONS_RISE_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"LIN"={
+			history = "LIN_TENSIONS_RISE_DESC"
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"CAM"={
+			history = "CAM_TENSIONS_RISE_DESC"
+			ideology = democratic
+			ideas = {
+				CAM_general_advisors
+			}
+			focuses = {
+				
+			}
+		}
+	
+		"CMN"={
+			history = "CMN_TENSIONS_RISE_DESC"
+			ideology = communism
+			ideas = {
+				CMN_guerrilla_warfare
+				CMN_military_staff
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"PRC"={
+			minor = yes
+			history = "PRC_TENSIONS_RISE_DESC"
+			ideology = communism
+			ideas = {
+				PRC_red_army_weakened
+				PRC_maoism
+				PRC_neutrality_act
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"USA"={
+			minor = yes
+			history = "USA_TENSIONS_RISE_DESC"
+			ideology = democratic
+			ideas = {
+				USA_war_department
+				USA_neutrality_bill
+			}
+			focuses = {
+				
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

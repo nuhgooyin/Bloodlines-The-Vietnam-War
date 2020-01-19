@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		CAM_general_advisors = {
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = general_staff
+			
+			modifier = {
+				command_power_gain_mult = 0.5
+				ai_focus_defense_factor = 10
+				ai_focus_aggressive_factor = -1
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=794
+	name="STATE_794"
+	
+	history={
+		add_core_of = CAM
+		add_core_of = CMN
+		owner = CMN
+		victory_points = {
+			7432 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			7432 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		4359 7404 7432 10289 12191 
+	}
+	manpower=995670
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,495 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"
+
+	division_names_group = VIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1.0 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1.0 y = 0 }
+		infantry = { x = 1.0 y = 1.0 }
+		infantry = { x = 1.0 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1.0 }
+	}
+	support = {
+
+	}
+}
+
+units = {
+		
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}	
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}		
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}	
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+		division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+		division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Division"		
+		location = 4401
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+
+	navy = {
+		name = "South East Asia Squadron"			
+		base = 4401
+		location = 4401
+		ship = { name = "RVNS Tran Quang Khai" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Nhut Tao" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Ly Thuong Kiet" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Khánh Du" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Quang Khai" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Nhut Tao" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Ly Thuong Kiet" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Khánh Du" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Binh Trong" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Quang Khai" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Nhut Tao" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Ly Thuong Kiet" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Khánh Du" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Binh Trong" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Quang Khai" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Nhut Tao" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Ly Thuong Kiet" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Khánh Du" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Binh Trong" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Quang Khai" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Nhut Tao" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Ly Thuong Kiet" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Khánh Du" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Binh Trong" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Quang Khai" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Nhut Tao" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Ly Thuong Kiet" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Khánh Du" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Binh Trong" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Quang Khai" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Nhut Tao" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Ly Thuong Kiet" definition = destroyer equipment = { destroyer_1 = { amount = 2 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Khánh Du" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Tran Binh Trong" definition = destroyer equipment = { destroyer_1 = { amount = 4 owner = VIN version_name = "Saigon Class" } } }
+		ship = { name = "RVNS Saigon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 4 owner = VIN version_name = "Can Tho Class" } } }
+		ship = { name = "RVNS Saigon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 4 owner = VIN version_name = "Can Tho Class" } } }
+		ship = { name = "RVNS Can Tho" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 4 owner = VIN version_name = "Can Tho Class" } } }
+		ship = { name = "RVNS Da Nang" definition = battleship equipment = { battleship_1 = { amount = 4 owner = VIN version_name = "Da Nang Class" } } }
+		ship = { name = "RVNS Saigon" definition = battleship equipment = { battleship_1 = { amount = 4 owner = VIN version_name = "Da Nang Class" } } }
+		ship = { name = "RVNS Saigon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 4 owner = VIN version_name = "Can Tho Class" } } }
+		}
+	}
+}

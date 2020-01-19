@@ -1,0 +1,98 @@
+add_namespace = vietcong
+
+country_event = { 
+	id = vietcong.1 
+	title = vietcong.1.t 
+	desc = vietcong.1.d 
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = no ##States whether the event fires on its #######own or via a trigger   ######i.e only fires past january 17th
+
+	trigger = {
+    tag = VIC
+		286 = {
+		is_owned_by = VIN
+		}
+		788 = {
+		is_owned_by = VIN
+		}
+		790 = {
+		is_owned_by = VIN
+		}
+		791 = {
+		is_owned_by = VIN
+		}
+		date > 1960.1.11
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+option = { 
+	ai_will_do = {
+	factor = 160
+}
+	name = vietcong.1.a
+    286 = {
+        if = {
+            limit = { is_owned_by = VIN }
+		}
+    }
+        VIC = {
+		declare_war_on = {
+		target = VIN
+		type = annex_everything
+		}
+	}
+}
+
+}
+
+country_event = {
+	id = vietcong.2
+	title = vietcong.2.t
+	desc = vietcong.2.d
+	picture = GFX_report_event_tet_offensive
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIC
+		has_idea = VIC_liberate_the_south
+		date > 1968.2.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vietcong.2.a
+			VIN = {
+				country_event = {
+					id = vinnamwar.7
+				}
+			}
+		add_manpower = 40000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 4000
+		producer = VIC
+	}
+	load_oob = "VIC_Tet_Offensive"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vietcong.3.a
+	}
+}

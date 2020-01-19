@@ -1,0 +1,1610 @@
+add_namespace = vitnamwar
+
+country_event = {
+	id = vitnamwar.1
+	title = vitnamwar.1.t
+	desc = vitnamwar.1.d
+	picture = GFX_report_event_tonducthangleader
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1969.9.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vitnamwar.1.a
+		kill_country_leader = yes
+		add_stability = -0.10
+		add_war_support = -0.10
+		remove_unit_leader = 236
+		remove_unit_leader = 237
+	create_country_leader = {
+		name = "Tôn Duc Thang"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_VIT_Ton_Duc_Thang.dds"
+		expire = "1976.6.1"
+		ideology = marxism
+		traits = {
+		}
+	}
+	create_corps_commander = {
+		name = "Tôn Duc Thang"
+		portrait_path = "Portrait_VIT_Ton_Duc_Thang.dds"
+		expire = "1976.6.1"
+		traits = { }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	}
+}
+
+country_event = {
+	id = vitnamwar.2
+	title = vitnamwar.2.t
+	desc = vitnamwar.2.d
+	picture = GFX_report_event_prcmilitaryaide1
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vitnamwar.2.a
+		add_manpower = 200000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = PRC
+	}
+	}
+}
+
+country_event = {
+	id = vitnamwar.3
+	title = vitnamwar.3.t
+	desc = vitnamwar.3.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1962.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.3.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.4.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.4
+	title = vitnamwar.4.t
+	desc = vitnamwar.4.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1966.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.5.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.6.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.5
+	title = vitnamwar.5.t
+	desc = vitnamwar.5.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1960.3.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.7.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.8.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.6
+	title = vitnamwar.6.t
+	desc = vitnamwar.6.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1960.10.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.9.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.10.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.7
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1961.5.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.8
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1961.10.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.9
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1962.3.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.10
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1962.7.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.11
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1962.11.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.12
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1963.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.13
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1963.5.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.14
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1963.8.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.15
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1963.11.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.16
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1964.1.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.17
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1964.3.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.18
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1964.6.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.19
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1964.9.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.20
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1964.12.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.21
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1965.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.22
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1965.5.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.23
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1965.8.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.24
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1966.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.25
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1966.5.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.26
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1966.8.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.27
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1966.11.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.28
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1967.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.29
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1967.5.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.30
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1967.8.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.31
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1967.11.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.32
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1968.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.33
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1968.5.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.34
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1968.8.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.35
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1968.11.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.36
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1969.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.37
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1969.5.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.38
+	title = vitnamwar.7.t
+	desc = vitnamwar.7.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIT
+		has_idea = VIT_popular_government
+		date > 1969.11.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vitnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIT
+	}
+	load_oob = "VIT_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vitnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vitnamwar.39
+	title = vitnamwar.39.t
+	desc = vitnamwar.39.d
+	picture = GFX_report_event_parispeaceaccords
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vitnamwar.13.a
+		white_peace = VIN
+		white_peace = CAM
+		white_peace = LAO
+	}
+}

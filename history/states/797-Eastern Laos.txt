@@ -1,0 +1,26 @@
+state={
+	id=797
+	name="STATE_797"
+	
+	history={
+		owner = LIN
+		add_core_of = LAO
+		add_core_of = LIN
+		victory_points = {
+			9961 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	provinces={
+		1362 4260 4339 7075 7218 9961 10195 10238 10326 13237 
+	}
+	manpower=434800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

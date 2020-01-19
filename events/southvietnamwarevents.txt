@@ -1,0 +1,1892 @@
+add_namespace = vinnamwar
+
+country_event = {
+	id = vinnamwar.2
+	title = vinnamwar.2.t
+	desc = vinnamwar.2.d
+	picture = GFX_report_event_1963_southcoup
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1963.11.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vinnamwar.7.a
+		kill_country_leader = yes
+		add_stability = -0.30
+		add_war_support = -0.10
+		remove_unit_leader = 234
+		remove_unit_leader = 235
+	create_country_leader = {
+		name = "Duong Văn Minh"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_VIN_Doung_van_minh.dds"
+		expire = "1964.10.1"
+		ideology = conservatism
+		traits = {
+		}
+	}
+		remove_ideas = {
+			VIN_buddhist_crisis
+			VIN_diem_administration
+		}
+	}
+}
+
+country_event = {
+	id = vinnamwar.3
+	title = vinnamwar.3.t
+	desc = vinnamwar.3.d
+	picture = GFX_report_event_nguyenvanthieu
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1964.2.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vinnamwar.8.a
+		retire_country_leader = yes
+		add_stability = -0.10
+		add_war_support = -0.10
+	create_country_leader = {
+		name = "Nguyen Van Thieu"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_VIN_Nguyen_Van_Thieu.dds"
+		expire = "1975.4.1"
+		ideology = conservatism
+		traits = {
+		}
+	}
+	create_corps_commander = {
+		name = "Nguyen Van Thieu"
+		portrait_path = "gfx/leaders/VIN/Portrait_VIN_Nguyen_Van_Thieu.dds"
+		expire = "1975.4.1"
+		traits = { }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+	}
+		add_ideas = {
+			VIN_thieu_administration
+		}
+	}
+}
+
+country_event = {
+	id = vinnamwar.4
+	title = vinnamwar.4.t
+	desc = vinnamwar.4.d
+	picture = GFX_idea_report_event_1963_buddhist_crisis
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1963.4.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vinnamwar.9.a
+		add_ideas = {
+			VIN_buddhist_crisis
+		}
+	}
+}
+
+country_event = {
+	id = vinnamwar.5
+	title = vinnamwar.5.t
+	desc = vinnamwar.5.d
+	picture = GFX_idea_report_event_usmilitaryaide1
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vinnamwar.10.a
+		add_manpower = 200000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = USA
+	}
+	}
+}
+
+country_event = {
+	id = vinnamwar.6
+	title = vinnamwar.6.t
+	desc = vinnamwar.6.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1962.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.11.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.12.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.7
+	title = vinnamwar.7.t
+	desc = vinnamwar.7.d
+	picture = GFX_report_event_tet_offensive
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+			VIN = {
+				country_event = {
+					id = vinnamwar.8
+				}
+			}
+			USA = {
+				country_event = {
+					id = usanamwar.8
+				}
+			}
+		name = vinnamwar.13.a
+	load_oob = "VIN_Tet_Offensive"
+	}
+}
+
+country_event = {
+	id = vinnamwar.8
+	title = vinnamwar.8.t
+	desc = vinnamwar.8.d
+	picture = GFX_report_event_us_embassy_attack_tet
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.14.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.9
+	title = vinnamwar.9.t
+	desc = vinnamwar.9.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1966.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.15.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.16.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.10
+	title = vinnamwar.10.t
+	desc = vinnamwar.10.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1960.6.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.17.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.18.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.11
+	title = vinnamwar.11.t
+	desc = vinnamwar.11.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1960.3.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.19.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.20.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.12
+	title = vinnamwar.12.t
+	desc = vinnamwar.12.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1960.10.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.21.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.22.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.13
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1961.5.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.14
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1961.10.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.15
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1962.3.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.16
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1962.7.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.17
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1962.11.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.18
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1963.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.19
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1963.5.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.20
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1963.8.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.21
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1963.11.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.22
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1964.1.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.22
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1964.3.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.23
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1964.6.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.24
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1964.9.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.25
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1964.12.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.26
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1965.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.27
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1965.5.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.28
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1965.8.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.29
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1965.11.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.30
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1966.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.31
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1966.5.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.32
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1966.8.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.33
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1966.11.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.34
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1967.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.35
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1967.5.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.36
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1967.8.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.37
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1967.11.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.38
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1968.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.39
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1968.5.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.40
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1968.8.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.41
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1968.11.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.42
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1969.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.43
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1969.5.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.44
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1969.8.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.45
+	title = vinnamwar.13.t
+	desc = vinnamwar.13.d
+	picture = GFX_report_event_VIN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1969.11.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.23.a
+		add_manpower = 100000
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 20000
+		producer = VIN
+	}
+	load_oob = "VIN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.24.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.46
+	title = vinnamwar.46.t
+	desc = vinnamwar.46.d
+	picture = GFX_report_event_parispeaceaccords
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vinnamwar.25.a
+		white_peace = VIT
+		white_peace = CMN
+		white_peace = LIN
+		white_peace = LAO
+	}
+}
+
+country_event = {
+	id = vinnamwar.47
+	title = vinnamwar.47.t
+	desc = vinnamwar.47.d
+	picture = GFX_report_event_VIN_collapsinggovernment
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = VIN
+		has_idea = VIN_disjointed_government
+		date > 1975.1.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vinnamwar.26.a
+		add_ideas = {
+			VIN_collapsing_government
+		}
+	}
+}

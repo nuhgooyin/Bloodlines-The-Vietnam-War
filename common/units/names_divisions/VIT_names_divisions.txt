@@ -1,0 +1,499 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+VIT_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { VIT }
+
+	can_use = {
+		NOT = { is_puppet_of = FRA }
+	}
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { VIT_GAR_01 }
+
+	fallback_name = "NVA %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA %d" }
+		2 = { "NVA %d" }
+		3 = { "NVA %d" }
+		5 = { "NVA %d" }
+		7 = { "NVA %d" }
+		9 = { "NVA %d" }
+		304 = { "NVA %d" }
+		308 = { "NVA %d" }
+		312 = { "NVA %d" }
+		320 = { "NVA %d" }
+		321 = { "NVA 320B" }
+		324 = { "NVA %dB" }
+		325 = { "NVA %dC" }
+		711 = { "NVA %d" }
+		390 = { "NVA %d" }
+		367 = { "NVA %d" }
+		673 = { "NVA %d" }
+		71 = { "NVA %d" }
+		10 = { "NVA %d" }
+		11 = { "NVA %d" }
+		12 = { "NVA %d" }
+		13 = { "NVA %d" }
+		14 = { "NVA %d" }
+		15 = { "NVA %d" }
+		16 = { "NVA %d" }
+		17 = { "NVA %d" }
+		18 = { "NVA %d" }
+		19 = { "NVA %d" }
+		20 = { "NVA %d" }
+		21 = { "NVA %d" }
+		22 = { "NVA %d" }
+		23 = { "NVA %d" }
+		24 = { "NVA %d" }
+		25 = { "NVA %d" }
+		26 = { "NVA %d" }
+		27 = { "NVA %d" }
+		28 = { "NVA %d" }
+		29 = { "NVA %d" }
+		30 = { "NVA %d" }
+		31 = { "NVA %d" }
+		32 = { "NVA %d" }
+		33 = { "NVA %d" }
+		34 = { "NVA %d" }
+		35 = { "NVA %d" }
+		36 = { "NVA %d" }
+		37 = { "NVA %d" }
+		38 = { "NVA %d" }
+		39 = { "NVA %d" }
+		40 = { "NVA %d" }
+		41 = { "NVA %d" }
+		42 = { "NVA %d" }
+		43 = { "NVA %d" }
+
+	}
+}
+
+VIT_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA Cavalry %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA Cavalry %d" }
+		2 = { "NVA Cavalry %d" }
+		3 = { "NVA Cavalry %d" }
+		4 = { "NVA Cavalry %d" }
+		5 = { "NVA Cavalry %d" }
+		6 = { "NVA Cavalry %d" }
+		7 = { "NVA Cavalry %d" }
+		8 = { "NVA Cavalry %d" }
+		9 = { "NVA Cavalry %d" }
+		10 = { "NVA Cavalry %d" }
+
+	}
+}
+
+VIT_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA %d" }
+		2 = { "NVA %d" }
+		3 = { "NVA %d" }
+		5 = { "NVA %d" }
+		7 = { "NVA %d" }
+		9 = { "NVA %d" }
+		304 = { "NVA %d" }
+		308 = { "NVA %d" }
+		312 = { "NVA %d" }
+		320 = { "NVA %d" }
+		321 = { "NVA 320B" }
+		324 = { "NVA %dB" }
+		325 = { "NVA %dC" }
+		711 = { "NVA %d" }
+		390 = { "NVA %d" }
+		367 = { "NVA %d" }
+		673 = { "NVA %d" }
+		71 = { "NVA %d" }
+		10 = { "NVA %d" }
+		11 = { "NVA %d" }
+		12 = { "NVA %d" }
+		13 = { "NVA %d" }
+		14 = { "NVA %d" }
+		15 = { "NVA %d" }
+		16 = { "NVA %d" }
+		17 = { "NVA %d" }
+		18 = { "NVA %d" }
+		19 = { "NVA %d" }
+		20 = { "NVA %d" }
+		21 = { "NVA %d" }
+		22 = { "NVA %d" }
+		23 = { "NVA %d" }
+		24 = { "NVA %d" }
+		25 = { "NVA %d" }
+		26 = { "NVA %d" }
+		27 = { "NVA %d" }
+		28 = { "NVA %d" }
+		29 = { "NVA %d" }
+		30 = { "NVA %d" }
+		31 = { "NVA %d" }
+		32 = { "NVA %d" }
+		33 = { "NVA %d" }
+		34 = { "NVA %d" }
+		35 = { "NVA %d" }
+		36 = { "NVA %d" }
+		37 = { "NVA %d" }
+		38 = { "NVA %d" }
+		39 = { "NVA %d" }
+		40 = { "NVA %d" }
+		41 = { "NVA %d" }
+		42 = { "NVA %d" }
+		43 = { "NVA %d" }
+
+	}
+}
+
+VIT_ARM_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA Armored %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA Armored %d" }
+		2 = { "NVA Armored %d" }
+		3 = { "NVA Armored %d" }
+		4 = { "NVA Armored %d" }
+		5 = { "NVA Armored %d" }
+		6 = { "NVA Armored %d" }
+		7 = { "NVA Armored %d" }
+		8 = { "NVA Armored %d" }
+		9 = { "NVA Armored %d" }
+		10 = { "NVA Armored %d" }
+
+	}
+}
+
+VIT_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA %d" }
+		2 = { "NVA %d" }
+		3 = { "NVA %d" }
+		5 = { "NVA %d" }
+		7 = { "NVA %d" }
+		9 = { "NVA %d" }
+		304 = { "NVA %d" }
+		308 = { "NVA %d" }
+		312 = { "NVA %d" }
+		320 = { "NVA %d" }
+		321 = { "NVA 320B" }
+		324 = { "NVA %dB" }
+		325 = { "NVA %dC" }
+		711 = { "NVA %d" }
+		390 = { "NVA %d" }
+		367 = { "NVA %d" }
+		673 = { "NVA %d" }
+		71 = { "NVA %d" }
+		10 = { "NVA %d" }
+		11 = { "NVA %d" }
+		12 = { "NVA %d" }
+		13 = { "NVA %d" }
+		14 = { "NVA %d" }
+		15 = { "NVA %d" }
+		16 = { "NVA %d" }
+		17 = { "NVA %d" }
+		18 = { "NVA %d" }
+		19 = { "NVA %d" }
+		20 = { "NVA %d" }
+		21 = { "NVA %d" }
+		22 = { "NVA %d" }
+		23 = { "NVA %d" }
+		24 = { "NVA %d" }
+		25 = { "NVA %d" }
+		26 = { "NVA %d" }
+		27 = { "NVA %d" }
+		28 = { "NVA %d" }
+		29 = { "NVA %d" }
+		30 = { "NVA %d" }
+		31 = { "NVA %d" }
+		32 = { "NVA %d" }
+		33 = { "NVA %d" }
+		34 = { "NVA %d" }
+		35 = { "NVA %d" }
+		36 = { "NVA %d" }
+		37 = { "NVA %d" }
+		38 = { "NVA %d" }
+		39 = { "NVA %d" }
+		40 = { "NVA %d" }
+		41 = { "NVA %d" }
+		42 = { "NVA %d" }
+		43 = { "NVA %d" }
+
+	}
+}
+
+VIT_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA %d" }
+		2 = { "NVA %d" }
+		3 = { "NVA %d" }
+		5 = { "NVA %d" }
+		7 = { "NVA %d" }
+		9 = { "NVA %d" }
+		304 = { "NVA %d" }
+		308 = { "NVA %d" }
+		312 = { "NVA %d" }
+		320 = { "NVA %d" }
+		321 = { "NVA 320B" }
+		324 = { "NVA %dB" }
+		325 = { "NVA %dC" }
+		711 = { "NVA %d" }
+		390 = { "NVA %d" }
+		367 = { "NVA %d" }
+		673 = { "NVA %d" }
+		71 = { "NVA %d" }
+		10 = { "NVA %d" }
+		11 = { "NVA %d" }
+		12 = { "NVA %d" }
+		13 = { "NVA %d" }
+		14 = { "NVA %d" }
+		15 = { "NVA %d" }
+		16 = { "NVA %d" }
+		17 = { "NVA %d" }
+		18 = { "NVA %d" }
+		19 = { "NVA %d" }
+		20 = { "NVA %d" }
+		21 = { "NVA %d" }
+		22 = { "NVA %d" }
+		23 = { "NVA %d" }
+		24 = { "NVA %d" }
+		25 = { "NVA %d" }
+		26 = { "NVA %d" }
+		27 = { "NVA %d" }
+		28 = { "NVA %d" }
+		29 = { "NVA %d" }
+		30 = { "NVA %d" }
+		31 = { "NVA %d" }
+		32 = { "NVA %d" }
+		33 = { "NVA %d" }
+		34 = { "NVA %d" }
+		35 = { "NVA %d" }
+		36 = { "NVA %d" }
+		37 = { "NVA %d" }
+		38 = { "NVA %d" }
+		39 = { "NVA %d" }
+		40 = { "NVA %d" }
+		41 = { "NVA %d" }
+		42 = { "NVA %d" }
+		43 = { "NVA %d" }
+
+	}
+}
+
+VIT_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA Marines %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA Marines %d" }
+		2 = { "NVA Marines %d" }
+		3 = { "NVA Marines %d" }
+		4 = { "NVA Marines %d" }
+		5 = { "NVA Marines %d" }
+		6 = { "NVA Marines %d" }
+		7 = { "NVA Marines %d" }
+		8 = { "NVA Marines %d" }
+		9 = { "NVA Marines %d" }
+		10 = { "NVA Marines %d" }
+
+	}
+}
+
+VIT_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA Mountaineers %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA Mountaineers %d" }
+		2 = { "NVA Mountaineers %d" }
+		3 = { "NVA Mountaineers %d" }
+		4 = { "NVA Mountaineers %d" }
+		5 = { "NVA Mountaineers %d" }
+		6 = { "NVA Mountaineers %d" }
+		7 = { "NVA Mountaineers %d" }
+		8 = { "NVA Mountaineers %d" }
+		9 = { "NVA Mountaineers %d" }
+		10 = { "NVA Mountaineers %d" }
+
+	}
+}
+
+VIT_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { VIT }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { VIT_INF_01 }
+
+	fallback_name = "NVA Paratroopers %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "NVA Paratroopers %d" }
+		2 = { "NVA Paratroopers %d" }
+		3 = { "NVA Paratroopers %d" }
+		4 = { "NVA Paratroopers %d" }
+		5 = { "NVA Paratroopers %d" }
+		6 = { "NVA Paratroopers %d" }
+		7 = { "NVA Paratroopers %d" }
+		8 = { "NVA Paratroopers %d" }
+		9 = { "NVA Paratroopers %d" }
+		10 = { "NVA Paratroopers %d" }
+
+	}
+}

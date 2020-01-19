@@ -1,0 +1,16 @@
+focus_tree = {
+	id = china_communist_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+			has_dlc = "Waking the Tiger"
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+}

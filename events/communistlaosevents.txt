@@ -1,0 +1,23 @@
+add_namespace = linnamwar
+
+country_event = {
+	id = linnamwar.1
+	title = linnamwar.1.t
+	desc = linnamwar.1.d
+	picture = GFX_report_event_parispeaceaccords
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = linnamwar.1.a
+		white_peace = LAO
+		white_peace = CAM
+		white_peace = VIN
+	}
+}

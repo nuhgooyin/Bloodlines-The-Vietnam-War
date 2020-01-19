@@ -1,0 +1,499 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+LIN_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { LIN }
+
+	can_use = {
+		NOT = { is_puppet_of = FRA }
+	}
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LIN_GAR_01 }
+
+	fallback_name = "Pathet Lao %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao %d" }
+		2 = { "Pathet Lao %d" }
+		3 = { "Pathet Lao %d" }
+		5 = { "Pathet Lao %d" }
+		7 = { "Pathet Lao %d" }
+		9 = { "Pathet Lao %d" }
+		304 = { "Pathet Lao %d" }
+		308 = { "Pathet Lao %d" }
+		312 = { "Pathet Lao %d" }
+		320 = { "Pathet Lao %d" }
+		321 = { "Pathet Lao 320B" }
+		324 = { "Pathet Lao %dB" }
+		325 = { "Pathet Lao %dC" }
+		711 = { "Pathet Lao %d" }
+		390 = { "Pathet Lao %d" }
+		367 = { "Pathet Lao %d" }
+		673 = { "Pathet Lao %d" }
+		71 = { "Pathet Lao %d" }
+		10 = { "Pathet Lao %d" }
+		11 = { "Pathet Lao %d" }
+		12 = { "Pathet Lao %d" }
+		13 = { "Pathet Lao %d" }
+		14 = { "Pathet Lao %d" }
+		15 = { "Pathet Lao %d" }
+		16 = { "Pathet Lao %d" }
+		17 = { "Pathet Lao %d" }
+		18 = { "Pathet Lao %d" }
+		19 = { "Pathet Lao %d" }
+		20 = { "Pathet Lao %d" }
+		21 = { "Pathet Lao %d" }
+		22 = { "Pathet Lao %d" }
+		23 = { "Pathet Lao %d" }
+		24 = { "Pathet Lao %d" }
+		25 = { "Pathet Lao %d" }
+		26 = { "Pathet Lao %d" }
+		27 = { "Pathet Lao %d" }
+		28 = { "Pathet Lao %d" }
+		29 = { "Pathet Lao %d" }
+		30 = { "Pathet Lao %d" }
+		31 = { "Pathet Lao %d" }
+		32 = { "Pathet Lao %d" }
+		33 = { "Pathet Lao %d" }
+		34 = { "Pathet Lao %d" }
+		35 = { "Pathet Lao %d" }
+		36 = { "Pathet Lao %d" }
+		37 = { "Pathet Lao %d" }
+		38 = { "Pathet Lao %d" }
+		39 = { "Pathet Lao %d" }
+		40 = { "Pathet Lao %d" }
+		41 = { "Pathet Lao %d" }
+		42 = { "Pathet Lao %d" }
+		43 = { "Pathet Lao %d" }
+
+	}
+}
+
+LIN_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao Cavalry %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao Cavalry %d" }
+		2 = { "Pathet Lao Cavalry %d" }
+		3 = { "Pathet Lao Cavalry %d" }
+		4 = { "Pathet Lao Cavalry %d" }
+		5 = { "Pathet Lao Cavalry %d" }
+		6 = { "Pathet Lao Cavalry %d" }
+		7 = { "Pathet Lao Cavalry %d" }
+		8 = { "Pathet Lao Cavalry %d" }
+		9 = { "Pathet Lao Cavalry %d" }
+		10 = { "Pathet Lao Cavalry %d" }
+
+	}
+}
+
+LIN_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao %d" }
+		2 = { "Pathet Lao %d" }
+		3 = { "Pathet Lao %d" }
+		5 = { "Pathet Lao %d" }
+		7 = { "Pathet Lao %d" }
+		9 = { "Pathet Lao %d" }
+		304 = { "Pathet Lao %d" }
+		308 = { "Pathet Lao %d" }
+		312 = { "Pathet Lao %d" }
+		320 = { "Pathet Lao %d" }
+		321 = { "Pathet Lao 320B" }
+		324 = { "Pathet Lao %dB" }
+		325 = { "Pathet Lao %dC" }
+		711 = { "Pathet Lao %d" }
+		390 = { "Pathet Lao %d" }
+		367 = { "Pathet Lao %d" }
+		673 = { "Pathet Lao %d" }
+		71 = { "Pathet Lao %d" }
+		10 = { "Pathet Lao %d" }
+		11 = { "Pathet Lao %d" }
+		12 = { "Pathet Lao %d" }
+		13 = { "Pathet Lao %d" }
+		14 = { "Pathet Lao %d" }
+		15 = { "Pathet Lao %d" }
+		16 = { "Pathet Lao %d" }
+		17 = { "Pathet Lao %d" }
+		18 = { "Pathet Lao %d" }
+		19 = { "Pathet Lao %d" }
+		20 = { "Pathet Lao %d" }
+		21 = { "Pathet Lao %d" }
+		22 = { "Pathet Lao %d" }
+		23 = { "Pathet Lao %d" }
+		24 = { "Pathet Lao %d" }
+		25 = { "Pathet Lao %d" }
+		26 = { "Pathet Lao %d" }
+		27 = { "Pathet Lao %d" }
+		28 = { "Pathet Lao %d" }
+		29 = { "Pathet Lao %d" }
+		30 = { "Pathet Lao %d" }
+		31 = { "Pathet Lao %d" }
+		32 = { "Pathet Lao %d" }
+		33 = { "Pathet Lao %d" }
+		34 = { "Pathet Lao %d" }
+		35 = { "Pathet Lao %d" }
+		36 = { "Pathet Lao %d" }
+		37 = { "Pathet Lao %d" }
+		38 = { "Pathet Lao %d" }
+		39 = { "Pathet Lao %d" }
+		40 = { "Pathet Lao %d" }
+		41 = { "Pathet Lao %d" }
+		42 = { "Pathet Lao %d" }
+		43 = { "Pathet Lao %d" }
+
+	}
+}
+
+LIN_ARM_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao Armored %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao Armored %d" }
+		2 = { "Pathet Lao Armored %d" }
+		3 = { "Pathet Lao Armored %d" }
+		4 = { "Pathet Lao Armored %d" }
+		5 = { "Pathet Lao Armored %d" }
+		6 = { "Pathet Lao Armored %d" }
+		7 = { "Pathet Lao Armored %d" }
+		8 = { "Pathet Lao Armored %d" }
+		9 = { "Pathet Lao Armored %d" }
+		10 = { "Pathet Lao Armored %d" }
+
+	}
+}
+
+LIN_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao %d" }
+		2 = { "Pathet Lao %d" }
+		3 = { "Pathet Lao %d" }
+		5 = { "Pathet Lao %d" }
+		7 = { "Pathet Lao %d" }
+		9 = { "Pathet Lao %d" }
+		304 = { "Pathet Lao %d" }
+		308 = { "Pathet Lao %d" }
+		312 = { "Pathet Lao %d" }
+		320 = { "Pathet Lao %d" }
+		321 = { "Pathet Lao 320B" }
+		324 = { "Pathet Lao %dB" }
+		325 = { "Pathet Lao %dC" }
+		711 = { "Pathet Lao %d" }
+		390 = { "Pathet Lao %d" }
+		367 = { "Pathet Lao %d" }
+		673 = { "Pathet Lao %d" }
+		71 = { "Pathet Lao %d" }
+		10 = { "Pathet Lao %d" }
+		11 = { "Pathet Lao %d" }
+		12 = { "Pathet Lao %d" }
+		13 = { "Pathet Lao %d" }
+		14 = { "Pathet Lao %d" }
+		15 = { "Pathet Lao %d" }
+		16 = { "Pathet Lao %d" }
+		17 = { "Pathet Lao %d" }
+		18 = { "Pathet Lao %d" }
+		19 = { "Pathet Lao %d" }
+		20 = { "Pathet Lao %d" }
+		21 = { "Pathet Lao %d" }
+		22 = { "Pathet Lao %d" }
+		23 = { "Pathet Lao %d" }
+		24 = { "Pathet Lao %d" }
+		25 = { "Pathet Lao %d" }
+		26 = { "Pathet Lao %d" }
+		27 = { "Pathet Lao %d" }
+		28 = { "Pathet Lao %d" }
+		29 = { "Pathet Lao %d" }
+		30 = { "Pathet Lao %d" }
+		31 = { "Pathet Lao %d" }
+		32 = { "Pathet Lao %d" }
+		33 = { "Pathet Lao %d" }
+		34 = { "Pathet Lao %d" }
+		35 = { "Pathet Lao %d" }
+		36 = { "Pathet Lao %d" }
+		37 = { "Pathet Lao %d" }
+		38 = { "Pathet Lao %d" }
+		39 = { "Pathet Lao %d" }
+		40 = { "Pathet Lao %d" }
+		41 = { "Pathet Lao %d" }
+		42 = { "Pathet Lao %d" }
+		43 = { "Pathet Lao %d" }
+
+	}
+}
+
+LIN_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao %d" }
+		2 = { "Pathet Lao %d" }
+		3 = { "Pathet Lao %d" }
+		5 = { "Pathet Lao %d" }
+		7 = { "Pathet Lao %d" }
+		9 = { "Pathet Lao %d" }
+		304 = { "Pathet Lao %d" }
+		308 = { "Pathet Lao %d" }
+		312 = { "Pathet Lao %d" }
+		320 = { "Pathet Lao %d" }
+		321 = { "Pathet Lao 320B" }
+		324 = { "Pathet Lao %dB" }
+		325 = { "Pathet Lao %dC" }
+		711 = { "Pathet Lao %d" }
+		390 = { "Pathet Lao %d" }
+		367 = { "Pathet Lao %d" }
+		673 = { "Pathet Lao %d" }
+		71 = { "Pathet Lao %d" }
+		10 = { "Pathet Lao %d" }
+		11 = { "Pathet Lao %d" }
+		12 = { "Pathet Lao %d" }
+		13 = { "Pathet Lao %d" }
+		14 = { "Pathet Lao %d" }
+		15 = { "Pathet Lao %d" }
+		16 = { "Pathet Lao %d" }
+		17 = { "Pathet Lao %d" }
+		18 = { "Pathet Lao %d" }
+		19 = { "Pathet Lao %d" }
+		20 = { "Pathet Lao %d" }
+		21 = { "Pathet Lao %d" }
+		22 = { "Pathet Lao %d" }
+		23 = { "Pathet Lao %d" }
+		24 = { "Pathet Lao %d" }
+		25 = { "Pathet Lao %d" }
+		26 = { "Pathet Lao %d" }
+		27 = { "Pathet Lao %d" }
+		28 = { "Pathet Lao %d" }
+		29 = { "Pathet Lao %d" }
+		30 = { "Pathet Lao %d" }
+		31 = { "Pathet Lao %d" }
+		32 = { "Pathet Lao %d" }
+		33 = { "Pathet Lao %d" }
+		34 = { "Pathet Lao %d" }
+		35 = { "Pathet Lao %d" }
+		36 = { "Pathet Lao %d" }
+		37 = { "Pathet Lao %d" }
+		38 = { "Pathet Lao %d" }
+		39 = { "Pathet Lao %d" }
+		40 = { "Pathet Lao %d" }
+		41 = { "Pathet Lao %d" }
+		42 = { "Pathet Lao %d" }
+		43 = { "Pathet Lao %d" }
+
+	}
+}
+
+LIN_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao Marines %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao Marines %d" }
+		2 = { "Pathet Lao Marines %d" }
+		3 = { "Pathet Lao Marines %d" }
+		4 = { "Pathet Lao Marines %d" }
+		5 = { "Pathet Lao Marines %d" }
+		6 = { "Pathet Lao Marines %d" }
+		7 = { "Pathet Lao Marines %d" }
+		8 = { "Pathet Lao Marines %d" }
+		9 = { "Pathet Lao Marines %d" }
+		10 = { "Pathet Lao Marines %d" }
+
+	}
+}
+
+LIN_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao Mountaineers %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao Mountaineers %d" }
+		2 = { "Pathet Lao Mountaineers %d" }
+		3 = { "Pathet Lao Mountaineers %d" }
+		4 = { "Pathet Lao Mountaineers %d" }
+		5 = { "Pathet Lao Mountaineers %d" }
+		6 = { "Pathet Lao Mountaineers %d" }
+		7 = { "Pathet Lao Mountaineers %d" }
+		8 = { "Pathet Lao Mountaineers %d" }
+		9 = { "Pathet Lao Mountaineers %d" }
+		10 = { "Pathet Lao Mountaineers %d" }
+
+	}
+}
+
+LIN_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { LIN }
+
+	can_use = { NOT = { is_puppet_of = FRA } }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LIN_INF_01 }
+
+	fallback_name = "Pathet Lao Paratroopers %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Pathet Lao Paratroopers %d" }
+		2 = { "Pathet Lao Paratroopers %d" }
+		3 = { "Pathet Lao Paratroopers %d" }
+		4 = { "Pathet Lao Paratroopers %d" }
+		5 = { "Pathet Lao Paratroopers %d" }
+		6 = { "Pathet Lao Paratroopers %d" }
+		7 = { "Pathet Lao Paratroopers %d" }
+		8 = { "Pathet Lao Paratroopers %d" }
+		9 = { "Pathet Lao Paratroopers %d" }
+		10 = { "Pathet Lao Paratroopers %d" }
+
+	}
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=789
+	name="STATE_789"
+	resources={
+		steel=35.000
+		oil=45.000
+		aluminium=25.000
+	}
+
+	history={
+		add_core_of = VIN
+		add_core_of = VIT
+		add_core_of = VIC
+		owner = VIN
+		victory_points = {
+			4401 10 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 8
+			13221 = {
+				naval_base = 5
+			}
+			4401 = {
+				bunker = 5
+			}
+
+		}
+
+	}
+
+	provinces={
+		1396 4401 10261 12232 13221 13249 13250 13251
+	}
+	manpower=4593249
+	buildings_max_level_factor=1.000
+	state_category=city
+}

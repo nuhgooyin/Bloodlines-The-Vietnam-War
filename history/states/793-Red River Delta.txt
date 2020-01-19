@@ -1,0 +1,40 @@
+state={
+	id=793
+	name="STATE_793"
+	resources={
+		chromium=27.000
+		tungsten=24.000
+	}
+	
+	history={
+		add_core_of = VIN
+		add_core_of = VIT
+		add_core_of = VIC
+		owner = VIT
+		victory_points = {
+			4119 5 
+		}
+		victory_points = {
+			4075 20
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 4
+			4119 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		1157 1185 4075 4119 12048 
+	}
+	manpower=5943849
+	buildings_max_level_factor=1.000
+	state_category=city
+}

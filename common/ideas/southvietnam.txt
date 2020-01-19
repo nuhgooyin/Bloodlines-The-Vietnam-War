@@ -1,0 +1,112 @@
+ideas = {
+
+	country = {
+		VIN_disjointed_government = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_cost = 0.1
+				stability_factor = -0.10
+			}
+		}
+		VIN_incompetent_officers = {
+
+			picture = chi_incompetent_officers
+		
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				command_power_gain_mult = -0.5
+				ai_focus_defense_factor = 10
+				ai_focus_aggressive_factor = -1
+			}
+
+		}
+		VIN_buddhist_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = southern_resistance
+			
+			modifier = {
+				stability_weekly = -0.01
+			}
+		}
+		VIN_diem_administration = {
+		
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = diem_administration
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.20
+				command_power_gain_mult = 0.5
+				defence = 1
+				offence = -0.5
+			}
+
+		}
+		VIN_thieu_administration = {
+		
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = thieu_administration
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.10
+				command_power_gain_mult = -0.5
+				war_support_factor = -0.10
+				defence = 1
+				offence = -0.5
+			}
+
+		}
+		VIN_collapsing_government = {
+		
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_hyper_inflation5
+			
+			modifier = {
+				political_power_gain = -0.8
+				stability_factor = -0.30
+				command_power_gain_mult = -0.5
+				war_support_factor = -0.30
+				army_morale_factor = -0.5
+				army_org_factor = -0.5
+				conscription_factor = -0.05
+				surrender_limit = -0.10
+			}
+
+		}
+	}
+}

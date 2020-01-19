@@ -1,0 +1,24 @@
+add_namespace = laonamwar
+
+country_event = {
+	id = laonamwar.2
+	title = laonamwar.2.t
+	desc = laonamwar.2.d
+	picture = GFX_report_event_parispeaceaccords
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = laonamwar.3.a
+		white_peace = LIN
+		white_peace = CMN
+		white_peace = VIT
+		white_peace = VIC
+	}
+}

@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		CMN_guerrilla_warfare = {
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = socialist_science_focus
+
+			modifier = {
+				attrition = -0.5
+				out_of_supply_factor = -0.5
+				supply_consumption_factor = -0.5
+			}
+		}
+		CMN_military_staff = {
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = general_staff
+			
+			modifier = {
+				command_power_gain_mult = 0.5
+				ai_focus_defense_factor = 10
+				ai_focus_aggressive_factor = -1
+			}
+		}
+	}
+}
+

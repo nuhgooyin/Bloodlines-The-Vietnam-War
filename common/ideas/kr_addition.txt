@@ -1,0 +1,138 @@
+ideas = {
+	country = {
+		CMN_soviet_influence = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = home_of_revolution
+
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
+		}
+
+		CMN_chinese_support = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_communist_army
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+
+		CMN_khmer_maoism = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = PRC_maoism
+
+			modifier = {
+				land_reinforce_rate = -0.01
+				conscription = 0.005
+			}
+		}
+
+		CMN_intellectuals_purged = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_research_bonus
+
+			modifier = {
+				political_power_gain = -0.15
+			}
+		}
+
+		CMN_year_zero = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = man_five_year_plan_industry
+
+			modifier = {
+				trade_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+
+		CMN_political_isolation = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = isolation
+
+			modifier = {
+				trade_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+			}
+		}
+
+		CMN_khmer_nationalism = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = chi_war_of_resistance
+
+			modifier = {
+				stability_factor = 0.07
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		CMN_nato_arms_smuggling = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_war_preparation
+
+			modifier = {
+				equipment_capture = 0.01
+			}
+		}
+
+		CMN_strike_the_opposition ={
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+
+			modifier = {
+				conscription = 0.01
+				training_time_factor = -0.1
+				army_morale_factor = 0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { "Duy" "Tin" "Thanh" "Linh" "Trang" "An" "Thu" "Phu" "Quang" "Minh" "Kim" "Ngoc" "Tien" "Huy"}
+		surnames = { "Nguyen" "Chau" "Tran" "Vo" "Vu" "Pham" "Le" "Phan" "Ho" "Ngo" "Duong" "Bui" "Ly" "Huynh" "Hoang"}
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Loan" "Bich" "Thao" }
+	#	surnames = { "Chau" "Vo" "Nguyen" "Binh"}
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	#}
+	surnames = { "Nguyen" "Chau" "Tran" "Vo" "Vu" "Pham" "Le" "Phan" "Ho" "Ngo" "Duong" "Bui" "Ly" "Huynh" "Hoang" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+ 
+###############################################################
+# The Majors
+###############################################################
+
+VIN = {
+	male = {
+		names = { 
+			"Duy" "Tin" "Thanh" "Linh" "Trang" "An" "Thu" "Phu" "Quang" "Minh" "Kim" "Ngoc" "Tien" "Huy"
+		
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		"Nguyen" "Chau" "Tran" "Vo" "Vu" "Pham" "Le" "Phan" "Ho" "Ngo" "Duong" "Bui" "Ly" "Huynh" "Hoang"
+	
+	}
+	callsigns = { }
+}
+
+VIT = {
+	male = {
+		names = { 
+			"Duy" "Tin" "Thanh" "Linh" "Trang" "An" "Thu" "Phu" "Quang" "Minh" "Kim" "Ngoc" "Tien" "Huy"
+		
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		"Nguyen" "Chau" "Tran" "Vo" "Vu" "Pham" "Le" "Phan" "Ho" "Ngo" "Duong" "Bui" "Ly" "Huynh" "Hoang"
+	
+	}
+	callsigns = { }
+}

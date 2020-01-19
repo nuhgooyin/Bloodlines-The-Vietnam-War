@@ -1,0 +1,216 @@
+﻿capital = 741 #Phnom Penh
+
+oob = "CAM_1936"
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.7
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+
+add_ideas = {
+	CAM_general_advisors
+}
+
+add_manpower = 200000 {
+}
+
+give_guarantee = VIN {
+}
+
+give_guarantee = LAO {
+}
+
+add_political_power = 1000 {
+}
+
+navy_experience = 100 {
+}
+
+army_experience = 300 {
+}
+
+air_experience = 100 {
+}
+
+add_command_power = 100 {
+}
+
+set_convoys = 20
+
+add_equipment_to_stockpile ={
+    type = infantry_equipment
+    amount = 5000
+    producer = CAM
+}
+
+add_opinion_modifier = {
+    target = VIN
+    modifier = anti_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = VIT
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = LAO
+    modifier = anti_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = CMN
+    modifier = hostile_status
+}
+
+add_opinion_modifier = {
+    target = LIN
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = VIC
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = PRC
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = USA
+    modifier = shares_common_interest
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1954.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 65
+	communism = 30
+	neutrality = 5
+}
+
+create_country_leader = {
+	name = "Pol Pot" 
+	desc = ""
+	picture = "gfx/leaders/CAM/Pol_Pot.dds"
+	expire = "1953.3.1"
+	ideology = anarchist_communism #insanity
+	traits = {
+		
+	}
+}
+
+#non standard english alphabet character
+create_country_leader = {
+	name = "Sisowath Youtévong"
+	desc = ""
+	picture = "gfx/leaders/CAM/Sisowath_Youtevong.dds"
+	expire = "1953.3.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Norodom Sihanouk" 
+	desc = ""
+	picture = "gfx/leaders/CAM/NorodomSihanouk.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+#couldnt find anything historical on fascism
+
+create_corps_commander = {
+	name = "Norodom Sihanouk"
+	portrait_path = "gfx/leaders/CAM/NorodomSihanouk.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sisowath Youtévong"
+	portrait_path = "gfx/leaders/CAM/Sisowath_Youtevong.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}

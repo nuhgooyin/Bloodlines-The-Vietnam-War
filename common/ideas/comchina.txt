@@ -1,0 +1,497 @@
+ideas = {
+
+	country = {
+
+		PRC_red_army_weakened = {
+
+			picture = chi_army_corruption
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org_regain = -0.1
+				training_time_factor = 0.2
+				land_reinforce_rate = -0.01
+				conscription = -0.01
+			}
+		}	
+
+		PRC_peoples_volunteer_army = {
+
+			picture = generic_volunteer_expedition_bonus
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				join_faction_tension = 1
+				ai_join_ally_desire_factor = -100
+				send_volunteers_tension = -100
+				guarantee_tension = 1
+				send_volunteer_size = 3
+				send_volunteer_divisions_required = -0.50
+				justify_war_goal_time = 5
+				ai_get_ally_desire_factor = -10000
+				lend_lease_tension = -100
+				ai_focus_defense_factor = 10
+				ai_focus_aggressive_factor = -1
+			}
+		}
+
+		PRC_neutrality_act = {
+			picture = neutrality_idea
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = 1
+				ai_join_ally_desire_factor = -100
+				send_volunteers_tension = 1
+				guarantee_tension = 1
+				send_volunteer_size = -100
+				send_volunteer_divisions_required = 100
+				justify_war_goal_time = 5
+				ai_get_ally_desire_factor = -10000
+				ai_focus_defense_factor = 1
+			}
+		}
+
+		PRC_maoism = {
+
+			picture = generic_infantry_bonus
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+	}
+
+	political_advisor = {
+
+		PRC_lin_bojiu = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+		PRC_zhou_enlai = {
+
+			picture = generic_political_advisor_asia_2
+				
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+		PRC_liu_shaoqi = {
+
+			picture = generic_political_advisor_asia_1
+				
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		PRC_he_yuandang = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { war_industrialist } 
+		}
+
+		PRC_deng_xiaoping = {
+			
+			picture = generic_political_advisor_asia_2
+
+			available = {
+				has_completed_focus = PRC_socialist_market_economy
+			}
+						
+			allowed = {
+				OR = {
+					original_tag = PRC
+					is_chinese_warlord = yes
+				}
+				has_dlc = "Waking the Tiger"
+			}
+
+			traits = { captain_of_industry }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_dong_biwu = {
+			
+			picture = generic_political_advisor_asia_1
+						
+			allowed = {
+				original_tag = PRC
+				has_dlc = "Waking the Tiger"
+			}
+
+			traits = { popular_figurehead }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_kang_sheng = {
+			
+			picture = generic_political_advisor_asia_2
+
+			available = {
+				has_completed_focus = PRC_military_intelligence_department
+			}
+			
+			allowed = {
+				OR = {
+					original_tag = PRC
+					is_chinese_warlord = yes
+				}
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+
+			traits = { prince_of_terror }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	army_chief = {
+		
+		PRC_zhu_de = {
+			
+			picture = generic_army_asia_3
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_su_yu = {
+			
+			picture = generic_army_asia_4
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_otto_braun = {
+			
+			picture = generic_army_europe_3
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+
+		PRC_ma_jin = {
+
+			picture = generic_army_asia_5
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	air_chief = {
+		
+
+		PRC_fang_zeyi = {
+			
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_gao_gang = {
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	navy_chief = {
+		
+
+		PRC_ziao_jingguang = {
+			
+			picture = generic_navy_asia_1
+
+			allowed = {
+				original_tag = PRC
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+		PRC_gao_qiu = {
+			
+			picture = generic_navy_asia_2
+
+			allowed = {
+				original_tag = PRC
+			}
+					
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		PRC_xu_xiangqian = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_nie_rongzhen = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_chen_geng = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_entrenchment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		PRC_chen_yi = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_ye_jianying = {
+			picture = generic_army_asia_2
+
+			allowed = {
+				original_tag = PRC
+			}
+
+			traits = {
+				army_logistics_2
+			}
+
+		}
+
+		PRC_liang_shen = {
+
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { air_air_combat_training_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRC_deng_ye_peng = {
+
+			picture = generic_navy_asia_1
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { navy_amphibious_assault_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+
+
+	theorist = {
+		PRC_liu_bocheng = {
+
+			picture = generic_air_asia_1
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		PRC_hsia_tian = { 
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+		PRC_zhang_wei = {
+
+			picture = generic_navy_asia_2
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+
+	}
+
+
+
+}

@@ -1,0 +1,94 @@
+add_namespace = chinanamwar
+
+country_event = {
+	id = chinanamwar.1
+	title = chinanamwar.1.t
+	desc = chinanamwar.1.d
+	picture = GFX_report_event_peoplesarmy
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = PRC
+		NOT = { has_idea = PRC_peoples_volunteer_army }
+		date > 1965.1.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = chinanamwar.6.a
+		remove_ideas = {
+			PRC_neutrality_act
+		}
+		add_ideas = {
+			PRC_peoples_volunteer_army
+		}
+		set_rule = { can_send_volunteers = yes }
+	}
+}
+
+country_event = {
+	id = chinanamwar.4
+	title = chinanamwar.4.t
+	desc = chinanamwar.4.d
+	picture = GFX_report_event_prcmilitaryaide1
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+
+	trigger = {
+		tag = PRC
+		NOT = { has_idea = PRC_neutrality_act }
+		date > 1963.12.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = chinanamwar.4.a
+			VIT = {
+				country_event = {
+					id = vitnamwar.2
+				}
+			}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = -20000
+		producer = PRC
+	}
+	}
+}
+
+country_event = {
+	id = chinanamwar.5
+	title = chinanamwar.5.t
+	desc = chinanamwar.5.d
+	picture = GFX_report_event_parispeaceaccords
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = chinanamwar.5.a
+		remove_ideas = {
+			PRC_peoples_volunteer_army
+		}
+		add_ideas = {
+			PRC_neutrality_act
+		}
+		set_rule = { can_send_volunteers = no }
+	}
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=792
+	name="STATE_792"
+	resources={
+		steel=93.000
+		oil=56.000
+	}
+	
+	history={
+		add_core_of = VIN
+		add_core_of = VIT
+		add_core_of = VIC
+		owner = VIT
+		victory_points = {
+			4397 3
+		}
+		victory_points = {
+			13241 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+			4397 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		1302 4397 7280 9988 10016 12297 13241 13242 
+	}
+	manpower=4652399
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,27 @@
+state={
+	id=795
+	name="STATE_795"
+	
+	history={
+		add_core_of = CAM
+		add_core_of = CMN
+		owner = CMN
+		victory_points = {
+			7645 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	provinces={
+		1620 4596 7645 10204 12167 12447 12460 12475 13229 13230 13257 13258 13259 13260
+	}
+	manpower=1212400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

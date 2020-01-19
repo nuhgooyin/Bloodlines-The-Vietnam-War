@@ -1,0 +1,380 @@
+﻿capital = 793 #Hanoi
+
+oob = "VIT_1936"
+
+set_research_slots = 3
+set_stability = 0.9
+set_war_support = 0.9
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_secondary_battery = 1
+		basic_fire_control_system = 1
+	}
+
+
+create_faction = "Communist Forces" {
+}
+
+puppet = VIC {
+}
+
+add_to_faction = CMN {
+}
+
+add_to_faction = LIN {
+}
+
+add_threat = 55 {
+}
+
+add_manpower = 500000 {
+}
+
+give_guarantee = CMN {
+}
+
+give_guarantee = LIN {
+}
+
+give_guarantee = VIC {
+}
+
+add_political_power = 1200 {
+}
+
+navy_experience = 100 {
+}
+
+army_experience = 300 {
+}
+
+air_experience = 100 {
+}
+
+add_command_power = 100 {
+}
+
+add_ideas = {
+	VIT_popular_government
+	VIT_weak_economy
+	VIT_general_staff
+	VIT_guerrilla_warfare
+}
+
+set_convoys = 50
+
+add_equipment_to_stockpile ={
+    type = infantry_equipment
+    amount = 15000
+    producer = VIT
+}
+
+add_opinion_modifier = {
+    target = LIN
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = VIC
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = CAM
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = VIN
+    modifier = hostile_status
+}
+
+add_opinion_modifier = {
+    target = LAO
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = USA
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = CMN
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = PRC
+    modifier = pro_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = USA
+    modifier = large_decrease
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 0
+	communism = 90
+	neutrality = 0
+}
+
+#NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
+
+create_country_leader = {
+	name = "Phan Bôi Châu" 
+	desc = ""
+	picture = "gfx/leaders/VIT/Phan_Boi_Chau"
+	expire = "1953.3.1"
+	ideology = fascism_ideology 
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ho Chí Minh" 
+	desc = ""
+	picture = "gfx/leaders/VIT/Ho_Chi_Minh.dds"
+	expire = "1969.9.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ngô Đình Diêm"
+	desc = ""
+	picture = "gfx/leaders/VIT/Ngo_Dinh_Diem.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nguyen Tuong Tam"
+	desc = ""
+	picture = "gfx/leaders/VIT/Nguyen_Tuoung_Tam.dds"
+	expire = "1953.3.1"
+	ideology = moderatism
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Ho Chí Minh"
+	id = 237
+	portrait_path = "gfx/leaders/Asia/ho_chi_minh.dds"
+	expire = "1969.9.1"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 6
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Pham Văn Đong"
+	portrait_path = "gfx/leaders/Asia/phamvandong.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 4
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Huynh Tan Phát"
+	portrait_path = "gfx/leaders/Asia/HuynhTanPhat.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Phan Van Giang"
+	portrait_path = "gfx/leaders/Asia/PhanVanGiang.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vo Nguyen Giap"
+	portrait_path = "gfx/leaders/Asia/VoNguyenGiap.dds"
+	traits = { }
+	skill = 6
+	attack_skill = 4
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Hoàng Van Thái"
+	portrait_path = "gfx/leaders/Asia/HoangVanThai.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nguyen Huu An"
+	portrait_path = "gfx/leaders/Asia/NguyenHuuAn.dds"
+	traits = { }
+	skill = 5
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Lê Duc Anh"
+	portrait_path = "gfx/leaders/Asia/LeducAnh.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Ho Chí Minh"
+	id = 236
+	portrait_path = "gfx/leaders/Asia/ho_chi_minh.dds"
+	expire = "1969.9.1"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
