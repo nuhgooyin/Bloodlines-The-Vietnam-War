@@ -51,7 +51,6 @@ Bloodlines: The Vietnam War, is a mod set during the Second Indochina War, or mo
 
 ###Follow/Join For Updates!###
 Discord: https://discord.gg/fXc9guU
-Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1952898975
 
 
 
