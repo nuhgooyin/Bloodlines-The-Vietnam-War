@@ -1,0 +1,207 @@
+capital = 741 #Phnom Penh
+
+oob = "CAM_1936"
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.7
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+
+add_ideas = {
+	KHR_Lon_Nol
+}
+
+add_manpower = 200000 {
+}
+
+give_guarantee = VIN {
+}
+
+give_guarantee = LAO {
+}
+
+add_political_power = 1000 {
+}
+
+navy_experience = 100 {
+}
+
+army_experience = 300 {
+}
+
+air_experience = 100 {
+}
+
+add_command_power = 100 {
+}
+
+set_convoys = 20
+
+add_equipment_to_stockpile ={
+    type = infantry_equipment
+    amount = 5000
+    producer = KHR
+}
+
+add_opinion_modifier = {
+    target = VIN
+    modifier = anti_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = VIT
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = LAO
+    modifier = anti_communist_ideology
+}
+
+add_opinion_modifier = {
+    target = CMN
+    modifier = hostile_status
+}
+
+add_opinion_modifier = {
+    target = LIN
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = VIC
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = PRC
+    modifier = large_decrease
+}
+
+add_opinion_modifier = {
+    target = USA
+    modifier = shares_common_interest
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1954.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	communism = 35
+	neutrality = 15
+}
+
+create_country_leader = {
+	name = "Pol Pot" 
+	desc = ""
+	picture = "gfx/leaders/CAM/Pol_Pot.dds"
+	expire = "1953.3.1"
+	ideology = anarchist_communism #insanity
+	traits = {
+		
+	}
+}
+
+#non standard english alphabet character
+create_country_leader = {
+	name = "Cheng Heng"
+	desc = ""
+	picture = "gfx/leaders/KHR/Cheng_Heng.dds"
+	expire = "1953.3.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Lon Nol" 
+	desc = ""
+	picture = "gfx/leaders/KHR/Lon_Nol.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+#couldnt find anything historical on fascism
+
+create_field_marshal = {
+	name = "Lon Nol"
+	portrait_path = "gfx/leaders/CAM/NorodomSihanouk.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+
