@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		KHR_Lon_Nol = {
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = lon_nol
+			
+			modifier = {
+				army_morale_factor = 0.1
+				political_power_gain = -0.2
+			}
+		}
+	}
+}
