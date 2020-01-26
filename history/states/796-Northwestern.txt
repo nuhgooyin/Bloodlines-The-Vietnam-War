@@ -5,6 +5,7 @@ state={
 	history={
 		add_core_of = CAM
 		add_core_of = CMN
+		add_core_of = KHR
 		owner = CAM
 		victory_points = {
 			4302 2 
