@@ -193,6 +193,17 @@ create_country_leader = {
 
 #couldnt find anything historical on fascism
 
+create_field_marshal = {
+	name = "Lon Nol"
+	portrait_path = "gfx/leaders/CAM/Lon_Nol.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Norodom Sihanouk"
 	portrait_path = "gfx/leaders/CAM/NorodomSihanouk.dds"
