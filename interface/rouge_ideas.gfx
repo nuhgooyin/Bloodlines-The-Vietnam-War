@@ -1,0 +1,33 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_tou_samouth"
+		texturefile = "gfx/interface/ideas/idea_tou_samouth.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kheu_samphan"
+		texturefile = "gfx/interface/ideas/idea_kheu_samphan.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kang_kek_iew"
+		texturefile = "gfx/interface/ideas/idea_kang_kek_iew.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nuon_chea"
+		texturefile = "gfx/interface/ideas/idea_nuon_chea.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ieng_sary"
+		texturefile = "gfx/interface/ideas/idea_ieng_sary.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pol_pot"
+		texturefile = "gfx/interface/ideas/idea_pol_pot.tga"
+	}
+
+}
