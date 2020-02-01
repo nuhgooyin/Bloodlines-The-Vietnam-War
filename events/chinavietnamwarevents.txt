@@ -61,7 +61,7 @@ country_event = {
 			}
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
-		amount = -20000
+		amount = -10000
 		producer = PRC
 	}
 	}

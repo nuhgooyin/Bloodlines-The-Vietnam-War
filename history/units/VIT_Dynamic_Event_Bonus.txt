@@ -73,28 +73,4 @@ units = {
 		start_equipment_factor = 1.0
 
 	}			
-	division = {			
-		name = "NVA Infantry Division"		
-		location = 4075
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-		division = {			
-		name = "NVA Infantry Division"
-		location = 4075
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}			
-	division = {			
-		name = "NVA Infantry Division"		
-		location = 4075
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
 }
