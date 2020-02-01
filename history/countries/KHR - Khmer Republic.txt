@@ -174,7 +174,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/KHR/Cheng_Heng.dds"
 	expire = "1953.3.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
 		
 	}
@@ -185,7 +185,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/KHR/Lon_Nol.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = moderatism
 	traits = {
 		
 	}
