@@ -1,6 +1,6 @@
 capital = 741 #Phnom Penh
 
-oob = "CAM_1936"
+oob = "KHR_1936"
 
 set_research_slots = 2
 set_stability = 0.5
