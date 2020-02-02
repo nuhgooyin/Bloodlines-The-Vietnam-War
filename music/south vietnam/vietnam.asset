@@ -1,0 +1,55 @@
+music = {
+	name = "Chinn Si Vo Danh - Hung Cuong - Quan Luc Viet Nam Cong Hoa"
+	file = "moh_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Gio Phan Cong - Nguyet Anh & Viet Dzung - QLVNCH"
+	file = "mohaa_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Thuc quan - Quan Luc Viet Nam Cong Hoa"
+	file = "mohea_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Phai Len Tieng - Quan Luc Viet Nam Cong Hoa" 
+	file = "mohf_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Tien Quan - Quan Luc Viet Nam Cong Hoa"
+	file = "mohpa_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Ta Se Ve Dong Ha - Quan Luc Viet Nam Cong Hoa"
+	file = "mohrs_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Dap Loi Song Nui - Quan Luc Viet Nam Cong Hoa"
+	file = "mohaa_attack_on_fort_schmerzen.ogg"
+	volume = 1
+}
+music = {
+	name = "Quyet Chien Thang - Quan Luc Viet Nam Cong Hoa"
+	file = "mohaa_colditz_castle.ogg"
+	volume = 1
+}
+music = {
+	name = "The Chien Thang Quan Thu - Quan Luc Viet Nam Cong Hoa"
+	file = "mohaa_fleeing_the_catacombs.ogg"
+	volume = 1
+}
+music = {
+	name = "Tinh Thuc Di - Quan Luc Viet Nam Cong Hoa"
+	file = "mohaa_labyrinth_of_the_minotaur.ogg"
+	volume = 1
+}
+music = {
+	name = "Tren Dau Sung - Trinh Bay Hop"
+	file = "mohaa_nordhausen.ogg"
+	volume = 1
+}

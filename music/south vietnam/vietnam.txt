@@ -1,0 +1,102 @@
+
+music_station = "vietnam"
+
+music = {
+	song = "Chinn Si Vo Danh - Hung Cuong - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Gio Phan Cong - Nguyet Anh & Viet Dzung - QLVNCH"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Thuc quan - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Phai Len Tieng - Quan Luc Viet Nam Cong Hoa"
+    
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Tien Quan - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Ta Se Ve Dong Ha - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Dap Loi Song Nui - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Quyet Chien Thang - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "The Chien Thang Quan Thu - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Tinh Thuc Di - Quan Luc Viet Nam Cong Hoa"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Tren Dau Sung - Trinh Bay Hop"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
