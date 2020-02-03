@@ -59,10 +59,10 @@ ideas = {
 			
 			modifier = {
 				political_power_gain = 0.5
-				stability_factor = 0.20
+				stability_factor = 0.10
 				command_power_gain_mult = 0.5
-				defence = 1
-				offence = -0.5
+				defence = 0.10
+				offence = -0.10
 			}
 
 		}
@@ -81,8 +81,8 @@ ideas = {
 				stability_factor = -0.10
 				command_power_gain_mult = -0.5
 				war_support_factor = -0.10
-				defence = 1
-				offence = -0.5
+				defence = 0.10
+				offence = -0.10
 			}
 
 		}

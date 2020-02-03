@@ -87,7 +87,7 @@ add_to_faction = CAM {
 add_to_faction = LAO {
 }
 
-add_manpower = 800000 {
+add_manpower = 0 {
 }
 
 give_guarantee = CAM {
@@ -99,13 +99,13 @@ give_guarantee = LAO {
 add_political_power = 1000 {
 }
 
-navy_experience = 100 {
+navy_experience = 50 {
 }
 
-army_experience = 300 {
+army_experience = 50 {
 }
 
-air_experience = 100 {
+air_experience = 50 {
 }
 
 add_command_power = 100 {
@@ -122,7 +122,7 @@ set_convoys = 250
 
 add_equipment_to_stockpile ={
     type = infantry_equipment
-    amount = 25000
+    amount = 6000
     producer = VIN
 }
 

@@ -3,10 +3,7 @@
 	division_names_group = PRC_INF_01
 									#	PRC divisions were well-trained in guerilla mountain tactics.
 	regiments = {
-		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 0 }
 	}
 	priority = 0
 }
@@ -16,9 +13,6 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1.0 }
-		infantry = { x = 1.0 y = 0 }
-		infantry = { x = 1.0 y = 1.0 }
 	}
 	priority = 1
 }

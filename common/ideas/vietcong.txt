@@ -11,9 +11,9 @@ ideas = {
 			picture = socialist_science_focus
 
 			modifier = {
-				attrition = -3
-				out_of_supply_factor = -3
-				supply_consumption_factor = -3
+				attrition = -0.5
+				out_of_supply_factor = -0.5
+				supply_consumption_factor = -0.5
 			}
 		}
 		VIC_general_staff = {
@@ -42,9 +42,9 @@ ideas = {
 			picture = liberate_the_south
 
 			modifier = {
-				army_defence_factor = 0.3
-				army_morale_factor = 0.1
-				army_org_factor = 0.2
+				army_defence_factor = 0.15
+				army_morale_factor = 0.15
+				army_org_factor = 0.15
 				surrender_limit = 0.20
 			}
 		}

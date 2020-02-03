@@ -93,7 +93,7 @@ add_to_faction = LIN {
 add_threat = 55 {
 }
 
-add_manpower = 500000 {
+add_manpower = 0 {
 }
 
 give_guarantee = CMN {
@@ -108,13 +108,13 @@ give_guarantee = VIC {
 add_political_power = 1200 {
 }
 
-navy_experience = 100 {
+navy_experience = 50 {
 }
 
-army_experience = 300 {
+army_experience = 50 {
 }
 
-air_experience = 100 {
+air_experience = 50 {
 }
 
 add_command_power = 100 {
@@ -131,7 +131,7 @@ set_convoys = 50
 
 add_equipment_to_stockpile ={
     type = infantry_equipment
-    amount = 15000
+    amount = 3500
     producer = VIT
 }
 

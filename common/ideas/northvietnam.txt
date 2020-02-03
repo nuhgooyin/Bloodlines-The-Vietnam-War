@@ -59,9 +59,9 @@ ideas = {
 			picture = socialist_science_focus
 
 			modifier = {
-				attrition = -0.3
-				out_of_supply_factor = -0.3
-				supply_consumption_factor = -0.3
+				attrition = -0.15
+				out_of_supply_factor = -0.15
+				supply_consumption_factor = -0.15
 			}
 		}
 	}

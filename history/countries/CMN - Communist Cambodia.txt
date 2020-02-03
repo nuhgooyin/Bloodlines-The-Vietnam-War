@@ -32,7 +32,7 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-add_manpower = 150000 {
+add_manpower = 0 {
 }
 
 add_ideas = {
@@ -52,13 +52,13 @@ give_guarantee = VIC {
 add_political_power = 1000 {
 }
 
-navy_experience = 100 {
+navy_experience = 50 {
 }
 
-army_experience = 300 {
+army_experience = 50 {
 }
 
-air_experience = 100 {
+air_experience = 50 {
 }
 
 add_command_power = 100 {
@@ -66,7 +66,7 @@ add_command_power = 100 {
 
 add_equipment_to_stockpile ={
     type = infantry_equipment
-    amount = 5000
+    amount = 2500
     producer = CMN
 }
 

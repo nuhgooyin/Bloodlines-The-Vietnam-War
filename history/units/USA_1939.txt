@@ -7,9 +7,6 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1.0 }
-		infantry = { x = 1.0 y = 0 }
-		infantry = { x = 1.0 y = 1.0 }
 	}
 }
 division_template = {
@@ -19,9 +16,6 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1.0 }
-		infantry = { x = 1.0 y = 0 }
-		infantry = { x = 1.0 y = 1.0 }
 	}
 }
 division_template = {
@@ -31,9 +25,6 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1.0 }
-		infantry = { x = 1.0 y = 0 }
-		infantry = { x = 1.0 y = 1.0 }
 	}
 }
 division_template = {
@@ -43,7 +34,6 @@ division_template = {
 
 	regiments = {
 		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -53,9 +43,6 @@ division_template = {
 
 	regiments = {
 		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
 	}
 	priority = 2
 }
@@ -66,8 +53,6 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
 	}
 	priority = 0
 }

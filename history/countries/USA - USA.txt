@@ -251,13 +251,13 @@ add_opinion_modifier = {
 
 set_convoys = 500
 
-navy_experience = 100 {
+navy_experience = 50 {
 }
 
-army_experience = 300 {
+army_experience = 50 {
 }
 
-air_experience = 100 {
+air_experience = 50 {
 }
 
 add_command_power = 100 {

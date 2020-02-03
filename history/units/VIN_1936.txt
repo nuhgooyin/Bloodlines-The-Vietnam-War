@@ -6,9 +6,6 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1.0 }
-		infantry = { x = 1.0 y = 0 }
-		infantry = { x = 1.0 y = 1.0 }
 	}
 	support = {
 
@@ -16,63 +13,7 @@ division_template = {
 }
 
 units = {
-		
-	division = {			
-		name = "ARVN Infantry Division"		
-		location = 4401
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	division = {			
-		name = "ARVN Infantry Division"		
-		location = 4401
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	division = {			
-		name = "ARVN Infantry Division"		
-		location = 4401
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	division = {			
-		name = "ARVN Infantry Division"		
-		location = 4401
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	division = {			
-		name = "ARVN Infantry Division"		
-		location = 4401
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	division = {			
-		name = "ARVN Infantry Division"		
-		location = 4401
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	division = {			
-		name = "ARVN Infantry Division"		
-		location = 4401
-		division_template = "Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
+	
 	division = {			
 		name = "ARVN Infantry Division"
 		location = 4401
