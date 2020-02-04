@@ -138,10 +138,10 @@ country_event = {
 	
 	option = {
 		name = vinnamwar.10.a
-		add_manpower = 100000
+		add_manpower = 10000
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
-		amount = 10000
+		amount = 1000
 		producer = USA
 	}
 	}
@@ -173,10 +173,10 @@ country_event = {
 			factor = 160
 		}
 		name = vinnamwar.11.a
-		add_manpower = 50000
+		add_manpower = 5000
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
-		amount = 10000
+		amount = 1000
 		producer = VIN
 	}
 	load_oob = "VIN_Dynamic_Event_Bonus"

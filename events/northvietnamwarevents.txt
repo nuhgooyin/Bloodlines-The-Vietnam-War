@@ -66,10 +66,10 @@ country_event = {
 	
 	option = {
 		name = vitnamwar.2.a
-		add_manpower = 100000
+		add_manpower = 10000
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
-		amount = 10000
+		amount = 1000
 		producer = PRC
 	}
 	}
@@ -101,10 +101,10 @@ country_event = {
 			factor = 160
 		}
 		name = vitnamwar.3.a
-		add_manpower = 50000
+		add_manpower = 5000
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
-		amount = 10000
+		amount = 1000
 		producer = VIT
 	}
 	load_oob = "VIT_Dynamic_Event_Bonus"

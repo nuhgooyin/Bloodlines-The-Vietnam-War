@@ -29,7 +29,7 @@ music = {
 	}	
 }
 music = {
-	song = "Phai Len Tieng - Quan Luc Viet Nam Cong Hoa"
+	song = "Viet Nam Que Huong Ngao Nghe - Quan Luc Viet Nam Cong Hoa"
     
 	chance = {
 		modifier = {

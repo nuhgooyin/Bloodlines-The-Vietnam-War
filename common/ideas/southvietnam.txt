@@ -98,9 +98,9 @@ ideas = {
 			
 			modifier = {
 				political_power_gain = -0.8
-				stability_factor = -0.30
+				stability_factor = -0.60
 				command_power_gain_mult = -0.5
-				war_support_factor = -0.30
+				war_support_factor = -0.60
 				army_morale_factor = -0.5
 				army_org_factor = -0.5
 				conscription_factor = -0.05
