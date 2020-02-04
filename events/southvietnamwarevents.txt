@@ -39,6 +39,8 @@ country_event = {
 		remove_ideas = {
 			VIN_buddhist_crisis
 			VIN_diem_administration
+			VIN_buddhist_crisis2
+			VIN_buddhist_crisis3
 		}
 	}
 }

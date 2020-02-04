@@ -1,0 +1,9 @@
+VIN_buddhist_crisis = {
+	icon = southern_resistance
+	allowed = {
+		tag = VIN
+	}
+
+	visible = {
+	}
+}

@@ -45,6 +45,37 @@ ideas = {
 			
 			modifier = {
 				stability_weekly = -0.01
+				war_support_weekly = -0.01
+			}
+		}
+		VIN_buddhist_crisis2 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = southern_resistance
+			
+			modifier = {
+				stability_weekly = -0.02
+				war_support_weekly = -0.02
+			}
+		}
+		VIN_buddhist_crisis3 = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = southern_resistance
+			
+			modifier = {
+				stability_weekly = -0.03
+				war_support_weekly = -0.03
 			}
 		}
 		VIN_diem_administration = {

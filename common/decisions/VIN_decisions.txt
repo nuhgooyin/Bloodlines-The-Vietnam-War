@@ -1,0 +1,35 @@
+VIN_buddhist_crisis = {
+
+	VIN_buddhist_crisis = {
+
+		icon = southern_resistance
+
+		available = {
+			has_army_experience > 0
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 500
+		}
+		days_remove = 90
+
+		visible = {
+			OR = {
+				has_idea = VIN_buddhist_crisis
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = { has_idea = VIN_buddhist_crisis2 }
+				swap_ideas = {
+					remove_idea = VIN_buddhist_crisis2
+					add_idea = VIN_buddhist_crisis3
+				}
+			}
+		}
+		complete_effect = {
+			remove_ideas = VIN_buddhist_crisis
+			add_ideas = VIN_buddhist_crisis2
+		}
+	}
