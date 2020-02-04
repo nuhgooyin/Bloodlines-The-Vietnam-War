@@ -222,7 +222,7 @@ country_event = {
 				}
 			}
 		remove_ideas = {
-			USA_neutrality_bill
+			USA_increased_intervention
 		}
 		add_ideas = {
 			USA_neutrality_bill
