@@ -1,14 +1,14 @@
-VIN_buddhist_crisis = {
+VIN_buddhist_crisis6 = {
 
-	VIN_buddhist_crisis = {
+	VIN_buddhist_crisis4 = {
 
 		icon = southern_resistance
 
 		available = {
-			has_army_experience > 0
+			has_idea = VIN_buddhist_crisis
 		}
 
-		cost = 0
+		cost = 75
 		ai_will_do = {
 			factor = 500
 		}
@@ -19,6 +19,7 @@ VIN_buddhist_crisis = {
 				has_idea = VIN_buddhist_crisis
 			}
 		}
+		
 		remove_effect = {
 			if = {
 				limit = { has_idea = VIN_buddhist_crisis2 }
@@ -29,7 +30,10 @@ VIN_buddhist_crisis = {
 			}
 		}
 		complete_effect = {
-			remove_ideas = VIN_buddhist_crisis
-			add_ideas = VIN_buddhist_crisis2
+			VIN = {
+				country_event = {
+					id = vinnamwar.48
+				}
+			}
 		}
 	}

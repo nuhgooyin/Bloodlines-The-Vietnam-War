@@ -2614,7 +2614,12 @@
  VIN_thieu_administration:0 "Thieu Administration"
  VIN_thieu_administration_desc:0 "The Thieu administration is plagued with corruption, political dissidence, and many other negative factors. Unlike the Diem administration, Thieu's administration heavily support U.S. backing and support. Allowing thousands of American troops to enter the Vietnam war. The administration relies heavily on U.S backing."
  VIN_collapsing_government:0 "Collapsing Government"
- VIN_collapsing_government_desc:0 "The South Vietnamese goverment, lead by Thieu, is collapsing. Corruption has run wild, with army mutinies and desertion widespread. The army has almost no organisation, and extremely low morale. There is little fight left, from the South Vietnamese government."
- 
- 
- 
+ VIN_collapsing_government_desc:0 "The South Vietnamese goverment, is collapsing. Corruption has run wild, with army mutinies and desertion widespread. The army has almost no organisation, and extremely low morale. There is little fight left, from the South Vietnamese government."
+ VIN_buddhist_crisis2:0 "Buddhist Crisis"
+ VIN_buddhist_crisis2_desc:0 "The buddhist crisis has begun, with massive civil campaigns against Ngo Dinh Diem, and Ngo Dinh Nhu's repressive series of acts against religious minorities, especially, buddhists. Civil unrest and public instability have increased."
+ VIN_buddhist_crisis3:0 "Buddhist Crisis"
+ VIN_buddhist_crisis3_desc:0 "The buddhist crisis has begun, with massive civil campaigns against Ngo Dinh Diem, and Ngo Dinh Nhu's repressive series of acts against religious minorities, especially, buddhists. Civil unrest and public instability have increased."
+ VIN_buddhist_crisis6:0 "Buddhist Crisis Decisions"
+ VIN_buddhist_crisis6_desc:0 "The buddhist crisis has begun, with massive civil campaigns against Ngo Dinh Diem, and Ngo Dinh Nhu's repressive series of acts against religious minorities, especially, buddhists. Should we initiate a massive military crackdown?"
+ VIN_buddhist_crisis4:0 "Initiate A Massive Military Crackdown"
+ VIN_buddhist_crisis4_desc:0 "With the buddhist crisis in full swing, public stability is unstable. Students and buddhists are protesting in the streets. We can initiate a massive military crackdown, to crush any resistance, or protest."

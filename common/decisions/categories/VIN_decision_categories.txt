@@ -1,4 +1,4 @@
-VIN_buddhist_crisis = {
+VIN_buddhist_crisis6 = {
 	icon = southern_resistance
 	allowed = {
 		tag = VIN

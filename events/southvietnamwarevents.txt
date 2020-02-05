@@ -296,3 +296,42 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = vinnamwar.48
+	title = vinnamwar.48.t
+	desc = vinnamwar.48.d
+	picture = GFX_report_event_VIN_buddhistcrackdown
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = vinnamwar.27.a
+		hidden_effect = {
+		add_ideas = {
+			VIN_buddhist_crisis2
+		}
+		remove_ideas = {
+			VIN_buddhist_crisis
+		}
+		}
+	}
+
+	option = {
+		name = vinnamwar.28.a
+		hidden_effect = {
+		add_ideas = {
+			VIN_buddhist_crisis2
+		}
+		remove_ideas = {
+			VIN_buddhist_crisis
+		}
+		}
+	}
+}
