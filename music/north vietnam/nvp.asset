@@ -1,0 +1,50 @@
+music = {
+	name = "Giai Phong Mien Nam!"
+	file = "giaiphong.ogg"
+	volume = 1
+}
+music = {
+	name = "Tien Ve Sai Gon!"
+	file = "tienve.ogg"
+	volume = 1
+}
+music = {
+	name = "Bac Dang Cung Chung Chau Hanh Quan!"
+	file = "bacdang.ogg"
+	volume = 1
+}
+music = {
+	name = "Tien Buoc Duoi Quan Ky!"
+	file = "tienbuoc.ogg"
+	volume = 1
+}
+music = {
+	name = "Bai Ca Ho Chi Minh!"
+	file = "baica.ogg"
+	volume = 1
+}
+music = {
+	name = "Moi Buoc Ta Di"
+	file = "moibuoc.ogg"
+	volume = 1
+}
+music = {
+	name = "Campuchia - Viet Nam - Lao Samaki"
+	file = "campu.ogg"
+	volume = 1
+}
+music = {
+	name = "Bai Hat Giai Phong Quan"
+	file = "baihat.ogg"
+	volume = 1
+}
+music = {
+	name = "Quan Doi Ta Quan Doi Anh Hung"
+	file = "heroarmy.ogg"
+	volume = 1
+}
+music = {
+	name = "Tien Quan Ca - National Anthem"
+	file = "tinquanca.ogg"
+	volume = 1
+}

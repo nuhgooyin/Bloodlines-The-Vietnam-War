@@ -53,3 +53,8 @@ music = {
 	file = "mohaa_nordhausen.ogg"
 	volume = 1
 }
+music = {
+	name = "Tieng Goi Cong Dan - National Anthem"
+	file = "TiengGoiCongDan.ogg"
+	volume = 1
+}

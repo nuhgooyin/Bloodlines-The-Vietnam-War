@@ -51,7 +51,7 @@ add_ideas = {
 	VIC_liberate_the_south
 }
 
-add_manpower = 0 {
+add_manpower = 20000 {
 }
 
 give_guarantee = CMN {

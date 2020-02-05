@@ -100,3 +100,12 @@ music = {
 		}
 	}	
 }
+music = {
+	song = "Tieng Goi Cong Dan - National Anthem"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}

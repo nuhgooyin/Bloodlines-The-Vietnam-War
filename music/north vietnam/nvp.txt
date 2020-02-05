@@ -1,0 +1,93 @@
+
+music_station = "nvp"
+
+music = {
+	song = "Giai Phong Mien Nam!"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Tien Ve Sai Gon!"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Bac Dang Cung Chung Chau Hanh Quan!"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Tien Buoc Duoi Quan Ky!"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Bai Ca Ho Chi Minh!"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Moi Buoc Ta Di"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Campuchia - Viet Nam - Lao Samaki"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Bai Hat Giai Phong Quan"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Quan Doi Ta Quan Doi Anh Hung"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Tien Quan Ca - National Anthem"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
