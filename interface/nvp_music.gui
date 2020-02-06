@@ -1,8 +1,10 @@
 guiTypes = {
 	containerWindowType = {
-		name = "vietnam_faceplate"
+		name = "nvp_faceplate"
 		position = { x =0 y=0 }
 		size = { width = 590 height = 46 }
+		spriteType = "GFX_nvp_faceplate"
+		textureFile = "gfx/nvp_faceplate.dds"
 
 		iconType ={
 			name ="musicplayer_header_bg"

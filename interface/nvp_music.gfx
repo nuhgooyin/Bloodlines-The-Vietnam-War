@@ -4,4 +4,11 @@ spriteTypes = {
 		name = "GFX_nvp_album_art"
 		texturefile = "gfx/nvp_album_art.dds"
 		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nvp_faceplate"
+		textureFile = "gfx/nvp_faceplate.dds"
+	}
+	
 }

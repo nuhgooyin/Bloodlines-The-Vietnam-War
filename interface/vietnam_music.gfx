@@ -4,4 +4,11 @@ spriteTypes = {
 		name = "GFX_vietnam_album_art"
 		texturefile = "gfx/vietnam_album_art.dds"
 		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_vietnam_faceplate"
+		textureFile = "gfx/vietnam_faceplate.dds"
+	}
+	
 }
