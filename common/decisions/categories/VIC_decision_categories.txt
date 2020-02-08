@@ -1,0 +1,9 @@
+VIC_launch_offensives1 = {
+	icon = southern_resistance
+	allowed = {
+		tag = VIC
+	}
+
+	visible = {
+	}
+}

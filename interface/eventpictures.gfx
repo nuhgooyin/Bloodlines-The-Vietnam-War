@@ -2194,5 +2194,15 @@ spriteTypes = {
 		name = "GFX_report_event_VIN_buddhistcrackdown"
 		texturefile = "gfx/event_pictures/report_event_VIN_buddhistcrackdown.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_VIN_generalstaff"
+		texturefile = "gfx/event_pictures/report_event_VIN_generalstaff.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_VIN_vietconguprising"
+		texturefile = "gfx/event_pictures/report_event_VIN_vietconguprising.dds"
+	}
 
 }

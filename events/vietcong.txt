@@ -96,3 +96,31 @@ country_event = {
 		name = vietcong.3.a
 	}
 }
+
+country_event = {
+	id = vietcong.3
+	title = vietcong.3.t
+	desc = vietcong.3.d
+	picture = GFX_report_event_VIT_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vietcong.4.a
+		VIN = {
+			country_event = {
+				id = vinnamwar.10
+			}
+		}
+	load_oob = "VIC_Launch_Offensive_Bonus"
+	}
+}

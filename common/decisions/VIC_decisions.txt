@@ -1,0 +1,50 @@
+VIC_launch_offensives1 = {
+
+	VIC_launch_offensives2 = {
+
+		icon = southern_resistance
+
+		available = {
+			has_idea = VIC_liberate_the_south
+			VIN = {
+				has_stability < 0.3
+			}
+		}
+
+		cost = 200
+		ai_will_do = {
+			factor = 500
+		}
+		days_remove = 120
+
+		visible = {
+			OR = {
+				has_idea = VIC_liberate_the_south
+			}
+			VIN = {
+				has_stability < 0.3
+			}
+		}
+		
+		remove_effect = {
+			if = {
+				limit = { has_idea = VIN_buddhist_crisis2 }
+				swap_ideas = {
+					remove_idea = VIN_buddhist_crisis2
+					add_idea = VIN_buddhist_crisis3
+				}
+			}
+		}
+		complete_effect = {
+			VIC = {
+				country_event = {
+					id = vietcong.3
+				}
+			}
+			VIN = {
+				country_event = {
+					id = vinnamwar.9
+				}
+			}
+		}
+	}

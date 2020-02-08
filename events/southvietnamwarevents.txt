@@ -335,3 +335,47 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = vinnamwar.9
+	title = vinnamwar.9.t
+	desc = vinnamwar.9.d
+	picture = GFX_report_event_VIN_generalstaff
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.29.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.10
+	title = vinnamwar.10.t
+	desc = vinnamwar.10.d
+	picture = GFX_report_event_VIN_vietconguprising
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.30.a
+	}
+}
