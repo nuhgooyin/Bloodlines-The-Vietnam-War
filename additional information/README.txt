@@ -1,9 +1,9 @@
 ###Bloodlines: The Vietnam War###
 
 VERSION: 0.2 PRE-ALPHA
-DATE: JAN.17.2020
-COMPATIBLE HOI4 VERSION: 1.8.1
-CREATED BY: Don'tDie 
+DATE: FEB.7.2020
+COMPATIBLE HOI4 VERSION: 1.8.2
+CREATED BY: Don'tDie
 
 ###Description:###
 Bloodlines: The Vietnam War, is a mod set during the Second Indochina War, or more commonly known as, the Vietnam War. It contains numerous conflicts such as, the Laotian civil war, Cambodian civilwar, etc. Along with historical events, like the assassination of John F. Kennedy, or the 1963 South Vietnamese coup. It currently features nine nations, along with custom portraits, flags, victory points, modifiers, national spirits, events, and more for every nation. New features and fixes are constantly being added, including alternate history options, and custom national focuses.
