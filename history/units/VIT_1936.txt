@@ -257,4 +257,12 @@ units = {
 		ship = { name = "VPN HQ-4" definition = submarine equipment = { submarine_1 = { amount = 4 owner = VIT version_name = "Hanoi Class" } } }
 		}
 	}
+
+air_wings = {
+	793 = {
+		fighter_equipment_0 =  {
+			owner = "VIT" 
+			amount = 200
+		}
+	}
 }

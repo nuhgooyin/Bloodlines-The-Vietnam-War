@@ -429,4 +429,12 @@ units = {
 		ship = { name = "RVNS Saigon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 4 owner = VIN version_name = "Can Tho Class" } } }
 		}
 	}
+
+air_wings = {
+	789 = {
+		fighter_equipment_0 =  {
+			owner = "VIN" 
+			amount = 200
+		}
+	}
 }
