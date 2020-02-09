@@ -137,7 +137,7 @@ add_opinion_modifier = {
 
 1939.1.1 = {
 
-	add_political_power = 1200
+	add_political_power = 300
 	
 	#adding ministers
 	add_ideas = {
@@ -251,16 +251,16 @@ add_opinion_modifier = {
 
 set_convoys = 500
 
-navy_experience = 50 {
+navy_experience = 0 {
 }
 
-army_experience = 50 {
+army_experience = 0 {
 }
 
-air_experience = 50 {
+air_experience = 0 {
 }
 
-add_command_power = 100 {
+add_command_power = 0 {
 }
 
 set_politics = {

@@ -8,7 +8,7 @@ set_research_slots = 3
 
 save_global_event_target_as = WTT_communist_china
 
-add_political_power = 1200
+add_political_power = 100
 
 set_technology = {
 	infantry_weapons = 1
@@ -137,16 +137,16 @@ add_ideas = {
 	closed_economy
 }
 
-navy_experience = 50 {
+navy_experience = 0 {
 }
 
-army_experience = 50 {
+army_experience = 0 {
 }
 
-air_experience = 50 {
+air_experience = 0 {
 }
 
-add_command_power = 100 {
+add_command_power = 0 {
 }
 
 set_convoys = 378

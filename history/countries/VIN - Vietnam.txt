@@ -96,19 +96,19 @@ give_guarantee = CAM {
 give_guarantee = LAO {
 }
 
-add_political_power = 1000 {
+add_political_power = 800 {
 }
 
-navy_experience = 50 {
+navy_experience = 0 {
 }
 
-army_experience = 50 {
+army_experience = 0 {
 }
 
-air_experience = 50 {
+air_experience = 0 {
 }
 
-add_command_power = 100 {
+add_command_power = 0 {
 }
 
 add_ideas = {
