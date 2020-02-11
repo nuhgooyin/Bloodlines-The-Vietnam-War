@@ -15,16 +15,16 @@ division_template = {
 units = {
 
 	division = {			
-		name = "Infantry Division"
-		location = 1464
+		name = "1st Laotian Infantry Division"
+		location = 4613
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "Infantry Division"		
-		location = 1464
+		name = "2nd Laotian Infantry Division"		
+		location = 4613
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -32,15 +32,15 @@ units = {
 	}
 
 	division = {			
-		name = "Infantry Division"
-		location = 1464
+		name = "3rd Laotian Infantry Division"
+		location = 4613
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}		
 	division = {			
-		name = "Infantry Division"
+		name = "4th Laotian Infantry Division"
 		location = 1464
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
@@ -48,7 +48,7 @@ units = {
 
 	}	
 	division = {			
-		name = "Infantry Division"
+		name = "5th Laotian Infantry Division"
 		location = 1464
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
@@ -56,7 +56,7 @@ units = {
 
 	}			
 	division = {			
-		name = "Infantry Division"		
+		name = "6th Laotian Infantry Division"		
 		location = 1464
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
@@ -65,7 +65,7 @@ units = {
 	}
 
 	division = {			
-		name = "Infantry Division"
+		name = "7th Laotian Infantry Division"
 		location = 1464
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
@@ -73,16 +73,16 @@ units = {
 
 	}		
 	division = {			
-		name = "Infantry Division"
-		location = 1464
+		name = "8th Laotian Infantry Division"
+		location = 4539
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}	
 	division = {			
-		name = "Infantry Division"		
-		location = 1464
+		name = "9th Laotian Infantry Division"		
+		location = 4539
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -90,16 +90,16 @@ units = {
 	}
 
 	division = {			
-		name = "Infantry Division"
-		location = 1464
+		name = "10th Laotian Infantry Division"
+		location = 4539
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}		
 	division = {			
-		name = "Infantry Division"		
-		location = 1464
+		name = "11th Laotian Infantry Division"		
+		location = 1563
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -107,24 +107,24 @@ units = {
 	}
 
 	division = {			
-		name = "Infantry Division"
-		location = 1464
+		name = "12th Laotian Infantry Division"
+		location = 1563
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "Infantry Division"		
-		location = 1464
+		name = "13th Laotian Infantry Division"		
+		location = 1563
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 	division = {			
-		name = "Infantry Division"		
-		location = 1464
+		name = "14th Laotian Infantry Division"		
+		location = 1563
 		division_template = "Infantry Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
