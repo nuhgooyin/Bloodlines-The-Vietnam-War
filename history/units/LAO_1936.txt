@@ -1,4 +1,4 @@
-﻿##### Division Templates #####
+##### Division Templates #####
 division_template = {
 	name = "Infantry Division"
 
@@ -6,13 +6,57 @@ division_template = {
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }	
 	}
 	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
 
+division_template = {
+	name = "Armored Division"
+
+	division_names_group = LAO_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	division_names_group = LAO_MOT_01
+
+	regiments = {
+		light_armor = { x = 2 y = 0 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
 	}
 }
 
 units = {
+
+	### Infantry Divisions ###
 
 	division = {			
 		name = "1st Laotian Infantry Division"
@@ -130,4 +174,29 @@ units = {
 		start_equipment_factor = 1
 
 	}
-	
+
+	### Armoured Divisions ###
+
+	division = {
+		name = "1st Loatian Armoured Division"
+		location = 1464
+		division_template = "Armored Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Loatian Armoured Division"
+		location = 1464
+		division_template = "Armored Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	### Motorised Divisions ###
+
+	division = {
+		name = "1st Loatian Motorised Division"
+		location = 1464
+		division_template = "Armored Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
