@@ -32,7 +32,7 @@
 #                                      the current game version.
 PRC_INF_01 = 
 {
-	name = "Infantry Unit"
+	name = "Infantry Regiments"
 
 	for_countries = { PRC }
 

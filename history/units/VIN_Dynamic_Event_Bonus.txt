@@ -1,6 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Infantry Division"
+	name = "Infantry Regiment"
 
 	division_names_group = VIN_INF_01
 
@@ -15,57 +15,57 @@ division_template = {
 units = {
 
 	division = {			
-		name = "ARVN Infantry Division"		
+		name = "ARVN Infantry Regiment"		
 		location = 4401
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Division"
+		name = "ARVN Infantry Regiment"
 		location = 4401
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Division"		
+		name = "ARVN Infantry Regiment"		
 		location = 4401
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "ARVN Infantry Division"
+		name = "ARVN Infantry Regiment"
 		location = 4401
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Division"		
+		name = "ARVN Infantry Regiment"		
 		location = 4401
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Division"		
+		name = "ARVN Infantry Regiment"		
 		location = 4401
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Division"
+		name = "ARVN Infantry Regiment"
 		location = 4401
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 

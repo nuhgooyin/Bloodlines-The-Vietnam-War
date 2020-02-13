@@ -1,7 +1,7 @@
 ﻿start_equipment_factor = 0.1
 ##### Division Templates #####
 division_template = {
-	name = "Infantry Division"  	# Standard formation for frontline divisions
+	name = "Infantry Regiment"  	# Standard formation for frontline divisions
 
 	division_names_group = USA_INF_01
 
@@ -10,7 +10,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "National Guard Division"  # Standard formation for NG divisions through late 1940
+	name = "National Guard Regiment"  # Standard formation for NG divisions through late 1940
 
 	division_names_group = USA_INF_01
 
@@ -19,7 +19,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Cavalry Division"  	# 1st Cavalry Division only
+	name = "Cavalry Regiment"  	# 1st Cavalry Regiment only
 
 	division_names_group = USA_CAV_01
 
@@ -65,7 +65,7 @@ units = {
 	division = {			
 		name = "Puerto Rico Department"
 		location = 1440
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
 
@@ -73,7 +73,7 @@ units = {
 	division = {			
 		name = "Panama Canal Force"				# CO: Stone
 		location = 7617
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
 
@@ -93,7 +93,7 @@ units = {
 			name_order = 26
 		}
 		location = 6732
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -104,7 +104,7 @@ units = {
 			name_order = 43
 		}
 		location = 6732
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -116,7 +116,7 @@ units = {
 			name_order = 1
 		}
 		location = 3878
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 	}			
 	division= {			
@@ -125,18 +125,18 @@ units = {
 			name_order = 27
 		}
 		location = 3878
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}			
 	division= {			
-		division_name = { # 44th Infantry Division
+		division_name = { # 44th Infantry Regiment
 			is_name_ordered = yes
 			name_order = 44
 		}
 		location = 3878
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -148,7 +148,7 @@ units = {
 			name_order = 28
 		}
 		location = 6984
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -159,7 +159,7 @@ units = {
 			name_order = 29
 		}
 		location = 6984
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -174,7 +174,7 @@ units = {
 			name_order = 5
 		}
 		location = 6855
-		division_template = "Infantry Division"		# forming, Oct-39
+		division_template = "Infantry Regiment"		# forming, Oct-39
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -185,7 +185,7 @@ units = {
 			name_order = 37
 		}
 		location = 6855
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -196,7 +196,7 @@ units = {
 			name_order = 38
 		}
 		location = 6855
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -208,7 +208,7 @@ units = {
 			name_order = 6
 		}
 		location = 9450
-		division_template = "Infantry Division"		# forming, Oct-39
+		division_template = "Infantry Regiment"		# forming, Oct-39
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
@@ -219,7 +219,7 @@ units = {
 			name_order = 32
 		}
 		location = 9450
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -230,7 +230,7 @@ units = {
 			name_order = 33
 		}
 		location = 9450
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -245,7 +245,7 @@ units = {
 			name_order = 30
 		}
 		location = 12384
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -256,7 +256,7 @@ units = {
 			name_order = 31
 		}
 		location = 12384
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -268,7 +268,7 @@ units = {
 			name_order = 2
 		}
 		location = 12782
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 	}			
 	division= {			
@@ -277,7 +277,7 @@ units = {
 			name_order = 36
 		}
 		location = 12782
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -288,7 +288,7 @@ units = {
 			name_order = 45
 		}
 		location = 12782
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -299,7 +299,7 @@ units = {
 			name_order = 1
 		}
 		location = 12782
-		division_template = "Cavalry Division"
+		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.3
 	}			
 					
@@ -311,7 +311,7 @@ units = {
 			name_order = 34
 		}
 		location = 12586
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -322,7 +322,7 @@ units = {
 			name_order = 35
 		}
 		location = 12586
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -334,7 +334,7 @@ units = {
 			name_order = 3
 		}
 		location = 9671
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 	}			
 	division = {			
@@ -343,7 +343,7 @@ units = {
 			name_order = 40
 		}
 		location = 9671
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -354,7 +354,7 @@ units = {
 			name_order = 41
 		}
 		location = 9671
-		division_template = "National Guard Division"
+		division_template = "National Guard Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -379,7 +379,7 @@ units = {
 	division = {			
 		name = "Alaska Defense Command"		
 		location = 13091
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
 
@@ -397,7 +397,7 @@ units = {
 	division = {			
 		name = "Hawaiian Division"		
 		location = 4180
-		division_template = "National Guard Division"		# older equipment, less training than NG division
+		division_template = "National Guard Regiment"		# older equipment, less training than NG division
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 

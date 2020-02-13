@@ -33,7 +33,7 @@
 
 VIN_INF_01 = 
 {
-	name = "Infantry Divisions"
+	name = "Infantry Regiments"
 
 	for_countries = { VIN }
 

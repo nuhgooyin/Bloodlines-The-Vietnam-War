@@ -1,6 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Infantry Division"
+	name = "Infantry Regiment"
 
 	division_names_group = VIC_INF_01
 
@@ -15,121 +15,121 @@ division_template = {
 units = {
 
 	division = {			
-		name = "Viet Cong Infantry Division"		
+		name = "Viet Cong Infantry Regiment"		
 		location = 4223
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "Viet Cong Infantry Division"		
+		name = "Viet Cong Infantry Regiment"		
 		location = 4223
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 4223
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 4223
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}	
 	division = {			
-		name = "Viet Cong Infantry Division"		
+		name = "Viet Cong Infantry Regiment"		
 		location = 4223
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 13224
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 13224
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}	
 	division = {			
-		name = "Viet Cong Infantry Division"		
+		name = "Viet Cong Infantry Regiment"		
 		location = 13224
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "Viet Cong Infantry Division"		
+		name = "Viet Cong Infantry Regiment"		
 		location = 13224
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "Viet Cong Infantry Division"		
+		name = "Viet Cong Infantry Regiment"		
 		location = 13224
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 4596
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "Viet Cong Infantry Division"		
+		name = "Viet Cong Infantry Regiment"		
 		location = 4596
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 4596
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 4596
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "Viet Cong Infantry Division"
+		name = "Viet Cong Infantry Regiment"
 		location = 4596
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 

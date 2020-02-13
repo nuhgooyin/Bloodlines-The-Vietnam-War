@@ -1,6 +1,6 @@
 ##### Division Templates #####
 division_template = {
-	name = "Infantry Division"
+	name = "Infantry Regiment"
 
 	division_names_group = LAO_INF_01
 
@@ -56,120 +56,120 @@ division_template = {
 
 units = {
 
-	### Infantry Divisions ###
+	### Infantry Regiments ###
 
 	division = {			
-		name = "1st Laotian Infantry Division"
+		name = "1st Laotian Infantry Regiment"
 		location = 4613
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "2nd Laotian Infantry Division"		
+		name = "2nd Laotian Infantry Regiment"		
 		location = 4613
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 
 	division = {			
-		name = "3rd Laotian Infantry Division"
+		name = "3rd Laotian Infantry Regiment"
 		location = 4613
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}		
 	division = {			
-		name = "4th Laotian Infantry Division"
+		name = "4th Laotian Infantry Regiment"
 		location = 1464
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}	
 	division = {			
-		name = "5th Laotian Infantry Division"
+		name = "5th Laotian Infantry Regiment"
 		location = 1464
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "6th Laotian Infantry Division"		
+		name = "6th Laotian Infantry Regiment"		
 		location = 1464
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 
 	division = {			
-		name = "7th Laotian Infantry Division"
+		name = "7th Laotian Infantry Regiment"
 		location = 1464
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}		
 	division = {			
-		name = "8th Laotian Infantry Division"
+		name = "8th Laotian Infantry Regiment"
 		location = 4539
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}	
 	division = {			
-		name = "9th Laotian Infantry Division"		
+		name = "9th Laotian Infantry Regiment"		
 		location = 4539
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 
 	division = {			
-		name = "10th Laotian Infantry Division"
+		name = "10th Laotian Infantry Regiment"
 		location = 4539
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}		
 	division = {			
-		name = "11th Laotian Infantry Division"		
+		name = "11th Laotian Infantry Regiment"		
 		location = 1563
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 
 	division = {			
-		name = "12th Laotian Infantry Division"
+		name = "12th Laotian Infantry Regiment"
 		location = 1563
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "13th Laotian Infantry Division"		
+		name = "13th Laotian Infantry Regiment"		
 		location = 1563
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 	division = {			
-		name = "14th Laotian Infantry Division"		
+		name = "14th Laotian Infantry Regiment"		
 		location = 1563
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
