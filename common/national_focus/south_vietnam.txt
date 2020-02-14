@@ -1437,7 +1437,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_war_support = 0.1
 		}
 
 	}
