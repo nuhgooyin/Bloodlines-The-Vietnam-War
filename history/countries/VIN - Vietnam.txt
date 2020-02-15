@@ -397,6 +397,17 @@ create_corps_commander = {
     logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Do Cao Tri"
+	portrait_path = "gfx/leaders/VIN/do_cao_tri.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
 create_navy_leader = {
 	name = "Chung Tan Cang"
 	portrait_path = "gfx/leaders/Asia/Chung_Tan_Cang.dds"

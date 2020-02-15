@@ -365,6 +365,17 @@ create_corps_commander = {
     logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Van Tieng Dung"
+	portrait_path = "gfx/leaders/VIT/van_tieng_dung.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
 create_navy_leader = {
 	name = "Ho Chí Minh"
 	id = 236
