@@ -374,6 +374,18 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "William B. Rosson"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_William_B_Rosson.dds"
+	traits = { }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
 create_navy_leader = {
 	name = "Elmo Zumwalt"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_Elmo_Zumwalt.dds"
