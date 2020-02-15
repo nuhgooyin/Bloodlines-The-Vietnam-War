@@ -1,0 +1,185 @@
+music = {
+	name = "Eve Of Destruction - Barry McGuire"
+	file = "moh_theme.ogg"
+	volume = 1.25
+}
+music = {
+	name = "Fortunate Son - Creedence Clearwater Revival"
+	file = "mohaa_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Break On Through (To The Other Side) - The Doors"
+	file = "mohea_theme.ogg"
+	volume = 1.25
+}
+music = {
+	name = "For What Its Worth - The Buffalo Springfield" 
+	file = "mohf_theme.ogg"
+	volume = 1.5
+}
+music = {
+	name = "Johnny B. Goode - Chuck Berry"
+	file = "mohpa_theme.ogg"
+	volume = 0.8
+}
+music = {
+	name = "You Never Can Tell - Chuck Berry"
+	file = "mohrs_theme.ogg"
+	volume = 1.5
+}
+music = {
+	name = "Come And Get Your Love - Redbone"
+	file = "mohaa_attack_on_fort_schmerzen.ogg"
+	volume = 1
+}
+music = {
+	name = "White Room - Cream"
+	file = "mohaa_colditz_castle.ogg"
+	volume = 1
+}
+music = {
+	name = "Have You Ever Seen The Rain - Creedence Clearwater Revival"
+	file = "mohaa_fleeing_the_catacombs.ogg"
+	volume = 1
+}
+music = {
+	name = "Don't Be Cruel - Elvis Presley"
+	file = "mohaa_labyrinth_of_the_minotaur.ogg"
+	volume = 1
+}
+music = {
+	name = "War - Edwin Starr"
+	file = "mohaa_nordhausen.ogg"
+	volume = 1.5
+}
+music = {
+	name = "Goodnight Saigon - Billy Joel"
+	file = "mohaa_south_africa.ogg"
+	volume = 1
+}
+music = {
+	name = "I Heard It Through The Grapevine - Creedence Clearwater Revival"
+	file = "mohaa_1st_of_september.ogg"
+	volume = 1
+}
+music = {
+	name = "White Rabbit - Jefferson Airplane"
+	file = "mohaa_taking_out_the_railgun.ogg"
+	volume = 1.3
+}
+music = {
+	name = "These Boots Are Made For Walkin - Nancy Sinatra"
+	file = "mohaa_tiger_tank.ogg"
+	volume = 1.1
+}
+music = {
+	name = "You Can Have Her - Roy Hamilton"
+	file = "airborne_theme.ogg"
+	volume = 1
+}
+music = {
+	name = "Run Through The Jungle - Creedence Clearwater Revival"
+	file = "airborne_operation_neptune.ogg"
+	volume = 1
+}
+music = {
+	name = "San Francisco - Scott McKenzie"
+	file = "airborne_operation_husky.ogg"
+	volume = 1
+}
+music = {
+	name = "Never Marry A Railroad Man - Shocking Blue"
+	file = "airborne_operation_varsity.ogg"
+	volume = 1
+}
+music = {
+	name = "When I Was Young - The Animals"
+	file = "mohrs_taiko_brigade.ogg"
+	volume = 1
+}
+music = {
+	name = "We Gotta Get Out of This Place - The Animals"
+	file = "mohrs_stalking_the_caves.ogg"
+	volume = 1
+}
+music = {
+	name = "Riders On The Storm - The Doors"
+	file = "mohrs_requiem_for_the_california.ogg"
+	volume = 1
+}
+music = {
+	name = "The House Of The Rising Sun - The Animals"
+	file = "mohrs_singapore_docks.ogg"
+	volume = 1
+}
+music = {
+	name = "All Along The Watchtower - Jimi Hendrix"
+	file = "jimmy_hendri.ogg"
+	volume = 1
+}
+music = {
+	name = "California Dreaming - The Mamas And The Papas"
+	file = "mohrs_burma.ogg"
+	volume = 1
+}
+music = {
+	name = "Im A Believer - The Monkees"
+	file = "mohrs_tanakas_death.ogg"
+	volume = 1
+}
+music = {
+	name = "Gimme Shelter - The Rolling Stones"
+	file = "mohrs_jungle_swarm.ogg"
+	volume = 2
+}
+music = {
+	name = "Paint It Black - The Rolling Stones"
+	file = "mohrs_the_sewers.ogg"
+	volume = 1
+}
+music = {
+	name = "On The Road Again - Canned Heat"
+	file = "mohrs_take_off.ogg"
+	volume = 1
+}
+music = {
+	name = "Somebody To Love - Jefferson Airplane"
+	file = "mohrs_hymn_to_brothers_lost.ogg"
+	volume = 1
+}
+music = {
+	name = "Apache - The Shadows"
+	file = "mohaa_the_jet_aircraft_facility.ogg"
+	volume = 1
+}
+music = {
+	name = "Fire - Arthur Brown"
+	file = "mohea_operation_chariot.ogg"
+	volume = 1
+}
+music = {
+	name = "Sky Pilot - Eric Burdon & The Animals"
+	file = "mohea_casualities_of_war.ogg"
+	volume = 1
+}
+music = {
+	name = "The War Drags On - Donovan"
+	file = "mohea_redball_express.ogg"
+	volume = 1
+}
+music = {
+	name = "Wooly Bully - Sam The Sham and the Pharaohs"
+	file = "mohea_to_stalingrad.ogg"
+	volume = 1
+}
+music = {
+	name = "La Grange - ZZ Top"
+	file = "mohea_north_africa.ogg"
+	volume = 1
+}
+music = {
+	name = "Aint I Right - Marty Robbins"
+	file = "mohea_the_desert_rats.ogg"
+	volume = 1
+}

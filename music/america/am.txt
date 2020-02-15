@@ -1,0 +1,273 @@
+
+music_station = "america"
+
+music = {
+	song = "These Boots Are Made For Walkin - Nancy Sinatra"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Bob Seger - Ramblin Gamblin Man"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Bobby Fuller Four - I Fought The Law"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Creedence Clearwater Revival - Fortunate Son"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Martha Reeves and the Vandellas - Nowhere to Run"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Creedence Clearwater Revival - Run Through The Jungle"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "California Dreamin - The Mamas And The Papas"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "The Rolling Stones - Paint It, Black"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Richard Wagner - Ride Of The Valkyries"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "The Animals - We Gotta Get Out Of This Place"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Johnny Wright - Hello Vietnam"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Advertising - 1"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 2"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 3"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 4"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 5"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 6"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 7"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 8"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 9"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 10"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 11"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 12"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 13"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 14"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 15"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 16"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 17"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 18"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}
+music = {
+	song = "Advertising - 19"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}	
+}

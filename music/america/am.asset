@@ -1,0 +1,150 @@
+music = {
+	name = "These Boots Are Made For Walkin - Nancy Sinatra"
+	file = "thisbots.ogg"
+	volume = 1
+}
+music = {
+	name = "Bob Seger - Ramblin Gamblin Man"
+	file = "gamblin.ogg"
+	volume = 1
+}
+music = {
+	name = "Bobby Fuller Four - I Fought The Law"
+	file = "fought.ogg"
+	volume = 1
+}
+music = {
+	name = "Creedence Clearwater Revival - Fortunate Son"
+	file = "fortunate.ogg"
+	volume = 1
+}
+music = {
+	name = "Martha Reeves and the Vandellas - Nowhere to Run"
+	file = "nowhere.ogg"
+	volume = 1
+}
+music = {
+	name = "Creedence Clearwater Revival - Run Through The Jungle"
+	file = "runtoght.ogg"
+	volume = 1
+}
+music = {
+	name = "California Dreamin - The Mamas And The Papas"
+	file = "california.ogg"
+	volume = 1
+}
+music = {
+	name = "The Rolling Stones - Paint It, Black"
+	file = "paintit.ogg"
+	volume = 1
+}
+music = {
+	name = "Richard Wagner - Ride Of The Valkyries"
+	file = "valkyries.ogg"
+	volume = 1
+}
+music = {
+	name = "The Animals - We Gotta Get Out Of This Place"
+	file = "getout.ogg"
+	volume = 1
+}
+music = {
+	name = "Johnny Wright - Hello Vietnam"
+	file = "helloviet.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 1"
+	file = "p1.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 2"
+	file = "p2.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 3"
+	file = "p3.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 4"
+	file = "p4.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 5"
+	file = "p5.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 6"
+	file = "p6.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 7"
+	file = "p7.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 8"
+	file = "p8.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 9"
+	file = "p9.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 10"
+	file = "p10.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 11"
+	file = "p11.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 12"
+	file = "p12.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 13"
+	file = "p13.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 14"
+	file = "p14.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 15"
+	file = "p15.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 16"
+	file = "p16.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 17"
+	file = "p17.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 18"
+	file = "p18.ogg"
+	volume = 1
+}
+music = {
+	name = "Advertising - 19"
+	file = "p19.ogg"
+	volume = 1
+}

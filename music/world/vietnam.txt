@@ -1,0 +1,336 @@
+
+music_station = "world"
+
+music = {
+	song = "Eve Of Destruction - Barry McGuire"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Fortunate Son - Creedence Clearwater Revival"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Break On Through (To The Other Side) - The Doors"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "For What Its Worth - The Buffalo Springfield"
+    
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Johnny B. Goode - Chuck Berry"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "You Never Can Tell - Chuck Berry"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Come And Get Your Love - Redbone"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "White Room - Cream"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Have You Ever Seen The Rain - Creedence Clearwater Revival"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Don't Be Cruel - Elvis Presley"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "War - Edwin Starr"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Goodnight Saigon - Billy Joel"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "I Heard It Through The Grapevine - Creedence Clearwater Revival"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "White Rabbit - Jefferson Airplane"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "These Boots Are Made For Walkin - Nancy Sinatra"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "You Can Have Her - Roy Hamilton"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Run Through The Jungle - Creedence Clearwater Revival"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "San Francisco - Scott McKenzie"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Never Marry A Railroad Man - Shocking Blue"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "When I Was Young - The Animals"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "We Gotta Get Out of This Place - The Animals"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Riders On The Storm - The Doors"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "The House Of The Rising Sun - The Animals"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "All Along The Watchtower - Jimi Hendrix"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "California Dreaming - The Mamas And The Papas"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Im A Believer - The Monkees"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Gimme Shelter - The Rolling Stones"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Paint It Black - The Rolling Stones"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "On The Road Again - Canned Heat"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Somebody To Love - Jefferson Airplane"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Apache - The Shadows"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Fire - Arthur Brown"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Sky Pilot - Eric Burdon & The Animals"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "The War Drags On - Donovan"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Wooly Bully - Sam The Sham and the Pharaohs"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "La Grange - ZZ Top"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
+music = {
+	song = "Aint I Right - Marty Robbins"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}	
+}
