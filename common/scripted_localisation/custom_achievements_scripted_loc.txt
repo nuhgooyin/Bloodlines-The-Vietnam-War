@@ -1,0 +1,241 @@
+defined_text = {
+    name = get_achievement_title
+    
+    text = { 
+        trigger = {
+            check_variable = { v = 1 }
+        }
+        localization_key = "Achievement_Number_1"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 2 }
+        }
+        localization_key = "Achievement_Number_2"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 3 }
+        }
+        localization_key = "Achievement_Number_3"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 4 }
+        }
+        localization_key = "Achievement_Number_4"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 5 }
+        }
+        localization_key = "Achievement_Number_5"
+    }
+    text = { 
+        trigger = {
+           check_variable = { v = 6 }
+        }
+        localization_key = "Achievement_Number_6"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 7 }
+        }
+        localization_key = "Achievement_Number_7"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 8 }
+        }
+        localization_key = "Achievement_Number_8"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 9 }
+        }
+        localization_key = "Achievement_Number_9"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 10 }
+        }
+        localization_key = "Achievement_Number_10"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 11 }
+        }
+        localization_key = "Achievement_Number_11"
+    }
+}
+
+defined_text = {
+    name = get_achievement_desc
+    
+    text = { 
+        trigger = {
+            check_variable = { v = 1 }
+        }
+        localization_key = "Achievement_Number_1_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 2 }
+        }
+        localization_key = "Achievement_Number_2_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 3 }
+        }
+        localization_key = "Achievement_Number_3_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 4 }
+        }
+        localization_key = "Achievement_Number_4_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 5 }
+        }
+        localization_key = "Achievement_Number_5_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 6 }
+        }
+        localization_key = "Achievement_Number_6_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 7 }
+        }
+        localization_key = "Achievement_Number_7_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 8 }
+        }
+        localization_key = "Achievement_Number_8_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 9 }
+        }
+        localization_key = "Achievement_Number_9_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 10 }
+        }
+        localization_key = "Achievement_Number_10_DESC"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 11 }
+        }
+        localization_key = "Achievement_Number_11_DESC"
+    }
+}
+
+defined_text = {
+    name = get_achievement_image
+    
+    text = { 
+        trigger = {
+            check_variable = { v = 1 }
+        }
+        localization_key = "Achievement_Number_1_Image"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { v = 2 }
+        }
+        localization_key = "Achievement_Number_2_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 3 }
+        }
+        localization_key = "Achievement_Number_3_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 4 }
+        }
+        localization_key = "Achievement_Number_4_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 5 }
+        }
+        localization_key = "Achievement_Number_5_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 6 }
+        }
+        localization_key = "Achievement_Number_6_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 7 }
+        }
+        localization_key = "Achievement_Number_7_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 8 }
+        }
+        localization_key = "Achievement_Number_8_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 9 }
+        }
+        localization_key = "Achievement_Number_9_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 10 }
+        }
+        localization_key = "Achievement_Number_10_Image"
+    }
+
+    text = { 
+        trigger = {
+           check_variable = { v = 11 }
+        }
+        localization_key = "Achievement_Number_11_Image"
+    }
+}

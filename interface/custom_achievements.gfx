@@ -1,0 +1,90 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_TEST_ACHIEVEMENT_ICON"
+		texturefile = "gfx/custom_achievements/TEST_ACHIEVEMENT_ICON.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_1_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_1_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_2_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_2_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_3_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_3_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_4_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_4_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_5_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_5_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_6_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_6_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_7_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_7_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_8_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_8_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_9_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_9_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_10_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_10_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Number_11_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Number_11_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Completed"
+		texturefile = "gfx/custom_achievements/Achievement_Completed_Checkmark.dds"
+		legacy_lazy_load = no
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_thin_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_thin_border.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		}
+	}
+}

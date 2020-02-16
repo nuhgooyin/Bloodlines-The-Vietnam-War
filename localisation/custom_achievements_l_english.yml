@@ -1,0 +1,49 @@
+﻿l_english:
+
+  Custom_Achievements_Window_Enabler_tt:0 "Click to display §YBloodlines Vietnam War Achievements§!"
+
+  Achievement_Number_1:0 "§YAchievement1§!"
+  Achievement_Number_1_DESC:0 "Achievement1"
+  Achievement_Number_1_Image:0 "GFX_Achievement_Number_1_Image"
+
+  Achievement_Number_2:0 "§YAchievement2§!"
+  Achievement_Number_2_DESC:0 "Achievement2"
+  Achievement_Number_2_Image:0 "GFX_Achievement_Number_2_Image"
+
+  Achievement_Number_3:0 "§YAchievement3§!"
+  Achievement_Number_3_DESC:0 "Achievement3"
+  Achievement_Number_3_Image:0 "GFX_Achievement_Number_3_Image"
+
+  Achievement_Number_4:0 "§YAchievement4§!"
+  Achievement_Number_4_DESC:0 "Achievement4"
+  Achievement_Number_4_Image:0 "GFX_Achievement_Number_4_Image"
+
+  Achievement_Number_5:0 "§YAchievement5§!"
+  Achievement_Number_5_DESC:0 "Achievement5"
+  Achievement_Number_5_Image:0 "GFX_Achievement_Number_5_Image"
+
+  Achievement_Number_6:0 "§YAchievement6§!"
+  Achievement_Number_6_DESC:0 "Achievement6"
+  Achievement_Number_6_Image:0 "GFX_Achievement_Number_6_Image"
+
+  Achievement_Number_7:0 "§YAchievement7§!"
+  Achievement_Number_7_DESC:0 "Achievement7"
+  Achievement_Number_7_Image:0 "GFX_Achievement_Number_7_Image"
+
+  Achievement_Number_8:0 "§YAchievement8§!"
+  Achievement_Number_8_DESC:0 "Achievement8"
+  Achievement_Number_8_Image:0 "GFX_Achievement_Number_8_Image"
+
+  Achievement_Number_9:0 "§YAchievement9§!"
+  Achievement_Number_9_DESC:0 "Achievement9"
+  Achievement_Number_9_Image:0 "GFX_Achievement_Number_9_Image"
+
+  Achievement_Number_10:0 "§YAchievement10§!"
+  Achievement_Number_10_DESC:0 "Achievement10"
+  Achievement_Number_10_Image:0 "GFX_Achievement_Number_10_Image"
+
+  Achievement_Number_11:0 "§YAchievement11§!"
+  Achievement_Number_11_DESC:0 "Achievement11"
+  Achievement_Number_11_Image:0 "GFX_Achievement_Number_11_Image"
+  
+  #Use §Y and § for special bolding/highlighting. For example, like this "§YRepublic of Vietnam§"
