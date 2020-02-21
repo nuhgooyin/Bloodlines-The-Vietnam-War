@@ -125,16 +125,16 @@ add_opinion_modifier = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = marxism_leninism
 	last_election = "1933.2.16"
 	election_frequency = 0
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 100
-	neutrality = 0
+	constitutional_republic = 0
+	nationalism = 0
+	marxism_leninism = 100
+	constitutional_monarchy = 0
 }
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
@@ -144,7 +144,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/VIC/Phan_Boi_Chau.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology 
+	ideology = nationalism
 	traits = {
 		
 	}
@@ -155,7 +155,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/VIC/Nguyen_Huu_Tho.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = marxist_leninist
 	traits = {
 		
 	}

@@ -124,13 +124,14 @@ add_opinion_modifier = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = marxism_leninism
 	last_election = "1943.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 100
+	marxism_leninism = 100
+	constitutional_republic = 0
 }
 
 add_ideas = {
@@ -155,7 +156,7 @@ set_convoys = 378
 add_ideas = {
 	PRC_red_army_weakened
 	PRC_maoism
-	PRC_neutrality_act
+	PRC_constitutional_monarchy_act
 }
 
 create_country_leader = {
@@ -163,7 +164,7 @@ create_country_leader = {
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "GFX_portrait_prc_mao_zedong"
 	expire = "1976.1.1"
-	ideology = marxism
+	ideology = maoism
 	traits = {
 	}
 }

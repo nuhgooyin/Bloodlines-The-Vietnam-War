@@ -147,7 +147,7 @@ add_opinion_modifier = {
 		general_electric
 		robert_goddard
 		USA_war_department
-		USA_neutrality_bill
+		USA_constitutional_monarchy_bill
 	}
 	remove_ideas = {
 		great_depression
@@ -264,14 +264,14 @@ add_command_power = 0 {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = constitutional_republic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	constitutional_republic = 99
+	marxism_leninism = 1
 }
 
 add_ideas = {
@@ -287,7 +287,7 @@ set_autonomy = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = constitutional_republic
 		last_election = "1953.11.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -320,7 +320,7 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "portrait_USA_earl_browder.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = marxist_leninist
 	traits = {
 		
 	}

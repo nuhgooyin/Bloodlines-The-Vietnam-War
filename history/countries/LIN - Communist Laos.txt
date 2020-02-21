@@ -152,14 +152,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = marxism_leninism
 	last_election = "1954.2.16"
 	election_frequency = 0
 	elections_allowed = no
 }
 
-set_popularities = {	democratic = 15
-	communism = 65	neutrality = 20
+set_popularities = {	constitutional_republic = 15
+	marxism_leninism = 65	constitutional_monarchy = 20
 }
 
 create_country_leader = {
@@ -167,7 +167,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/LIN/Souphanouvong.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = marxist_leninist
 	traits = {
 		
 	}

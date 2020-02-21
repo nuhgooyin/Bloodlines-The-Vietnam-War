@@ -145,16 +145,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = constitutional_republic
 	last_election = "1954.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 50
-	communism = 35
-	neutrality = 15
+	constitutional_republic = 50
+	marxism_leninism = 35
+	constitutional_monarchy = 15
 }
 
 create_country_leader = {
