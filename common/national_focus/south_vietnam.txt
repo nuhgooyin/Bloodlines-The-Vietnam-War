@@ -1474,7 +1474,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_ideas = arvn_defensive_reform
 		}
 
 	}
@@ -1506,7 +1506,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_opinion_modifier = {
+				target = USA
+				modifier = medium_increase
+			}
 		}
 
 	}
@@ -1538,7 +1541,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			
 		}
 
 	}
@@ -1570,7 +1573,11 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = USA
+			}
 		}
 
 	}
