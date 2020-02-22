@@ -3,7 +3,7 @@
 #Version: 0.2 Pre-Alpha
 
 #This mod was created by
-Dan Nguyen (Don't Die)
+Don'tDie
 
 ----------------
 
