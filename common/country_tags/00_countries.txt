@@ -1,10 +1,22 @@
-VIN = "countries/Vietnam.txt"
-VIT = "countries/North Vietnam.txt"
-VIC = "countries/Vietcong.txt"
+RVN = "countries/South Vietnam.txt"
+
+DRV = "countries/North Vietnam.txt"
+
+NLF = "countries/Vietcong.txt"
+
 CAM = "countries/Cambodia.txt"
+
 KHR = "countries/Khmer Republic.txt"
+
 LAO = "countries/Laos.txt"
-CMN = "countries/Communist Cambodia.txt"
-LIN = "countries/Communist Laos.txt"
+
+KMP = "countries/Communist Cambodia.txt"
+
+PHL = "countries/Communist Laos.txt"
+
 PRC = "countries/ComChina.txt"
+
 USA = "countries/USA.txt"
+PRK = "countries/Kampuchea.txt"
+THA = "countries/Thailand.txt"
+BUR = "countries/Burma.txt"
