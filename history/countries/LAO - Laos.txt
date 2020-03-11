@@ -45,7 +45,7 @@ set_technology = {
 add_manpower = 0 {
 }
 
-give_guarantee = VIN {
+give_guarantee = RVN {
 }
 
 give_guarantee = CAM {
@@ -78,27 +78,27 @@ add_opinion_modifier = {
 }
 
 add_opinion_modifier = {
-    target = VIT
+    target = DRV
     modifier = large_decrease
 }
 
 add_opinion_modifier = {
-    target = VIN
+    target = RVN
     modifier = anti_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = CMN
+    target = KMP
     modifier = large_decrease
 }
 
 add_opinion_modifier = {
-    target = VIC
+    target = NLF
     modifier = large_decrease
 }
 
 add_opinion_modifier = {
-    target = LIN
+    target = PHL
     modifier = hostile_status
 }
 

@@ -101,12 +101,12 @@ add_opinion_modifier = {
 }
 
 add_opinion_modifier = {
-    target = VIT
+    target = DRV
     modifier = large_decrease
 }
 
 add_opinion_modifier = {
-    target = VIC
+    target = NLF
     modifier = large_decrease
 }
 
@@ -116,12 +116,12 @@ add_opinion_modifier = {
 }
 
 add_opinion_modifier = {
-    target = CMN
+    target = KMP
     modifier = large_decrease
 }
 
 add_opinion_modifier = {
-    target = LIN
+    target = PHL
     modifier = large_decrease
 }
 
@@ -131,7 +131,7 @@ add_opinion_modifier = {
 }
 
 add_opinion_modifier = {
-    target = VIN
+    target = RVN
     modifier = shares_common_interest
 }
 

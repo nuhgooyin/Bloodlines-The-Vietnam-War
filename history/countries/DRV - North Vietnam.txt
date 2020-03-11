@@ -81,13 +81,13 @@ if = {
 create_faction = "Communist Forces" {
 }
 
-puppet = VIC {
+puppet = NFL {
 }
 
-add_to_faction = CMN {
+add_to_faction = KMP {
 }
 
-add_to_faction = LIN {
+add_to_faction = PHL {
 }
 
 add_threat = 55 {
@@ -96,13 +96,13 @@ add_threat = 55 {
 add_manpower = 0 {
 }
 
-give_guarantee = CMN {
+give_guarantee = KMP {
 }
 
-give_guarantee = LIN {
+give_guarantee = PHL {
 }
 
-give_guarantee = VIC {
+give_guarantee = NLF {
 }
 
 add_political_power = 800 {
@@ -136,12 +136,12 @@ add_equipment_to_stockpile ={
 }
 
 add_opinion_modifier = {
-    target = LIN
+    target = PHL
     modifier = pro_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = VIC
+    target = NLF
     modifier = pro_communist_ideology
 }
 
@@ -151,7 +151,7 @@ add_opinion_modifier = {
 }
 
 add_opinion_modifier = {
-    target = VIN
+    target = RVN
     modifier = hostile_status
 }
 
@@ -166,7 +166,7 @@ add_opinion_modifier = {
 }
 
 add_opinion_modifier = {
-    target = CMN
+    target = KMP
     modifier = pro_communist_ideology
 }
 

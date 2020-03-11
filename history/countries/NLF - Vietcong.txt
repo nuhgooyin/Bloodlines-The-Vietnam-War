@@ -54,13 +54,13 @@ add_ideas = {
 add_manpower = 10000 {
 }
 
-give_guarantee = CMN {
+give_guarantee = KMP {
 }
 
-give_guarantee = VIT {
+give_guarantee = DRV {
 }
 
-give_guarantee = LIN {
+give_guarantee = PHL {
 }
 
 add_political_power = 600 {
@@ -81,26 +81,26 @@ add_command_power = 0 {
 add_equipment_to_stockpile ={
     type = infantry_equipment
     amount = 2500
-    producer = VIT
+    producer = DRV
 }
 
 add_opinion_modifier = {
-    target = VIT
+    target = DRV
     modifier = pro_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = LIN
+    target = PHL
     modifier = pro_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = CMN
+    target = KMP
     modifier = pro_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = VIN
+    target = RVN
     modifier = hostile_status
 }
 

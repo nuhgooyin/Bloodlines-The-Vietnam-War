@@ -71,22 +71,22 @@ add_equipment_to_stockpile ={
 }
 
 add_opinion_modifier = {
-    target = VIT
+    target = DRV
     modifier = pro_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = LIN
+    target = PHL
     modifier = pro_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = VIC
+    target = NLF
     modifier = pro_communist_ideology
 }
 
 add_opinion_modifier = {
-    target = VIN
+    target = RVN
     modifier = large_decrease
 }
 
