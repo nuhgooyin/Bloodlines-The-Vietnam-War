@@ -7,10 +7,10 @@ state={
 	}
 	
 	history={
-		add_core_of = VIN
-		add_core_of = VIT
-		add_core_of = VIC
-		owner = VIT
+		add_core_of = RVN
+		add_core_of = DRV
+		add_core_of = NLF
+		owner = DRV
 		victory_points = {
 			4119 5 
 		}

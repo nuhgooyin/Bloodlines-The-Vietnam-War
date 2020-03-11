@@ -13,6 +13,8 @@ country_event = {
 	trigger = {
 		tag = RVN
 		has_completed_focus = RVN_the_1960_coup
+		has_idea = RVN_disjointed_government
+		date > 1963.11.1
 	}
 	
 	mean_time_to_happen = {
@@ -36,9 +38,20 @@ country_event = {
 			ideology = vietnamese_nationalism
 			traits = {
 			}
+	create_country_leader = {
+		name = "Duong Văn Minh"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_RVN_Doung_van_minh.dds"
+		expire = "1964.10.1"
+		ideology = conservatism
+		traits = {
 		}
 		remove_ideas = {
 			RVN_diem_administration
+			RVN_buddhist_crisis
+			RVN_diem_administration
+			RVN_buddhist_crisis2
+			RVN_buddhist_crisis3
 		}
 	}
 	option = {
@@ -61,6 +74,8 @@ country_event = {
 	trigger = {
 		tag = RVN
 		has_completed_focus = RVN_the_independence_palace_bombing
+		has_idea = RVN_disjointed_government
+		date > 1964.2.1
 	}
 	
 	mean_time_to_happen = {
@@ -88,6 +103,29 @@ country_event = {
 		tag = RVN
 		has_idea = RVN_disjointed_government
 		has_completed_focus = RVN_the_buddhist_crisis
+		name = vinnamwar.8.a
+		retire_country_leader = yes
+		add_stability = -0.10
+		add_war_support = -0.10
+	create_country_leader = {
+		name = "Nguyen Van Thieu"
+		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		picture = "Portrait_RVN_Nguyen_Van_Thieu.dds"
+		expire = "1975.4.1"
+		ideology = conservatism
+		traits = {
+		}
+	}
+	create_corps_commander = {
+		name = "Nguyen Van Thieu"
+		portrait_path = "gfx/leaders/RVN/Portrait_RVN_Nguyen_Van_Thieu.dds"
+		expire = "1975.4.1"
+		traits = { }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
 	}
 	
 	mean_time_to_happen = {
@@ -98,6 +136,7 @@ country_event = {
 		name = vinnamwar.3.a
 		add_ideas = {
 			RVN_buddhist_crisis
+			RVN_thieu_administration
 		}
 	}
 }
@@ -115,6 +154,8 @@ country_event = {
 	trigger = {
 		tag = RVN
 		has_completed_focus = RVN_1963_coup
+		has_idea = RVN_disjointed_government
+		date > 1963.4.1
 	}
 	
 	mean_time_to_happen = {
@@ -145,6 +186,9 @@ country_event = {
 			RVN_diem_administration
 			RVN_buddhist_crisis2
 			RVN_buddhist_crisis3
+		name = vinnamwar.9.a
+		add_ideas = {
+			RVN_buddhist_crisis
 		}
 	}
 }
@@ -265,6 +309,9 @@ country_event = {
 	id = vinnamwar.10
 	title = vinnamwar.10.t
 	desc = vinnamwar.10.d
+	id = vinnamwar.6
+	title = vinnamwar.6.t
+	desc = vinnamwar.6.d
 	picture = GFX_report_event_RVN_dynamic_event_bonus
 
 	fire_only_once = yes

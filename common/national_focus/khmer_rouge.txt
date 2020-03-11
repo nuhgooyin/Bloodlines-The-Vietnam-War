@@ -5,7 +5,7 @@
 		factor = 0
 		modifier = {
 			add = 10
-			tag = CMN
+			tag = KMP
 		}
 	}
 	
@@ -15,7 +15,7 @@
 	continuous_focus_position = { x = 20 y = 1250 }
 	
 	focus = {
-		id = CMN_strengthen_khmer_rouge
+		id = KMP_strengthen_khmer_rouge
 		icon = GFX_goal_generic_demand_territory
 		x = 5
 		y = 0
@@ -44,13 +44,13 @@
 	}
 	
 	focus = {
-		id = CMN_support_chinese_communism
+		id = KMP_support_chinese_communism
 		icon = GFX_focus_chi_cooperation_with_the_communists
-		prerequisite = { focus = CMN_strengthen_khmer_rouge }
-		mutually_exclusive = { focus = CMN_support_soviet_communism focus = CMN_homegrown_marxism }
+		prerequisite = { focus = KMP_strengthen_khmer_rouge }
+		mutually_exclusive = { focus = KMP_support_soviet_communism focus = KMP_homegrown_marxism }
 		x = 0
 		y = 1
-		relative_position_id = CMN_strengthen_khmer_rouge
+		relative_position_id = KMP_strengthen_khmer_rouge
 
 		cost = 10
 
@@ -71,18 +71,18 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = CMN_chinese_support
+			add_ideas = KMP_chinese_support
 		}
 	}
 	
 	focus = {
-		id = CMN_support_soviet_communism
+		id = KMP_support_soviet_communism
 		icon = GFX_focus_generic_join_comintern
-		prerequisite = { focus = CMN_strengthen_khmer_rouge }
-		mutually_exclusive = { focus = CMN_support_chinese_communism focus = CMN_homegrown_marxism }
+		prerequisite = { focus = KMP_strengthen_khmer_rouge }
+		mutually_exclusive = { focus = KMP_support_chinese_communism focus = KMP_homegrown_marxism }
 		x = -2
 		y = 1
-		relative_position_id = CMN_strengthen_khmer_rouge
+		relative_position_id = KMP_strengthen_khmer_rouge
 
 		cost = 10
 
@@ -103,18 +103,18 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = CMN_soviet_influence
+			add_ideas = KMP_soviet_influence
 		}
 	}
 	
 	focus = {
-		id = CMN_homegrown_marxism
+		id = KMP_homegrown_marxism
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = CMN_strengthen_khmer_rouge }
-		mutually_exclusive = { focus = CMN_support_chinese_communism focus = CMN_support_soviet_communism }
+		prerequisite = { focus = KMP_strengthen_khmer_rouge }
+		mutually_exclusive = { focus = KMP_support_chinese_communism focus = KMP_support_soviet_communism }
 		x = 2
 		y = 1
-		relative_position_id = CMN_strengthen_khmer_rouge
+		relative_position_id = KMP_strengthen_khmer_rouge
 
 		cost = 5
 
@@ -144,12 +144,12 @@
 	#################
 	
 	focus = {
-		id = CMN_agriculturalisation
+		id = KMP_agriculturalisation
 		icon = GFX_focus_prc_agrarian_socialism
-		prerequisite = { focus = CMN_support_chinese_communism }
+		prerequisite = { focus = KMP_support_chinese_communism }
 		x = 0
 		y = 1
-		relative_position_id = CMN_support_chinese_communism
+		relative_position_id = KMP_support_chinese_communism
 
 		cost = 10
 
@@ -177,12 +177,12 @@
 	}
 	
 	focus = {
-		id = CMN_modify_maoist_thought
+		id = KMP_modify_maoist_thought
 		icon = GFX_focus_prc_maoism
-		prerequisite = { focus = CMN_agriculturalisation }
+		prerequisite = { focus = KMP_agriculturalisation }
 		x = 0
 		y = 1
-		relative_position_id = CMN_agriculturalisation
+		relative_position_id = KMP_agriculturalisation
 
 		cost = 5
 
@@ -203,17 +203,17 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = CMN_khmer_maoism
+			add_ideas = KMP_khmer_maoism
 		}
 	}
 	
 	focus = {
-		id = CMN_purge_intellectuals
+		id = KMP_purge_intellectuals
 		icon = GFX_goal_generic_secret_weapon
-		prerequisite = { focus = CMN_modify_maoist_thought }
+		prerequisite = { focus = KMP_modify_maoist_thought }
 		x = 0
 		y = 2
-		relative_position_id = CMN_agriculturalisation
+		relative_position_id = KMP_agriculturalisation
 
 		cost = 15
 
@@ -238,19 +238,19 @@
 			add_stability = -0.15
 			add_popularity = { ideology = communism popularity = 0.05 }
 			add_timed_idea = {
-				idea = CMN_intellectuals_purged
+				idea = KMP_intellectuals_purged
 				days = 35
 			}
 		}
 	}
 	
 	focus = {
-		id = CMN_announce_year_zero
+		id = KMP_announce_year_zero
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = CMN_purge_intellectuals }
+		prerequisite = { focus = KMP_purge_intellectuals }
 		x = 0
 		y = 3
-		relative_position_id = CMN_agriculturalisation
+		relative_position_id = KMP_agriculturalisation
 
 		cost = 11
 
@@ -271,7 +271,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = CMN_year_zero
+			add_ideas = KMP_year_zero
 		}
 	}
 	
@@ -280,12 +280,12 @@
 	################
 	
 	focus = {
-		id = CMN_industrialisation
+		id = KMP_industrialisation
 		icon = GFX_goal_generic_soviet_construction
-		prerequisite = { focus = CMN_support_soviet_communism }
+		prerequisite = { focus = KMP_support_soviet_communism }
 		x = 0
 		y = 1
-		relative_position_id = CMN_support_soviet_communism
+		relative_position_id = KMP_support_soviet_communism
 
 		cost = 10
 
@@ -318,12 +318,12 @@
 	}
 	
 	focus = {
-		id = CMN_request_soviet_arms
+		id = KMP_request_soviet_arms
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = CMN_industrialisation }
+		prerequisite = { focus = KMP_industrialisation }
 		x = 0
 		y = 2
-		relative_position_id = CMN_support_soviet_communism
+		relative_position_id = KMP_support_soviet_communism
 
 		cost = 10
 
@@ -353,12 +353,12 @@
 	}
 	
 	focus = {
-		id = CMN_side_with_east_bloc
+		id = KMP_side_with_east_bloc
 		icon = GFX_goal_generic_soviet_construction
-		prerequisite = { focus = CMN_request_soviet_arms }
+		prerequisite = { focus = KMP_request_soviet_arms }
 		x = 0
 		y = 3
-		relative_position_id = CMN_support_soviet_communism
+		relative_position_id = KMP_support_soviet_communism
 
 		cost = 10
 
@@ -392,12 +392,12 @@
 	}
 	
 	focus = {
-		id = CMN_intervene_laos_vietnam
+		id = KMP_intervene_laos_vietnam
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = CMN_side_with_east_bloc }
+		prerequisite = { focus = KMP_side_with_east_bloc }
 		x = 0
 		y = 4
-		relative_position_id = CMN_support_soviet_communism
+		relative_position_id = KMP_support_soviet_communism
 
 		cost = 5
 
@@ -428,12 +428,12 @@
 	##################
 	
 	focus = {
-		id = CMN_implement_isolationism
+		id = KMP_implement_isolationism
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = CMN_homegrown_marxism }
+		prerequisite = { focus = KMP_homegrown_marxism }
 		x = 0
 		y = 1
-		relative_position_id = CMN_homegrown_marxism
+		relative_position_id = KMP_homegrown_marxism
 
 		cost = 5
 
@@ -454,17 +454,17 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = CMN_political_isolation
+			add_ideas = KMP_political_isolation
 		}
 	}
 	
 	focus = {
-		id = CMN_purge_party_radicals
+		id = KMP_purge_party_radicals
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = CMN_implement_isolationism }
+		prerequisite = { focus = KMP_implement_isolationism }
 		x = 0
 		y = 2
-		relative_position_id = CMN_homegrown_marxism
+		relative_position_id = KMP_homegrown_marxism
 
 		cost = 10
 
@@ -490,12 +490,12 @@
 	}
 	
 	focus = {
-		id = CMN_close_ties_with_eastern_bloc
+		id = KMP_close_ties_with_eastern_bloc
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = CMN_purge_party_radicals }
+		prerequisite = { focus = KMP_purge_party_radicals }
 		x = 0
 		y = 3
-		relative_position_id = CMN_homegrown_marxism
+		relative_position_id = KMP_homegrown_marxism
 
 		cost = 1
 
@@ -526,12 +526,12 @@
 	}
 	
 	focus = {
-		id = CMN_enforce_khmer_nationalism
+		id = KMP_enforce_khmer_nationalism
 		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = CMN_close_ties_with_eastern_bloc }
+		prerequisite = { focus = KMP_close_ties_with_eastern_bloc }
 		x = 0
 		y = 4
-		relative_position_id = CMN_homegrown_marxism
+		relative_position_id = KMP_homegrown_marxism
 
 		cost = 1
 
@@ -553,7 +553,7 @@
 
 		completion_reward = {
 			add_popularity = { ideology = neutrality popularity = 0.05 }
-			add_ideas = CMN_khmer_nationalism
+			add_ideas = KMP_khmer_nationalism
 		}
 	}
 	
@@ -562,7 +562,7 @@
 	###################
 	
 	focus = {
-		id = CMN_cambodian_politics
+		id = KMP_cambodian_politics
 		icon = GFX_focus_generic_soviet_politics
 		x = 10
 		y = 0
@@ -591,12 +591,12 @@
 	}
 	
 	focus = {
-		id = CMN_purge_internal_threats
+		id = KMP_purge_internal_threats
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = CMN_cambodian_politics }
+		prerequisite = { focus = KMP_cambodian_politics }
 		x = -1
 		y = 1
-		relative_position_id = CMN_cambodian_politics
+		relative_position_id = KMP_cambodian_politics
 
 		cost = 1
 
@@ -623,12 +623,12 @@
 	}
 	
 	focus = {
-		id = CMN_purge_external_threats
+		id = KMP_purge_external_threats
 		icon = GFX_focus_generic_join_comintern
-		prerequisite = { focus = CMN_cambodian_politics }
+		prerequisite = { focus = KMP_cambodian_politics }
 		x = 1
 		y = 1
-		relative_position_id = CMN_cambodian_politics
+		relative_position_id = KMP_cambodian_politics
 
 		cost = 1
 
@@ -654,13 +654,13 @@
 	}
 	
 	focus = {
-		id = CMN_eliminate_rival_government
+		id = KMP_eliminate_rival_government
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = CMN_purge_internal_threats }
-		prerequisite = { focus = CMN_purge_external_threats }
+		prerequisite = { focus = KMP_purge_internal_threats }
+		prerequisite = { focus = KMP_purge_external_threats }
 		x = -1
 		y = 1
-		relative_position_id = CMN_purge_external_threats
+		relative_position_id = KMP_purge_external_threats
 
 		cost = 10
 
@@ -682,17 +682,17 @@
 
 		completion_reward = {
 			add_stability = -0.15
-			country_event = { id = cmnnamwar.1 }
+			country_event = { id = KMPnamwar.1 }
 		}
 	}
 	
 	focus = {
-		id = CMN_complete_purges
+		id = KMP_complete_purges
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = CMN_eliminate_rival_government }
+		prerequisite = { focus = KMP_eliminate_rival_government }
 		x = 0
 		y = 1
-		relative_position_id = CMN_eliminate_rival_government
+		relative_position_id = KMP_eliminate_rival_government
 
 		cost = 10
 
@@ -735,7 +735,7 @@
 	###########
 	
 	focus = {
-		id = CMN_access_hcm_trail
+		id = KMP_access_hcm_trail
 		icon = GFX_goal_generic_small_arms
 		x = 15
 		y = 0
@@ -768,12 +768,12 @@
 	}
 	
 	focus = {
-		id = CMN_draw_on_viet_supplies
+		id = KMP_draw_on_viet_supplies
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = CMN_access_hcm_trail }
+		prerequisite = { focus = KMP_access_hcm_trail }
 		x = 0
 		y = 1
-		relative_position_id = CMN_access_hcm_trail
+		relative_position_id = KMP_access_hcm_trail
 
 		cost = 10
 
@@ -805,12 +805,12 @@
 	}
 	
 	focus = {
-		id = CMN_draw_on_chicom_supplies
+		id = KMP_draw_on_chicom_supplies
 		icon = GFX_focus_chi_cooperation_with_the_communists
-		prerequisite = { focus = CMN_access_hcm_trail }
+		prerequisite = { focus = KMP_access_hcm_trail }
 		x = -2
 		y = 1
-		relative_position_id = CMN_access_hcm_trail
+		relative_position_id = KMP_access_hcm_trail
 
 		cost = 10
 
@@ -823,7 +823,7 @@
 			NOT = {
 				has_war_with = PRC
 			}
-			has_completed_focus = CMN_support_chinese_communism
+			has_completed_focus = KMP_support_chinese_communism
 		}
 
 		bypass = {
@@ -852,12 +852,12 @@
 	}
 	
 	focus = {
-		id = CMN_smuggle_in_nato_arms
+		id = KMP_smuggle_in_nato_arms
 		icon = GFX_focus_eng_unite_the_anglosphere
-		prerequisite = { focus = CMN_access_hcm_trail }
+		prerequisite = { focus = KMP_access_hcm_trail }
 		x = 2
 		y = 1
-		relative_position_id = CMN_access_hcm_trail
+		relative_position_id = KMP_access_hcm_trail
 
 		cost = 10
 
@@ -869,7 +869,7 @@
 			country_exists = USA
 			AND = {
 				USA = { 
-					has_war_with = CMN
+					has_war_with = KMP
 					has_war_with = VIT
 					has_war_with = VIC
 					has_war_with = LIN
@@ -886,7 +886,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = CMN_nato_arms_smuggling
+			add_ideas = KMP_nato_arms_smuggling
 			add_equipment_to_stockpile ={
 				type = infantry_equipment
 				amount = 1500
@@ -901,12 +901,12 @@
 	}
 	
 	focus = {
-		id = CMN_recruit_peasants
+		id = KMP_recruit_peasants
 		icon = GFX_goal_generic_axis_build_infantry
-		prerequisite = { focus = CMN_draw_on_viet_supplies focus = CMN_draw_on_chicom_supplies }
+		prerequisite = { focus = KMP_draw_on_viet_supplies focus = KMP_draw_on_chicom_supplies }
 		x = 1
 		y = 1
-		relative_position_id = CMN_draw_on_chicom_supplies
+		relative_position_id = KMP_draw_on_chicom_supplies
 
 		cost = 5
 
@@ -933,12 +933,12 @@
 	}
 	
 	focus = {
-		id = CMN_gather_anti_government_defectors
+		id = KMP_gather_anti_government_defectors
 		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = CMN_draw_on_viet_supplies focus = CMN_smuggle_in_nato_arms }
+		prerequisite = { focus = KMP_draw_on_viet_supplies focus = KMP_smuggle_in_nato_arms }
 		x = 1
 		y = 1
-		relative_position_id = CMN_draw_on_viet_supplies
+		relative_position_id = KMP_draw_on_viet_supplies
 
 		cost = 5
 
@@ -964,12 +964,12 @@
 	}
 	
 	focus = {
-		id = CMN_reinforce_underground_cells
+		id = KMP_reinforce_underground_cells
 		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = CMN_gather_anti_government_defectors focus = CMN_recruit_peasants }
+		prerequisite = { focus = KMP_gather_anti_government_defectors focus = KMP_recruit_peasants }
 		x = 1
 		y = 1
-		relative_position_id = CMN_recruit_peasants
+		relative_position_id = KMP_recruit_peasants
 
 		cost = 10
 
@@ -1003,12 +1003,12 @@
 	}
 	
 	focus = {
-		id = CMN_strike_the_opposition
+		id = KMP_strike_the_opposition
 		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = CMN_reinforce_underground_cells }
+		prerequisite = { focus = KMP_reinforce_underground_cells }
 		x = 0
 		y = 1
-		relative_position_id = CMN_reinforce_underground_cells
+		relative_position_id = KMP_reinforce_underground_cells
 
 		cost = 5
 
@@ -1030,7 +1030,7 @@
 
 		completion_reward = {
 			add_timed_idea = {
-				idea = CMN_strike_the_opposition
+				idea = KMP_strike_the_opposition
 				days = 150
 			}
 		}

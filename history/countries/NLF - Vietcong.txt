@@ -1,6 +1,6 @@
 capital = 289 #Saigon
 
-oob = "VIC_1936"
+oob = "NLF_1936"
 
 set_research_slots = 2
 set_stability = 0.9
@@ -46,9 +46,9 @@ add_threat = 50 {
 }
 
 add_ideas = {
-	VIC_guerrilla_warfare
-	VIC_general_staff
-	VIC_liberate_the_south
+	NLF_guerrilla_warfare
+	NLF_general_staff
+	NLF_liberate_the_south
 }
 
 add_manpower = 10000 {
@@ -142,7 +142,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Phan Bôi Châu" 
 	desc = ""
-	picture = "gfx/leaders/VIC/Phan_Boi_Chau.dds"
+	picture = "gfx/leaders/NLF/Phan_Boi_Chau.dds"
 	expire = "1953.3.1"
 	ideology = nationalism
 	traits = {
@@ -153,7 +153,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nguyen Huu Tho" 
 	desc = ""
-	picture = "gfx/leaders/VIC/Nguyen_Huu_Tho.dds"
+	picture = "gfx/leaders/NLF/Nguyen_Huu_Tho.dds"
 	expire = "1953.3.1"
 	ideology = marxist_leninist
 	traits = {
@@ -164,7 +164,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ngô Đình Diêm"
 	desc = ""
-	picture = "gfx/leaders/VIC/Ngo_Dinh_Diem.dds"
+	picture = "gfx/leaders/NLF/Ngo_Dinh_Diem.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
@@ -175,7 +175,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nguyễn Tường Tam"
 	desc = ""
-	picture = "gfx/leaders/VIC/Nguyen_Tuong_Tam.dds"
+	picture = "gfx/leaders/NLF/Nguyen_Tuong_Tam.dds"
 	expire = "1953.3.1"
 	ideology = moderatism
 	traits = {
@@ -185,7 +185,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Pham Văn Đong"
-	portrait_path = "gfx/leaders/VIC/phamvandong.dds"
+	portrait_path = "gfx/leaders/NLF/phamvandong.dds"
 	traits = { urban_assault_specialist hill_fighter ranger}
 	skill = 4
 	attack_skill = 3
@@ -196,7 +196,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Vo Nguyen Giap"
-	portrait_path = "gfx/leaders/VIC/VoNguyenGiap.dds"
+	portrait_path = "gfx/leaders/NLF/VoNguyenGiap.dds"
 	traits = { }
 	skill = 6
 	attack_skill = 4
@@ -207,7 +207,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Hoàng Van Thái"
-	portrait_path = "gfx/leaders/VIC/HoangVanThai.dds"
+	portrait_path = "gfx/leaders/NLF/HoangVanThai.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 3
@@ -218,7 +218,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Lê Duc Anh"
-	portrait_path = "gfx/leaders/VIC/LeducAnh.dds"
+	portrait_path = "gfx/leaders/NLF/LeducAnh.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 2
@@ -229,7 +229,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Nguyen Huu Tho"
-	portrait_path = "gfx/leaders/VIC/Nguyen_Huu_Tho.dds"
+	portrait_path = "gfx/leaders/NLF/Nguyen_Huu_Tho.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 2

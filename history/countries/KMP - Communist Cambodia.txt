@@ -1,6 +1,6 @@
 ﻿capital = 741 #Phnom Penh NOT on the map as VP!
 
-oob = "CMN_1936"
+oob = "KMP_1936"
 
 set_research_slots = 2
 set_stability = 0.7
@@ -36,8 +36,8 @@ add_manpower = 0 {
 }
 
 add_ideas = {
-	CMN_guerrilla_warfare
-	CMN_military_staff
+	KMP_guerrilla_warfare
+	KMP_military_staff
 }
 
 give_guarantee = VIT {
@@ -67,7 +67,7 @@ add_command_power = 0 {
 add_equipment_to_stockpile ={
     type = infantry_equipment
     amount = 2500
-    producer = CMN
+    producer = KMP
 }
 
 add_opinion_modifier = {
@@ -162,7 +162,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Tou Samouth" 
 	desc = ""
-	picture = "gfx/leaders/CMN/portrait_CMN_tou_samouth.dds"
+	picture = "gfx/leaders/KMP/portrait_KMP_tou_samouth.dds"
 	expire = "1962.1.1"
 	ideology = anarchist_communism
 	traits = {
@@ -174,7 +174,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Sisowath Youtévong"
 	desc = ""
-	picture = "gfx/leaders/CMN/Sisowath_Youtevong.dds"
+	picture = "gfx/leaders/KMP/Sisowath_Youtevong.dds"
 	expire = "1953.3.1"
 	ideology = liberalism
 	traits = {
@@ -185,7 +185,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Norodom Sihanouk" 
 	desc = ""
-	picture = "gfx/leaders/CMN/NorodomSihanouk.dds"
+	picture = "gfx/leaders/KMP/NorodomSihanouk.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
@@ -218,7 +218,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Tou Samouth"
 	id = 238
-	portrait_path = "gfx/leaders/CMN/portrait_CMN_tou_samouth.dds"
+	portrait_path = "gfx/leaders/KMP/portrait_KMP_tou_samouth.dds"
 	expire = "1962.1.1"
 	traits = { }
 	skill = 4

@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		CMN_guerrilla_warfare = {
+		KMP_guerrilla_warfare = {
 			allowed = {
 				always = yes
 			}
@@ -15,7 +15,7 @@ ideas = {
 				supply_consumption_factor = -0.5
 			}
 		}
-		CMN_military_staff = {
+		KMP_military_staff = {
 
 			allowed = {
 				always = yes
