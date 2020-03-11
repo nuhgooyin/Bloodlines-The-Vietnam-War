@@ -5,7 +5,7 @@
 		factor = 0
 		modifier = {
 			add = 10
-			tag = VIN
+			tag = RVN
 		}
 	}
 	
@@ -20,7 +20,7 @@
 	##################
 	
 	focus = {
-		id = VIN_can_lao_in_power
+		id = RVN_can_lao_in_power
 		icon = GFX_goal_generic_demand_territory
 		x = 7
 		y = 0
@@ -51,9 +51,9 @@
 	
 	
 	focus = {
-		id = VIN_rural_development_programs
+		id = RVN_rural_development_programs
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_can_lao_in_power }
+		prerequisite = { focus = RVN_can_lao_in_power }
 		x = 3
 		y = 1
 
@@ -82,9 +82,9 @@
 	
 	
 	focus = {
-		id = VIN_vietnams_five_year_plan
+		id = RVN_vietnams_five_year_plan
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_can_lao_in_power }
+		prerequisite = { focus = RVN_can_lao_in_power }
 		x = 5
 		y = 1
 
@@ -113,9 +113,9 @@
 	
 	
 	focus = {
-		id = VIN_vietnams_five_year_plan
+		id = RVN_vietnams_five_year_plan
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_can_lao_in_power }
+		prerequisite = { focus = RVN_can_lao_in_power }
 		x = 5
 		y = 1
 
@@ -144,9 +144,9 @@
 	
 	
 	focus = {
-		id = VIN_christian_social_reform
+		id = RVN_christian_social_reform
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_can_lao_in_power }
+		prerequisite = { focus = RVN_can_lao_in_power }
 		x = 9
 		y = 1
 
@@ -175,9 +175,9 @@
 	
 	
 	focus = {
-		id = VIN_fighting_communism
+		id = RVN_fighting_communism
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_can_lao_in_power }
+		prerequisite = { focus = RVN_can_lao_in_power }
 		x = 11
 		y = 1
 
@@ -206,10 +206,10 @@
 	
 	
 	focus = {
-		id = VIN_secure_american_ties
+		id = RVN_secure_american_ties
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_rural_development_programs }
-		prerequisite = { focus = VIN_vietnams_five_year_plan }
+		prerequisite = { focus = RVN_rural_development_programs }
+		prerequisite = { focus = RVN_vietnams_five_year_plan }
 		x = 4
 		y = 2
 
@@ -238,10 +238,10 @@
 	
 	
 	focus = {
-		id = VIN_empower_ngo_dinh_nhu
+		id = RVN_empower_ngo_dinh_nhu
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_christian_social_reform }
-		prerequisite = { focus = VIN_fighting_communism }
+		prerequisite = { focus = RVN_christian_social_reform }
+		prerequisite = { focus = RVN_fighting_communism }
 		x = 10
 		y = 2
 
@@ -271,21 +271,21 @@
 	
 	
 	focus = {
-		id = VIN_the_1960_coup
+		id = RVN_the_1960_coup
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_secure_american_ties }
-		prerequisite = { focus = VIN_empower_ngo_dinh_nhu }
+		prerequisite = { focus = RVN_secure_american_ties }
+		prerequisite = { focus = RVN_empower_ngo_dinh_nhu }
 		x = 7
 		y = 3
 
-		cost = 5
+		cost = 0
 
 		ai_will_do = {
 			factor = 3
 		}
 
 		available = {
-			date > 1959.12.30
+			date > 1960.11.9
 		}
 
 		bypass = {
@@ -299,7 +299,7 @@
 		completion_reward = {
 			add_political_power = 100
 			add_stability = -0.15
-			country_event = svpolitics.1 
+			country_event = vinnamwar.1 
 		}
 	}
 	
@@ -308,10 +308,10 @@
 	###############
 	
 	focus = {
-		id = VIN_the_new_republic
+		id = RVN_the_new_republic
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_1960_coup }
-		mutually_exclusive = { focus = VIN_diem_holds_on }
+		prerequisite = { focus = RVN_the_1960_coup }
+		mutually_exclusive = { focus = RVN_diem_holds_on }
 		x = 9
 		y = 4
 
@@ -339,9 +339,9 @@
 	}
 	
 	focus = {
-		id = VIN_return_of_the_VNQDD
+		id = RVN_return_of_the_VNQDD
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_new_republic }
+		prerequisite = { focus = RVN_the_new_republic }
 		x = 9
 		y = 5
 
@@ -375,10 +375,10 @@
 	
 	
 	focus = {
-		id = VIN_diem_holds_on
+		id = RVN_diem_holds_on
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_1960_coup }
-		mutually_exclusive = { focus = VIN_the_new_republic }
+		prerequisite = { focus = RVN_the_1960_coup }
+		mutually_exclusive = { focus = RVN_the_new_republic }
 		x = 5
 		y = 4
 
@@ -407,10 +407,10 @@
 	
 	
 	focus = {
-		id = VIN_blame_the_americans
+		id = RVN_blame_the_americans
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_diem_holds_on }
-		mutually_exclusive = { focus = VIN_plead_to_the_americans }
+		prerequisite = { focus = RVN_diem_holds_on }
+		mutually_exclusive = { focus = RVN_plead_to_the_americans }
 		x = 4
 		y = 5
 
@@ -439,10 +439,10 @@
 	
 	
 	focus = {
-		id = VIN_plead_to_the_americans
+		id = RVN_plead_to_the_americans
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_diem_holds_on }
-		mutually_exclusive = { focus = VIN_blame_the_americans }
+		prerequisite = { focus = RVN_diem_holds_on }
+		mutually_exclusive = { focus = RVN_blame_the_americans }
 		x = 6
 		y = 5
 
@@ -471,9 +471,9 @@
 	}
 	
 	focus = {
-		id = VIN_the_independence_palace_bombing
+		id = RVN_the_independence_palace_bombing
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_blame_the_americans OR = VIN_plead_to_the_americans }
+		prerequisite = { focus = RVN_blame_the_americans OR = RVN_plead_to_the_americans }
 		x = 5
 		y = 7
 
@@ -481,10 +481,11 @@
 
 		ai_will_do = {
 			factor = 3
+			date > 1962.2.25
 		}
 
 		available = {
-
+			
 		}
 
 		bypass = {
@@ -496,16 +497,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = svpolitics.2
+			country_event = vinnamwar.2
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_screw_those_americans
+		id = RVN_screw_those_americans
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_independence_palace_bombing }
-		mutually_exclusive = { focus = VIN_keep_our_ties }
+		prerequisite = { focus = RVN_the_independence_palace_bombing }
+		mutually_exclusive = { focus = RVN_keep_our_ties }
 		x = 4
 		y = 8
 
@@ -534,10 +535,10 @@
 	
 	
 	focus = {
-		id = VIN_keep_our_ties
+		id = RVN_keep_our_ties
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_independence_palace_bombing }
-		mutually_exclusive = { focus = VIN_screw_those_americans }
+		prerequisite = { focus = RVN_the_independence_palace_bombing }
+		mutually_exclusive = { focus = RVN_screw_those_americans }
 		x = 6
 		y = 8
 
@@ -567,10 +568,10 @@
 	
 	
 	focus = {
-		id = VIN_strategic_hamlets
+		id = RVN_strategic_hamlets
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_screw_those_americans OR = VIN_keep_our_ties }
-		mutually_exclusive = { focus = VIN_a_better_alternative }
+		prerequisite = { focus = RVN_screw_those_americans OR = RVN_keep_our_ties }
+		mutually_exclusive = { focus = RVN_a_better_alternative }
 		x = 4
 		y = 9
 
@@ -598,10 +599,10 @@
 	}
 	
 	focus = {
-		id = VIN_a_better_alternative
+		id = RVN_a_better_alternative
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_screw_those_americans OR = VIN_keep_our_ties }
-		mutually_exclusive = { focus = VIN_strategic_hamlets }
+		prerequisite = { focus = RVN_screw_those_americans OR = RVN_keep_our_ties }
+		mutually_exclusive = { focus = RVN_strategic_hamlets }
 		x = 6
 		y = 9
 
@@ -630,9 +631,9 @@
 	
 	
 	focus = {
-		id = VIN_enforcing_the_true_religion
+		id = RVN_enforcing_the_true_religion
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_strategic_hamlets OR = VIN_a_better_alternative }
+		prerequisite = { focus = RVN_strategic_hamlets OR = RVN_a_better_alternative }
 		x = 5
 		y = 10
 
@@ -661,9 +662,9 @@
 	
 	
 	focus = {
-		id = VIN_the_buddhist_crisis
+		id = RVN_the_buddhist_crisis
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_enforcing_the_true_religion }
+		prerequisite = { focus = RVN_enforcing_the_true_religion }
 		x = 5
 		y = 11
 
@@ -686,16 +687,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			event = svpolitics.3
+			country_event = vinnamwar.3
 			add_stability = -0.1
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_raid_xa_loi_pagoda
+		id = RVN_raid_xa_loi_pagoda
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_buddhist_crisis }
+		prerequisite = { focus = RVN_the_buddhist_crisis }
 		x = 3
 		y = 12
 
@@ -724,9 +725,9 @@
 	
 	
 	focus = {
-		id = VIN_maximum_force_on_protestors
+		id = RVN_maximum_force_on_protestors
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_buddhist_crisis }
+		prerequisite = { focus = RVN_the_buddhist_crisis }
 		x = 5
 		y = 12
 
@@ -755,9 +756,9 @@
 	
 	
 	focus = {
-		id = VIN_strengthen_police
+		id = RVN_strengthen_police
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_buddhist_crisis }
+		prerequisite = { focus = RVN_the_buddhist_crisis }
 		x = 7
 		y = 12
 
@@ -785,11 +786,11 @@
 	}
 	
 	focus = {
-		id = VIN_1963_coup
+		id = RVN_1963_coup
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_raid_xa_loi_pagoda }
-		prerequisite = { focus = VIN_maximum_force_on_protestors }
-		prerequisite = { focus = VIN_strengthen_police }
+		prerequisite = { focus = RVN_raid_xa_loi_pagoda }
+		prerequisite = { focus = RVN_maximum_force_on_protestors }
+		prerequisite = { focus = RVN_strengthen_police }
 		x = 5
 		y = 13
 
@@ -800,7 +801,7 @@
 		}
 
 		available = {
-			date > 1962.12.30
+			date > 1963.11.1
 		}
 
 		bypass = {
@@ -813,7 +814,7 @@
 
 		completion_reward = {
 			add_stability = -0.1
-			event = svpolitics.4
+			country_event = vinnamwar.4
 		}
 	}
 	
@@ -824,9 +825,9 @@
 	
 	
 	focus = {
-		id = VIN_diem_lives
+		id = RVN_diem_lives
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_1963_coup }
+		prerequisite = { focus = RVN_1963_coup }
 		x = 3
 		y = 14
 
@@ -837,7 +838,7 @@
 		}
 
 		available = {
-			has_government = democratic
+			always = no
 		}
 
 		bypass = {
@@ -855,9 +856,9 @@
 	
 	
 	focus = {
-		id = VIN_destroy_the_buddhists
+		id = RVN_destroy_the_buddhists
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_1963_coup }
+		prerequisite = { focus = RVN_1963_coup }
 		x = 3
 		y = 15
 
@@ -880,7 +881,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			event = svpolitics.5
+		
 		}
 	}
 	
@@ -891,9 +892,9 @@
 	
 	
 	focus = {
-		id = VIN_diem_burns
+		id = RVN_diem_burns
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_1963_coup }
+		prerequisite = { focus = RVN_1963_coup }
 		x = 7
 		y = 14
 
@@ -904,7 +905,7 @@
 		}
 
 		available = {
-			democratic < 0.1
+			has_government = military
 		}
 
 		bypass = {
@@ -917,15 +918,14 @@
 
 		completion_reward = {
 			add_political_power = 30
-			kill_country_leader = yes
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_the_minh_junta
+		id = RVN_the_minh_junta
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_diem_burns }
+		prerequisite = { focus = RVN_diem_burns }
 		x = 7
 		y = 15
 
@@ -949,24 +949,17 @@
 
 		completion_reward = {
 			add_political_power = 30
-			
-			set_country_leader_ideology = nazism
-			
-			create_country_leader = {
-				name = "Duong Van Minh"
-				picture = "duongvanminh.dds"
-				expire = "1965.1.1"
-				ideology = nazism
-				traits = { }
-			}	
+			set_politics = {
+				ruling_party = military
+			}
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_khanhs_coup
+		id = RVN_khanhs_coup
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_minh_junta }
+		prerequisite = { focus = RVN_the_minh_junta }
 		x = 7
 		y = 16
 
@@ -977,7 +970,7 @@
 		}
 
 		available = {
-			has_government = fascism
+			
 		}
 
 		bypass = {
@@ -989,23 +982,15 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			retire_country_leader = yes
-			
-			create_country_leader = {
-				name = "Nguyen Khanh"
-				picture = "hoangvanthai.dds"
-				expire = "1965.1.1"
-				ideology = nazism
-				traits = { }
-			}
+			country_event = vinnamwar.5
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_abolish_the_high_national_council
+		id = RVN_abolish_the_high_national_council
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_khanhs_coup }
+		prerequisite = { focus = RVN_khanhs_coup }
 		x = 6
 		y = 17
 
@@ -1016,7 +1001,7 @@
 		}
 
 		available = {
-			has_government = fascism
+
 		}
 
 		bypass = {
@@ -1035,9 +1020,9 @@
 	
 	
 	focus = {
-		id = VIN_crush_ARVN_rebels
+		id = RVN_crush_ARVN_rebels
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_khanhs_coup }
+		prerequisite = { focus = RVN_khanhs_coup }
 		x = 8
 		y = 17
 
@@ -1048,7 +1033,7 @@
 		}
 
 		available = {
-			has_government = fascism
+
 		}
 
 		bypass = {
@@ -1067,10 +1052,10 @@
 	
 	
 	focus = {
-		id = VIN_the_final_coup
+		id = RVN_the_final_coup
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_crush_ARVN_rebels }
-		prerequisite = { focus = VIN_abolish_the_high_national_council }
+		prerequisite = { focus = RVN_crush_ARVN_rebels }
+		prerequisite = { focus = RVN_abolish_the_high_national_council }
 		x = 7
 		y = 18
 
@@ -1081,7 +1066,7 @@
 		}
 
 		available = {
-			has_government = fascism
+
 		}
 
 		bypass = {
@@ -1093,25 +1078,15 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-				retire_country_leader = yes
-			
-				set_party_name = { 
-					set_politics = {
-						ruling_party = neutrality
-					}
-				
-				ideology = neutrality 
-				long_name = GER_Thieu_Military_Administration 
-				name = GER_Thieu
-			}
+			country_event = vinnamwar.6
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_the_rule_of_three
+		id = RVN_the_rule_of_three
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_final_coup }
+		prerequisite = { focus = RVN_the_final_coup }
 		x = 7
 		y = 19
 
@@ -1142,10 +1117,10 @@
 	
 	
 	focus = {
-		id = VIN_thieu_and_ky
+		id = RVN_thieu_and_ky
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_rule_of_three }
-		mutually_exclusive = { focus = VIN_thieu_and_thi }
+		prerequisite = { focus = RVN_the_rule_of_three }
+		mutually_exclusive = { focus = RVN_thieu_and_thi }
 		x = 6
 		y = 20
 
@@ -1169,17 +1144,17 @@
 
 		completion_reward = {
 			
-			add_ideas = VIN_Nguyen_Cao_Ky
+			add_ideas = RVN_Nguyen_Cao_Ky
 			
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_thieu_and_thi
+		id = RVN_thieu_and_thi
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_the_rule_of_three }
-		mutually_exclusive = { focus = VIN_thieu_and_ky }
+		prerequisite = { focus = RVN_the_rule_of_three }
+		mutually_exclusive = { focus = RVN_thieu_and_ky }
 		x = 8
 		y = 20
 
@@ -1203,16 +1178,16 @@
 
 		completion_reward = {
 			
-			add_ideas = VIN_Nguyen_Chanh_Thi
+			add_ideas = RVN_Nguyen_Chanh_Thi
 			
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_no_breathing_week
+		id = RVN_no_breathing_week
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_thieu_and_ky OR = VIN_thieu_and_thi }
+		prerequisite = { focus = RVN_thieu_and_ky OR = RVN_thieu_and_thi }
 		x = 7
 		y = 21
 
@@ -1242,9 +1217,9 @@
 	
 	
 	focus = {
-		id = VIN_lighten_up_control
+		id = RVN_lighten_up_control
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_no_breathing_week }
+		prerequisite = { focus = RVN_no_breathing_week }
 		x = 7
 		y = 22
 
@@ -1273,9 +1248,9 @@
 	
 	
 	focus = {
-		id = VIN_expand_radio_saigon
+		id = RVN_expand_radio_saigon
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_lighten_up_control }
+		prerequisite = { focus = RVN_lighten_up_control }
 		x = 6
 		y = 23
 
@@ -1304,9 +1279,9 @@
 	
 	
 	focus = {
-		id = VIN_invest_in_vietnam_television
+		id = RVN_invest_in_vietnam_television
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_expand_radio_saigon }
+		prerequisite = { focus = RVN_expand_radio_saigon }
 		x = 6
 		y = 24
 
@@ -1335,9 +1310,9 @@
 	
 	
 	focus = {
-		id = VIN_establish_the_national_social_democratic_front
+		id = RVN_establish_the_national_social_democratic_front
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_lighten_up_control }
+		prerequisite = { focus = RVN_lighten_up_control }
 		x = 8
 		y = 23
 
@@ -1362,17 +1337,17 @@
 		completion_reward = {
 			set_party_name = {
 				ideology = neutrality
-				long_name = VIN_National_Social_Democratic_Front
-				name = VIN_NSDF
+				long_name = RVN_National_Social_Democratic_Front
+				name = RVN_NSDF
 			}
 		}
 	}
 	
 	
 	focus = {
-		id = VIN_purge_troublesome_leaders
+		id = RVN_purge_troublesome_leaders
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = VIN_establish_the_national_social_democratic_front }
+		prerequisite = { focus = RVN_establish_the_national_social_democratic_front }
 		x = 8
 		y = 24
 
@@ -1413,7 +1388,7 @@
 	###################
 	
 	focus = {
-		id = VIN_status_of_the_ARVN
+		id = RVN_status_of_the_ARVN
 		icon = GFX_focus_generic_tank_production
 		x = 21
 		y = 0
@@ -1449,9 +1424,9 @@
 
 	
 	focus = {
-		id = VIN_defensive_roles
+		id = RVN_defensive_roles
 		icon = GFX_generic_coastal_fort
-		prerequisite = { focus = VIN_status_of_the_ARVN }
+		prerequisite = { focus = RVN_status_of_the_ARVN }
 		x = 17
 		y = 1
 
@@ -1474,16 +1449,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = arvn_defensive_reform
+			add_ideas = RVN_defensive_reform
 		}
 
 	}
 
 
 	focus = {
-		id = VIN_help_supply_american_troops
+		id = RVN_help_supply_american_troops
 		icon = GFX_focus_generic_license_production
-		prerequisite = { focus = VIN_defensive_roles }
+		prerequisite = { focus = RVN_defensive_roles }
 		x = 15
 		y = 2
 
@@ -1516,9 +1491,9 @@
 
 
 	focus = {
-		id = VIN_collaborating_with_allied_armies
+		id = RVN_collaborating_with_allied_armies
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = VIN_help_supply_american_troops }
+		prerequisite = { focus = RVN_help_supply_american_troops }
 		x = 15
 		y = 3
 
@@ -1548,9 +1523,9 @@
 	
 	
 	focus = {
-		id = VIN_foreign_arms
+		id = RVN_foreign_arms
 		icon = GFX_focus_generic_combined_arms
-		prerequisite = { focus = VIN_collaborating_with_allied_armies }
+		prerequisite = { focus = RVN_collaborating_with_allied_armies }
 		x = 15
 		y = 4
 
@@ -1584,9 +1559,9 @@
 	
 	
 	focus = {
-		id = VIN_strangle_the_viet_cong
+		id = RVN_strangle_the_viet_cong
 		icon = GFX_focus_hol_war_on_pacifism
-		prerequisite = { focus = VIN_help_supply_american_troops }
+		prerequisite = { focus = RVN_help_supply_american_troops }
 		x = 17
 		y = 2
 
@@ -1609,16 +1584,19 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = { 
+			  remove_idea = RVN_defensive_reform 
+			  add_idea = RVN_improved_defense
+			}
 		}
 
 	}
 	
 	
 	focus = {
-		id = VIN_prevent_village_conversion
+		id = RVN_prevent_village_conversion
 		icon = GFX_focus_ger_bulwark_against_bolshevism
-		prerequisite = { focus = VIN_strangle_the_viet_cong }
+		prerequisite = { focus = RVN_strangle_the_viet_cong }
 		x = 17
 		y = 3
 
@@ -1641,16 +1619,19 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = { 
+			  remove_idea = RVN_improved_defense 
+			  add_idea = RVN_strengthened_defense 
+			}
 		}
 
 	}
 	
 	
 	focus = {
-		id = VIN_cut_off_their_shortcuts
+		id = RVN_cut_off_their_shortcuts
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		prerequisite = { focus = VIN_prevent_village_conversion }
+		prerequisite = { focus = RVN_prevent_village_conversion }
 		x = 17
 		y = 4
 
@@ -1673,17 +1654,20 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = { 
+				remove_idea = RVN_improved_defense 
+				add_idea = RVN_strengthened_defense 
+			}
 		}
 
 	}
 	
 	
 	focus = {
-		id = VIN_joint_search_and_destroy_operations
+		id = RVN_joint_search_and_destroy_operations
 		icon = GFX_goal_anti_comintern_pact
-		prerequisite = { focus = VIN_foreign_arms }
-		prerequisite = { focus = VIN_cut_off_their_shortcuts }
+		prerequisite = { focus = RVN_foreign_arms }
+		prerequisite = { focus = RVN_cut_off_their_shortcuts }
 		x = 16
 		y = 5
 
@@ -1706,17 +1690,17 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_war_support = 0.1
 		}
 
 	}
 	
 	
 	focus = {
-		id = VIN_pushing_the_reds_back_to_the_jungles
+		id = RVN_pushing_the_reds_back_to_the_jungles
 		icon = GFX_goal_anti_comintern_pact
-		prerequisite = { focus = VIN_fortifying_the_countryside }
-		prerequisite = { focus = VIN_cut_off_their_shortcuts }
+		prerequisite = { focus = RVN_fortifying_the_countryside }
+		prerequisite = { focus = RVN_cut_off_their_shortcuts }
 		x = 18
 		y = 5
 
@@ -1739,17 +1723,17 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_war_support = 0.1
 		}
 
 	}
 	
 	
 	focus = {
-		id = VIN_cut_off_the_lifeline
+		id = RVN_cut_off_the_lifeline
 		icon = GFX_focus_generic_strike_at_democracy1
-		prerequisite = { focus = VIN_joint_search_and_destroy_operations }
-		prerequisite = { focus = VIN_pushing_the_reds_back_to_the_jungles }
+		prerequisite = { focus = RVN_joint_search_and_destroy_operations }
+		prerequisite = { focus = RVN_pushing_the_reds_back_to_the_jungles }
 		x = 17
 		y = 6
 
@@ -1772,7 +1756,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = { 
+				remove_idea = RVN_strengthened_defense 
+				add_idea = RVN_defensive_war 
+			}
 		}
 
 	}
@@ -1786,9 +1773,9 @@
 
 
 	focus = {
-		id = VIN_fighting_the_vietcong
+		id = RVN_fighting_the_vietcong
 		icon = GFX_focus_generic_provoke_border_clashes
-		prerequisite = { focus = VIN_status_of_the_ARVN }
+		prerequisite = { focus = RVN_status_of_the_ARVN }
 		x = 25
 		y = 1
 
@@ -1818,9 +1805,9 @@
 	
 	
 	focus = {
-		id = VIN_expand_roads_through_vietnam
+		id = RVN_expand_roads_through_vietnam
 		icon = GFX_goal_generic_army_motorized 
-		prerequisite = { focus = VIN_fighting_the_vietcong }
+		prerequisite = { focus = RVN_fighting_the_vietcong }
 		x = 27
 		y = 2
 
@@ -1850,9 +1837,9 @@
 	
 	
 	focus = {
-		id = VIN_improve_logistics
+		id = RVN_improve_logistics
 		icon = GFX_focus_prc_infiltration
-		prerequisite = { focus = VIN_expand_roads_through_vietnam }
+		prerequisite = { focus = RVN_expand_roads_through_vietnam }
 		x = 27
 		y = 3
 
@@ -1882,9 +1869,9 @@
 	
 	
 	focus = {
-		id = VIN_improve_communication
+		id = RVN_improve_communication
 		icon = GFX_focus_generic_military_academy
-		prerequisite = { focus = VIN_improve_logistics }
+		prerequisite = { focus = RVN_improve_logistics }
 		x = 27
 		y = 4
 
@@ -1914,9 +1901,9 @@
 	
 	
 	focus = {
-		id = VIN_jungle_combat_tactics
+		id = RVN_jungle_combat_tactics
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = VIN_fighting_the_vietcong }
+		prerequisite = { focus = RVN_fighting_the_vietcong }
 		x = 25
 		y = 2
 
@@ -1946,9 +1933,9 @@
 	
 	
 	focus = {
-		id = VIN_counter_insurgency_combat_training
+		id = RVN_counter_insurgency_combat_training
 		icon = GFX_focus_generic_strike_at_democracy2
-		prerequisite = { focus = VIN_jungle_combat_tactics }
+		prerequisite = { focus = RVN_jungle_combat_tactics }
 		x = 25
 		y = 3
 
@@ -1978,9 +1965,9 @@
 	
 	
 	focus = {
-		id = VIN_quality_officers
+		id = RVN_quality_officers
 		icon = GFX_focus_generic_military_mission
-		prerequisite = { focus = VIN_counter_insurgency_combat_training }
+		prerequisite = { focus = RVN_counter_insurgency_combat_training }
 		x = 25
 		y = 4
 
@@ -2010,10 +1997,10 @@
 	
 	
 	focus = {
-		id = VIN_prevent_supply_line_sabotage
+		id = RVN_prevent_supply_line_sabotage
 		icon = GFX_focus_secret_rearmament
-		prerequisite = { focus = VIN_improve_communication }
-		prerequisite = { focus = VIN_quality_officers }
+		prerequisite = { focus = RVN_improve_communication }
+		prerequisite = { focus = RVN_quality_officers }
 		x = 26
 		y = 5
 
@@ -2043,10 +2030,10 @@
 	
 	
 	focus = {
-		id = VIN_smart_planning
+		id = RVN_smart_planning
 		icon = GFX_focus_usa_focus_on_asia
-		prerequisite = { focus = VIN_defend_the_cities }
-		prerequisite = { focus = VIN_quality_officers }
+		prerequisite = { focus = RVN_defend_the_cities }
+		prerequisite = { focus = RVN_quality_officers }
 		x = 24
 		y = 5
 
@@ -2076,10 +2063,10 @@
 	
 	
 	focus = {
-		id = VIN_coordinated_attacks_on_the_vietcong
+		id = RVN_coordinated_attacks_on_the_vietcong
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = VIN_prevent_supply_line_sabotage }
-		prerequisite = { focus = VIN_smart_planning }
+		prerequisite = { focus = RVN_prevent_supply_line_sabotage }
+		prerequisite = { focus = RVN_smart_planning }
 		x = 25
 		y = 6
 
@@ -2116,9 +2103,9 @@
 	
 	
 	focus = {
-		id = VIN_expand_rural_militias
+		id = RVN_expand_rural_militias
 		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = VIN_defensive_roles OR = VIN_fighting_the_vietcong }
+		prerequisite = { focus = RVN_defensive_roles OR = RVN_fighting_the_vietcong }
 		x = 20
 		y = 2
 
@@ -2148,9 +2135,9 @@
 	
 	
 	focus = {
-		id = VIN_placate_villagers
+		id = RVN_placate_villagers
 		icon = GFX_focus_generic_concessions
-		prerequisite = { focus = VIN_expand_rural_militias }
+		prerequisite = { focus = RVN_expand_rural_militias }
 		x = 20
 		y = 3
 
@@ -2180,9 +2167,9 @@
 	
 	
 	focus = {
-		id = VIN_fortifying_the_countryside
+		id = RVN_fortifying_the_countryside
 		icon = GFX_focus_generic_self_management
-		prerequisite = { focus = VIN_placate_villagers }
+		prerequisite = { focus = RVN_placate_villagers }
 		x = 20
 		y = 4
 
@@ -2212,9 +2199,9 @@
 	
 	
 	focus = {
-		id = VIN_consolidate_regular_troops
+		id = RVN_consolidate_regular_troops
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = VIN_defensive_roles OR = VIN_fighting_the_vietcong }
+		prerequisite = { focus = RVN_defensive_roles OR = RVN_fighting_the_vietcong }
 		x = 22
 		y = 2
 
@@ -2244,9 +2231,9 @@
 	
 	
 	focus = {
-		id = VIN_ARVN_professionalism
+		id = RVN_ARVN_professionalism
 		icon = GFX_focus_chi_army_reform
-		prerequisite = { focus = VIN_consolidate_regular_troops }
+		prerequisite = { focus = RVN_consolidate_regular_troops }
 		x = 22
 		y = 3
 
@@ -2276,9 +2263,9 @@
 	
 	
 	focus = {
-		id = VIN_defend_the_cities
+		id = RVN_defend_the_cities
 		icon = GFX_focus_generic_air_defense
-		prerequisite = { focus = VIN_ARVN_professionalism }
+		prerequisite = { focus = RVN_ARVN_professionalism }
 		x = 22
 		y = 4
 
@@ -2308,10 +2295,10 @@
 	
 	
 	focus = {
-		id = VIN_call_upon_all_vietnamese
+		id = RVN_call_upon_all_vietnamese
 		icon = GFX_focus_vin_south_vietnam_flag
-		prerequisite = { focus = VIN_fortifying_the_countryside }
-		prerequisite = { focus = VIN_defend_the_cities }
+		prerequisite = { focus = RVN_fortifying_the_countryside }
+		prerequisite = { focus = RVN_defend_the_cities }
 		x = 21
 		y = 5
 
@@ -2341,9 +2328,9 @@
 	
 	
 	focus = {
-		id = VIN_army_of_one_million_troops
+		id = RVN_army_of_one_million_troops
 		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = VIN_call_upon_all_vietnamese }
+		prerequisite = { focus = RVN_call_upon_all_vietnamese }
 		x = 21
 		y = 6
 
@@ -2379,7 +2366,7 @@
 	###########
 	
 	focus = {
-		id = VIN_economy_of_vietnam
+		id = RVN_economy_of_vietnam
 		icon = GFX_focus_mex_privatisation
 		x = 35
 		y = 0
@@ -2412,9 +2399,9 @@
 	#################
 
 	focus = {
-		id = VIN_rural_economics
+		id = RVN_rural_economics
 		icon = GFX_focus_hol_abandon_the_golden_standard
-		prerequisite = { focus = VIN_economy_of_vietnam }
+		prerequisite = { focus = RVN_economy_of_vietnam }
 		x = 32
 		y = 1
 
@@ -2442,9 +2429,9 @@
 	}
 
 	focus = {
-		id = VIN_support_the_farmers
+		id = RVN_support_the_farmers
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = VIN_rural_economics }
+		prerequisite = { focus = RVN_rural_economics }
 		x = 32
 		y = 2
 
@@ -2473,9 +2460,9 @@
 	}
 
 	focus = {
-		id = VIN_improve_village_infrastructure
+		id = RVN_improve_village_infrastructure
 		icon = GFX_focus_usa_gurantee_the_american_dream
-		prerequisite = { focus = VIN_support_the_farmers }
+		prerequisite = { focus = RVN_support_the_farmers }
 		x = 32
 		y = 3
 
@@ -2531,9 +2518,9 @@
 	#######
 
 	focus = {
-		id = VIN_obtain_american_aid
+		id = RVN_obtain_american_aid
 		icon = GFX_focus_chi_mission_to_the_us
-		prerequisite = { focus = VIN_economy_of_vietnam }
+		prerequisite = { focus = RVN_economy_of_vietnam }
 		x = 35
 		y = 1
 
@@ -2568,9 +2555,9 @@
 	}
 
 	focus = {
-		id = VIN_obtain_regional_aid
+		id = RVN_obtain_regional_aid
 		icon = GFX_focus_generic_diplomatic_trety
-		prerequisite = { focus = VIN_obtain_american_aid }
+		prerequisite = { focus = RVN_obtain_american_aid }
 		x = 35
 		y = 2
 
@@ -2605,9 +2592,9 @@
 	}
 
 	focus = {
-		id = VIN_obtain_international_aid
+		id = RVN_obtain_international_aid
 		icon = GFX_focus_generic_treaty
-		prerequisite = { focus = VIN_obtain_regional_aid }
+		prerequisite = { focus = RVN_obtain_regional_aid }
 		x = 35
 		y = 3
 
@@ -2631,7 +2618,7 @@
 
 		completion_reward = {
 		add_political_power = -150
-		add_ideas = VIN_foreign_aid_money
+		add_ideas = RVN_foreign_aid_money
 		}
 	}
 
@@ -2642,9 +2629,9 @@
 
 
 	focus = {
-		id = VIN_urban_economics
+		id = RVN_urban_economics
 		icon = GFX_focus_generic_the_giant_wakes
-		prerequisite = { focus = VIN_economy_of_vietnam }
+		prerequisite = { focus = RVN_economy_of_vietnam }
 		x = 38
 		y = 1
 
@@ -2672,9 +2659,9 @@
 	}
 
 	focus = {
-		id = VIN_construct_industrial_parks
+		id = RVN_construct_industrial_parks
 		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = VIN_urban_economics }
+		prerequisite = { focus = RVN_urban_economics }
 		x = 38
 		y = 2
 
@@ -2704,15 +2691,15 @@
 				instant_build = yes
 			}
 		}
-		add_timed_idea ={ VIN_industrial_bill = idea_id days = 175}
+		add_timed_idea ={ RVN_industrial_bill = idea_id days = 175}
 		}
 	}
 
 
 	focus = {
-		id = VIN_battle_against_unemployement
+		id = RVN_battle_against_unemployement
 		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = VIN_construct_industrial_parks}
+		prerequisite = { focus = RVN_construct_industrial_parks}
 		x = 38
 		y = 3
 
@@ -2751,11 +2738,11 @@
 	##############
 
 	focus = {
-		id = VIN_vietnam_prospers_forever
+		id = RVN_vietnam_prospers_forever
 		icon = GFX_focus_usa_reestablish_the_gold_standard
-		prerequisite = { focus = VIN_improve_village_infrastructure}
-		prerequisite = { focus = VIN_obtain_international_aid}
-		prerequisite = { focus = VIN_battle_against_unemployement}
+		prerequisite = { focus = RVN_improve_village_infrastructure}
+		prerequisite = { focus = RVN_obtain_international_aid}
+		prerequisite = { focus = RVN_battle_against_unemployement}
 		x = 35
 		y = 4
 
