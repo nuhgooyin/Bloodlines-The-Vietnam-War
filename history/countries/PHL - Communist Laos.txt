@@ -1,6 +1,6 @@
 ﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
 
-oob = "LIN_1936"
+oob = "PHL_1936"
 
 set_research_slots = 1
 set_stability = 0.6
@@ -72,7 +72,7 @@ add_command_power = 0 {
 add_equipment_to_stockpile ={
     type = infantry_equipment
     amount = 500
-    producer = LIN
+    producer = PHL
 }
 
 add_opinion_modifier = {
@@ -158,14 +158,16 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = {	constitutional_republic = 15
-	marxism_leninism = 65	constitutional_monarchy = 20
+set_popularities = {
+	constitutional_republic = 15
+	marxism_leninism = 65
+	constitutional_monarchy = 20
 }
 
 create_country_leader = {
 	name = "Souphanouvong"
 	desc = ""
-	picture = "gfx/leaders/LIN/Souphanouvong.dds"
+	picture = "gfx/leaders/PHL/Souphanouvong.dds"
 	expire = "1953.3.1"
 	ideology = marxist_leninist
 	traits = {
@@ -176,7 +178,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Sisavang Vong"
 	desc = ""
-	picture = "gfx/leaders/LIN/Sisavang_Vong.dds"
+	picture = "gfx/leaders/PHL/Sisavang_Vong.dds"
 	expire = "1953.3.1"
 	ideology = despotism
 	traits = {
@@ -187,7 +189,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kou Voravong" 
 	desc = ""
-	picture = "gfx/leaders/LIN/kou_voravong.dds"
+	picture = "gfx/leaders/PHL/kou_voravong.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
@@ -197,7 +199,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Souphanouvong"
-	portrait_path = "gfx/leaders/LIN/Souphanouvong.dds"
+	portrait_path = "gfx/leaders/PHL/Souphanouvong.dds"
 	traits = { fortress_buster swamp_fox jungle_rat}
 	skill = 4
 	attack_skill = 3

@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		VIN_disjointed_government = {
+		RVN_disjointed_government = {
 			
 			allowed = {
 				always = yes
@@ -16,7 +16,7 @@ ideas = {
 				stability_factor = -0.10
 			}
 		}
-		VIN_incompetent_officers = {
+		RVN_incompetent_officers = {
 
 			picture = chi_incompetent_officers
 		
@@ -33,7 +33,7 @@ ideas = {
 			}
 
 		}
-		VIN_buddhist_crisis = {
+		RVN_buddhist_crisis = {
 			
 			allowed = {
 				always = yes
@@ -48,7 +48,7 @@ ideas = {
 				war_support_weekly = -0.01
 			}
 		}
-		VIN_buddhist_crisis2 = {
+		RVN_buddhist_crisis2 = {
 			
 			allowed = {
 				always = yes
@@ -63,7 +63,7 @@ ideas = {
 				war_support_weekly = -0.02
 			}
 		}
-		VIN_buddhist_crisis3 = {
+		RVN_buddhist_crisis3 = {
 			
 			allowed = {
 				always = yes
@@ -78,7 +78,7 @@ ideas = {
 				war_support_weekly = -0.03
 			}
 		}
-		VIN_diem_administration = {
+		RVN_diem_administration = {
 		
 			allowed = {
 				always = yes
@@ -97,7 +97,7 @@ ideas = {
 			}
 
 		}
-		VIN_thieu_administration = {
+		RVN_thieu_administration = {
 		
 			allowed = {
 				always = yes
@@ -117,7 +117,7 @@ ideas = {
 			}
 
 		}
-		VIN_collapsing_government = {
+		RVN_collapsing_government = {
 		
 			allowed = {
 				always = yes

@@ -11,8 +11,8 @@ country_event = {
 	is_triggered_only = no
 
 	trigger = {
-		tag = VIN
-		has_idea = VIN_disjointed_government
+		tag = RVN
+		has_idea = RVN_disjointed_government
 		date > 1963.11.1
 	}
 	
@@ -30,17 +30,17 @@ country_event = {
 	create_country_leader = {
 		name = "Duong Văn Minh"
 		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_VIN_Doung_van_minh.dds"
+		picture = "Portrait_RVN_Doung_van_minh.dds"
 		expire = "1964.10.1"
 		ideology = conservatism
 		traits = {
 		}
 	}
 		remove_ideas = {
-			VIN_buddhist_crisis
-			VIN_diem_administration
-			VIN_buddhist_crisis2
-			VIN_buddhist_crisis3
+			RVN_buddhist_crisis
+			RVN_diem_administration
+			RVN_buddhist_crisis2
+			RVN_buddhist_crisis3
 		}
 	}
 }
@@ -56,8 +56,8 @@ country_event = {
 	is_triggered_only = no
 
 	trigger = {
-		tag = VIN
-		has_idea = VIN_disjointed_government
+		tag = RVN
+		has_idea = RVN_disjointed_government
 		date > 1964.2.1
 	}
 	
@@ -73,7 +73,7 @@ country_event = {
 	create_country_leader = {
 		name = "Nguyen Van Thieu"
 		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_VIN_Nguyen_Van_Thieu.dds"
+		picture = "Portrait_RVN_Nguyen_Van_Thieu.dds"
 		expire = "1975.4.1"
 		ideology = conservatism
 		traits = {
@@ -81,7 +81,7 @@ country_event = {
 	}
 	create_corps_commander = {
 		name = "Nguyen Van Thieu"
-		portrait_path = "gfx/leaders/VIN/Portrait_VIN_Nguyen_Van_Thieu.dds"
+		portrait_path = "gfx/leaders/RVN/Portrait_RVN_Nguyen_Van_Thieu.dds"
 		expire = "1975.4.1"
 		traits = { }
 		skill = 2
@@ -91,7 +91,7 @@ country_event = {
 		logistics_skill = 2
 	}
 		add_ideas = {
-			VIN_thieu_administration
+			RVN_thieu_administration
 		}
 	}
 }
@@ -107,8 +107,8 @@ country_event = {
 	is_triggered_only = no
 
 	trigger = {
-		tag = VIN
-		has_idea = VIN_disjointed_government
+		tag = RVN
+		has_idea = RVN_disjointed_government
 		date > 1963.4.1
 	}
 	
@@ -119,7 +119,7 @@ country_event = {
 	option = {
 		name = vinnamwar.9.a
 		add_ideas = {
-			VIN_buddhist_crisis
+			RVN_buddhist_crisis
 		}
 	}
 }
@@ -153,15 +153,15 @@ country_event = {
 	id = vinnamwar.6
 	title = vinnamwar.6.t
 	desc = vinnamwar.6.d
-	picture = GFX_report_event_VIN_dynamic_event_bonus
+	picture = GFX_report_event_RVN_dynamic_event_bonus
 
 	fire_only_once = yes
 
 	is_triggered_only = no
 	
 	trigger = {
-		tag = VIN
-		has_idea = VIN_disjointed_government
+		tag = RVN
+		has_idea = RVN_disjointed_government
 		date > 1962.2.1
 		surrender_progress > 0.20
 	}
@@ -179,9 +179,9 @@ country_event = {
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
 		amount = 1000
-		producer = VIN
+		producer = RVN
 	}
-	load_oob = "VIN_Dynamic_Event_Bonus"
+	load_oob = "RVN_Dynamic_Event_Bonus"
 	}
 	option = {
 		ai_chance = {
@@ -209,7 +209,7 @@ country_event = {
 		ai_chance = {
 			factor = 160
 		}
-			VIN = {
+			RVN = {
 				country_event = {
 					id = vinnamwar.8
 				}
@@ -220,7 +220,7 @@ country_event = {
 				}
 			}
 		name = vinnamwar.13.a
-	load_oob = "VIN_Tet_Offensive"
+	load_oob = "RVN_Tet_Offensive"
 	}
 }
 
@@ -273,15 +273,15 @@ country_event = {
 	id = vinnamwar.47
 	title = vinnamwar.47.t
 	desc = vinnamwar.47.d
-	picture = GFX_report_event_VIN_collapsinggovernment
+	picture = GFX_report_event_RVN_collapsinggovernment
 
 	fire_only_once = yes
 
 	is_triggered_only = no
 
 	trigger = {
-		tag = VIN
-		has_idea = VIN_disjointed_government
+		tag = RVN
+		has_idea = RVN_disjointed_government
 		date > 1975.1.1
 	}
 	
@@ -292,7 +292,7 @@ country_event = {
 	option = {
 		name = vinnamwar.26.a
 		add_ideas = {
-			VIN_collapsing_government
+			RVN_collapsing_government
 		}
 	}
 }
@@ -301,7 +301,7 @@ country_event = {
 	id = vinnamwar.48
 	title = vinnamwar.48.t
 	desc = vinnamwar.48.d
-	picture = GFX_report_event_VIN_buddhistcrackdown
+	picture = GFX_report_event_RVN_buddhistcrackdown
 
 	fire_only_once = yes
 
@@ -315,10 +315,10 @@ country_event = {
 		name = vinnamwar.27.a
 		hidden_effect = {
 		add_ideas = {
-			VIN_buddhist_crisis2
+			RVN_buddhist_crisis2
 		}
 		remove_ideas = {
-			VIN_buddhist_crisis
+			RVN_buddhist_crisis
 		}
 		}
 	}
@@ -327,10 +327,10 @@ country_event = {
 		name = vinnamwar.28.a
 		hidden_effect = {
 		add_ideas = {
-			VIN_buddhist_crisis2
+			RVN_buddhist_crisis2
 		}
 		remove_ideas = {
-			VIN_buddhist_crisis
+			RVN_buddhist_crisis
 		}
 		}
 	}
@@ -340,7 +340,7 @@ country_event = {
 	id = vinnamwar.9
 	title = vinnamwar.9.t
 	desc = vinnamwar.9.d
-	picture = GFX_report_event_VIN_generalstaff
+	picture = GFX_report_event_RVN_generalstaff
 
 	fire_only_once = yes
 
@@ -362,7 +362,7 @@ country_event = {
 	id = vinnamwar.10
 	title = vinnamwar.10.t
 	desc = vinnamwar.10.d
-	picture = GFX_report_event_VIN_vietconguprising
+	picture = GFX_report_event_RVN_vietconguprising
 
 	fire_only_once = yes
 

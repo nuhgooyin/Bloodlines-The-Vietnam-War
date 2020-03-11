@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		VIC_guerrilla_warfare = {
+		NLF_guerrilla_warfare = {
 			allowed = {
 				always = yes
 			}
@@ -16,7 +16,7 @@ ideas = {
 				supply_consumption_factor = -0.5
 			}
 		}
-		VIC_general_staff = {
+		NLF_general_staff = {
 
 			allowed = {
 				always = yes
@@ -32,7 +32,7 @@ ideas = {
 				ai_focus_aggressive_factor = -1
 			}
 		}
-		VIC_liberate_the_south = {
+		NLF_liberate_the_south = {
 			allowed = {
 				always = yes
 			}

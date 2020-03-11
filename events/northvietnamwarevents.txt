@@ -11,8 +11,8 @@ country_event = {
 	is_triggered_only = no
 
 	trigger = {
-		tag = VIT
-		has_idea = VIT_popular_government
+		tag = DRV
+		has_idea = DRV_popular_government
 		date > 1969.9.1
 	}
 	
@@ -30,7 +30,7 @@ country_event = {
 	create_country_leader = {
 		name = "Tôn Duc Thang"
 		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_VIT_Ton_Duc_Thang.dds"
+		picture = "Portrait_DRV_Ton_Duc_Thang.dds"
 		expire = "1976.6.1"
 		ideology = marxism
 		traits = {
@@ -38,7 +38,7 @@ country_event = {
 	}
 	create_corps_commander = {
 		name = "Tôn Duc Thang"
-		portrait_path = "Portrait_VIT_Ton_Duc_Thang.dds"
+		portrait_path = "Portrait_DRV_Ton_Duc_Thang.dds"
 		expire = "1976.6.1"
 		traits = { }
 		skill = 2
@@ -79,15 +79,15 @@ country_event = {
 	id = vitnamwar.3
 	title = vitnamwar.3.t
 	desc = vitnamwar.3.d
-	picture = GFX_report_event_VIT_dynamic_event_bonus
+	picture = GFX_report_event_DRV_dynamic_event_bonus
 
 	fire_only_once = yes
 
 	is_triggered_only = no
 	
 	trigger = {
-		tag = VIT
-		has_idea = VIT_popular_government
+		tag = DRV
+		has_idea = DRV_popular_government
 		date > 1962.2.1
 		surrender_progress > 0.1
 	}
@@ -105,9 +105,9 @@ country_event = {
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
 		amount = 1000
-		producer = VIT
+		producer = DRV
 	}
-	load_oob = "VIT_Dynamic_Event_Bonus"
+	load_oob = "DRV_Dynamic_Event_Bonus"
 	}
 	option = {
 		ai_chance = {

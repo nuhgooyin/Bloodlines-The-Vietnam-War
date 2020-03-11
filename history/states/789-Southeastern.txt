@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		add_core_of = VIN
-		add_core_of = VIT
-		add_core_of = VIC
-		owner = VIN
+		add_core_of = RVN
+		add_core_of = DRV
+		add_core_of = NLF
+		owner = RVN
 		victory_points = {
-			4401 10 
+			4401 20 
 		}
 		buildings = {
 			infrastructure = 8
