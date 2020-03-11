@@ -1,5 +1,9 @@
 add_namespace = vinnamwar
 
+#################################################
+##~Don't Die I love you, please notice my love~##
+#################################################
+
 country_event = {
 	id = vinnamwar.1
 	title = vinnamwar.1.t

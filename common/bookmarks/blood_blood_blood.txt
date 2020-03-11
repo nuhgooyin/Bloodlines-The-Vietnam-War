@@ -4,43 +4,43 @@ bookmarks = {
 		desc = "BLOOD_BLOOD_BLOOD_DESC"
 		date = 1959.11.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "VIN"
+		default_country = "RVN"
 		default = yes
 
-		"VIN"={
-			history = "VIN_TENSIONS_RISE_DESC"
+		"RVN"={
+			history = "RVN_TENSIONS_RISE_DESC"
 			ideology = democratic
 			ideas = {
-				VIN_disjointed_government
-				VIN_incompetent_officers
-				VIN_diem_administration
+				RVN_disjointed_government
+				RVN_incompetent_officers
+				RVN_diem_administration
 			}
 			focuses = {
 				
 			}
 		}
 		
-		"VIT"={
-			history = "VIT_TENSIONS_RISE_DESC"
+		"DRV"={
+			history = "DRV_TENSIONS_RISE_DESC"
 			ideology = communism
 			ideas = {
-				VIT_popular_government
-				VIT_weak_economy
-				VIT_general_staff
-				VIT_guerrilla_warfare
+				DRV_popular_government
+				DRV_weak_economy
+				DRV_general_staff
+				DRV_guerrilla_warfare
 			}
 			focuses = {
 				
 			}
 		}
 		
-		"VIC"={
-			history = "VIC_TENSIONS_RISE_DESC"
+		"NLF"={
+			history = "NLF_TENSIONS_RISE_DESC"
 			ideology = communism
 			ideas = {
-				VIC_guerrilla_warfare
-				VIC_general_staff
-				VIC_liberate_the_south
+				NLF_guerrilla_warfare
+				NLF_general_staff
+				NLF_liberate_the_south
 			}
 			focuses = {
 				
@@ -58,8 +58,8 @@ bookmarks = {
 			}
 		}
 		
-		"LIN"={
-			history = "LIN_TENSIONS_RISE_DESC"
+		"PHL"={
+			history = "PHL_TENSIONS_RISE_DESC"
 			ideology = communism
 			ideas = {
 
@@ -80,12 +80,12 @@ bookmarks = {
 			}
 		}
 	
-		"CMN"={
-			history = "CMN_TENSIONS_RISE_DESC"
+		"KMP"={
+			history = "KMP_TENSIONS_RISE_DESC"
 			ideology = communism
 			ideas = {
-				CMN_guerrilla_warfare
-				CMN_military_staff
+				KMP_guerrilla_warfare
+				KMP_military_staff
 			}
 			focuses = {
 				
