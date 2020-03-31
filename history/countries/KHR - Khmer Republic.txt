@@ -152,9 +152,9 @@ set_politics = {
 }
 
 set_popularities = {
-	constitutional_republic = 50
+	constitutional_republic = 15
 	marxism_leninism = 35
-	constitutional_monarchy = 15
+	authoritarianism = 50
 }
 
 create_country_leader = {
@@ -185,7 +185,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/KHR/Lon_Nol.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = authoritarianism
 	traits = {
 		
 	}

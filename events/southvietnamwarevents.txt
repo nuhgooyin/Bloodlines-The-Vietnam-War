@@ -267,16 +267,9 @@ country_event = {
 			traits = {
 			}
 		}
-		create_corps_commander = {
-			name = "Nguyen Van Thieu"
-			portrait_path = "gfx/leaders/RVN/Portrait_RVN_Nguyen_Van_Thieu.dds"
-			expire = "1975.4.1"
-			traits = { }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 2
+		random_army_leader = {
+			limit = { has_id = 1 }
+			promote_leader = yes
 		}
 		add_ideas = {
 			RVN_thieu_administration

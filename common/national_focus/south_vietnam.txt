@@ -1516,7 +1516,11 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 7500
+				producer = USA
+			}
 		}
 
 	}
@@ -1655,8 +1659,8 @@
 
 		completion_reward = {
 			swap_ideas = { 
-				remove_idea = RVN_improved_defense 
-				add_idea = RVN_strengthened_defense 
+				remove_idea = RVN_strengthened_defense 
+				add_idea = RVN_undefeatable_army 
 			}
 		}
 
@@ -1756,10 +1760,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			swap_ideas = { 
-				remove_idea = RVN_strengthened_defense 
-				add_idea = RVN_defensive_war 
-			}
+			add_war_support = 0.1
 		}
 
 	}
@@ -1798,7 +1799,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_ideas = RVN_offensive_reform
 		}
 
 	}
@@ -1830,7 +1831,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			set_building_level = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+					level < 3
+				}
+			}
 		}
 
 	}
@@ -1862,7 +1872,26 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			set_building_level = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+					level < 3
+				}
+			}
+			set_building_level = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+					level < 3
+				}
+			}
 		}
 
 	}
@@ -1894,7 +1923,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_stability = 0.1
 		}
 
 	}
@@ -1926,7 +1955,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = { 
+			  remove_idea = RVN_offensive_reform 
+			  add_idea = RVN_improved_offense
+			}
 		}
 
 	}
@@ -1958,7 +1990,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = { 
+			  remove_idea = RVN_improved_offense 
+			  add_idea = RVN_strengthened_offense
+			}
 		}
 
 	}
@@ -1990,7 +2025,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = { 
+			  remove_idea = RVN_strengthened_offense 
+			  add_idea = RVN_sat_cong
+			}
 		}
 
 	}
@@ -2023,7 +2061,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_war_support = 0.1
 		}
 
 	}
@@ -2056,7 +2094,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_war_support = 0.1
 		}
 
 	}
@@ -2089,7 +2127,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_war_support = 0.1
 		}
 
 	}
@@ -2128,7 +2166,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_ideas = RVN_rural_enlistment_one
 		}
 
 	}
@@ -2160,7 +2198,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = {
+				remove_idea = RVN_rural_enlistment_one
+				add_idea = RVN_rural_enlistment_two
+			}
 		}
 
 	}
@@ -2192,7 +2233,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = {
+				remove_idea = RVN_rural_enlistment_two
+				add_idea = RVN_rural_enlistment_three
+			}
 		}
 
 	}
@@ -2224,7 +2268,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_ideas = RVN_enlistment_campaign_one
 		}
 
 	}
@@ -2256,7 +2300,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			swap_ideas = {
+				remove_idea = RVN_enlistment_campaign_one
+				add_idea = RVN_enlistment_campaign_two
+			}
 		}
 
 	}
@@ -2288,7 +2335,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 0.1
+			swap_ideas = {
+				remove_idea = RVN_enlistment_campaign_two
+				add_idea = RVN_enlistment_campaign_three
+			}
 		}
 
 	}
@@ -2321,7 +2371,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_manpower = 75000
 		}
 
 	}
@@ -2353,7 +2403,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 5
+			add_war_support = 0.25
 		}
 
 	}

@@ -33,7 +33,7 @@
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
  socialism:0 "Socialism"
- socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ socialism_desc:0 "StriRVNg for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
  marxism:0 "Marxism"
  marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
  leninism:0 "Leninism"
@@ -94,12 +94,12 @@
  CHI_nationalism_party:1 "BSB"
  CHI_nationalism_party_long:1 "Blue Shirt Society"
  CHI_constitutional_monarchy_party:0 "Kuomintang"
- VIN_nationalism_party:0 "Viet Nam Quoc Dân Dang" #or Reformation Society   
- VIN_military_party:0 "Vietnam Restoration League"
- VIN_constitutional_republic_party:0 "Can Lao Party" #formed in early 50s
- VIN_authoritarian_democracy_party:0 "Dân Chu Doc Doán"
- VIN_marxism_leninism_party:0 "Communist Party of Vietnam" #Viet Minh was more important in early years
- VIN_constitutional_monarchy_party:0 "Viêt Nam Quoc Dân Đang"
+ RVN_nationalism_party:0 "Viet Nam Quoc Dân Dang" #or Reformation Society   
+ RVN_military_party:0 "Military Revolutionary Council" #Name of military junta from 1963-1962
+ RVN_constitutional_republic_party:0 "Can Lao Party" #formed in early 50s
+ RVN_authoritarian_democracy_party:0 "Dân Chu Doc Doán"
+ RVN_marxism_leninism_party:0 "Communist Party of Vietnam" #Viet Minh was more important in early years
+ RVN_constitutional_monarchy_party:0 "Bao Dai Loyalists"
  CAM_nationalism_party:0 "Khmerite Party"
  CAM_democratic_party:0 "Democratic Party" #formed in 1946 
  CAM_marxism_leninism_party:0 "Communist Party of Kampuchea" # aka Khmer Communist Party or a different party Krom Pracheachon aka Krom

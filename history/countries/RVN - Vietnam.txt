@@ -209,10 +209,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	constitutional_republic = 55
-	nationalism = 0
-	marxism_leninism = 45
-	constitutional_monarchy = 0
+	constitutional_republic = 40
+	nationalism = 10
+	marxism_leninism = 40
+	constitutional_monarchy = 2
+	military = 8
 }
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
@@ -317,6 +318,18 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Nguyen Van Thieu"
+	portrait_path = "gfx/leaders/RVN/nguyenvanthieuarmy.dds"
+	traits = { urban_assault_specialist hill_fighter ranger}
+	skill = 3
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 2
+	id = 1
+}
+
+create_corps_commander = {
 	name = "Tran Văn Đôn"
 	portrait_path = "gfx/leaders/Asia/tranvandon.dds"
 	traits = { urban_assault_specialist hill_fighter ranger}
@@ -343,12 +356,12 @@ create_corps_commander = {
 	id = 235
 	portrait_path = "gfx/leaders/Asia/ngodinhnhu.dds"
 	expire = "1963.11.1"
-	traits = { urban_assault_specialist hill_fighter ranger}
-	skill = 4
-	attack_skill = 4
-    defense_skill = 3
+	traits = { urban_assault_specialist}
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
     planning_skill = 4
-    logistics_skill = 2
+    logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -356,12 +369,12 @@ create_corps_commander = {
 	id = 234
 	portrait_path = "gfx/leaders/Asia/ngo_dinh_diem.dds"
 	expire = "1963.11.1"
-	traits = { urban_assault_specialist hill_fighter ranger}
-	skill = 6
-	attack_skill = 4
-    defense_skill = 4
-    planning_skill = 4
-    logistics_skill = 3
+	traits = { urban_assault_specialist}
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 6
+    logistics_skill = 1
 }
 
 create_corps_commander = {

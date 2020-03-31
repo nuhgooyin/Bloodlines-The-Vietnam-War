@@ -31,11 +31,11 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-VIN_INF_01 = 
+RVN_INF_01 = 
 {
 	name = "Infantry Regiments"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = {
 		NOT = { is_puppet_of = FRA }
@@ -44,7 +44,7 @@ VIN_INF_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { VIN_GAR_01 }
+	#link_numbering_with = { RVN_GAR_01 }
 
 	fallback_name = "ARVN %d"
 
@@ -108,18 +108,18 @@ VIN_INF_01 =
 	}
 }
 
-VIN_CAV_01 = 
+RVN_CAV_01 = 
 {
 	name = "Cavalry Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { VIN_INF_01 }
+	#link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN Cavalry %d"
 
@@ -141,18 +141,18 @@ VIN_CAV_01 =
 	}
 }
 
-VIN_MOT_01 = 
+RVN_MOT_01 = 
 {
 	name = "Motorised Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { VIN_INF_01 }
+	link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN %d"
 
@@ -216,18 +216,18 @@ VIN_MOT_01 =
 	}
 }
 
-VIN_ARM_01 = 
+RVN_ARM_01 = 
 {
 	name = "Armored Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { VIN_INF_01 }
+	#link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN Armored %d"
 
@@ -249,18 +249,18 @@ VIN_ARM_01 =
 	}
 }
 
-VIN_MEC_01 = 
+RVN_MEC_01 = 
 {
 	name = "Mechanized Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { VIN_INF_01 }
+	link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN %d"
 
@@ -324,18 +324,18 @@ VIN_MEC_01 =
 	}
 }
 
-VIN_GAR_01 = 
+RVN_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { VIN_INF_01 }
+	link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN %d"
 
@@ -399,18 +399,18 @@ VIN_GAR_01 =
 	}
 }
 
-VIN_MAR_01 = 
+RVN_MAR_01 = 
 {
 	name = "Marine Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { VIN_INF_01 }
+	#link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN Marines %d"
 
@@ -432,18 +432,18 @@ VIN_MAR_01 =
 	}
 }
 
-VIN_MTN_01 = 
+RVN_MTN_01 = 
 {
 	name = "Mountain Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { VIN_INF_01 }
+	#link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN Mountaineers %d"
 
@@ -465,18 +465,18 @@ VIN_MTN_01 =
 	}
 }
 
-VIN_PAR_01 = 
+RVN_PAR_01 = 
 {
 	name = "Paratrooper Divisions"
 
-	for_countries = { VIN }
+	for_countries = { RVN }
 
 	can_use = { NOT = { is_puppet_of = FRA } }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { VIN_INF_01 }
+	#link_numbering_with = { RVN_INF_01 }
 
 	fallback_name = "ARVN Paratroopers %d"
 
