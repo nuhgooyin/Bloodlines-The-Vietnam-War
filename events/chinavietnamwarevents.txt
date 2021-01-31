@@ -54,9 +54,9 @@ country_event = {
 	
 	option = {
 		name = chinanamwar.4.a
-			VIT = {
+			DRV = {
 				country_event = {
-					id = vitnamwar.2
+					id = DRVnamwar.2
 				}
 			}
 	add_equipment_to_stockpile = {

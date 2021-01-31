@@ -16,9 +16,9 @@ country_event = {
 	
 	option = {
 		name = camnamwar.1.a
-		white_peace = VIT
-		white_peace = CMN
-		white_peace = LIN
-		white_peace = VIC
+		white_peace = DRV
+		white_peace = KMP
+		white_peace = PHL
+		white_peace = NLF
 	}
 }

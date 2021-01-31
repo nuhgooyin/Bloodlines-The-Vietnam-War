@@ -31,7 +31,7 @@ country_event = {
 		set_rule = { can_send_volunteers = yes }
 		ai_strategy = {
 			type = send_volunteers_desire
-			id = "VIN"
+			id = "RVN"
 			value = 400
 		}
 	}
@@ -62,7 +62,7 @@ country_event = {
 		retire_country_leader = yes
 	create_country_leader = {
 		name = "John F. Kennedy"
-		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 		picture = "Portrait_USA_John_F_Kennedy.dds"
 		expire = "1963.11.1"
 		ideology = liberalism
@@ -94,9 +94,9 @@ country_event = {
 	
 	option = {
 		name = usanamwar.8.a
-			VIN = {
+			RVN = {
 				country_event = {
-					id = vinnamwar.5
+					id = RVNnamwar.5
 				}
 			}
 	add_equipment_to_stockpile = {
@@ -154,7 +154,7 @@ country_event = {
 		kill_country_leader = yes
 	create_country_leader = {
 		name = "Lyndon B. Johnson"
-		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 		picture = "Portrait_USA_Lyndon_B_Johnson.dds"
 		expire = "1969.1.1"
 		ideology = liberalism
@@ -186,14 +186,14 @@ country_event = {
 	
 	option = {
 		name = usanamwar.12.a
-			VIN = {
+			RVN = {
 				country_event = {
-					id = vinnamwar.46
+					id = RVNnamwar.46
 				}
 			}
-			VIT = {
+			DRV = {
 				country_event = {
-					id = vitnamwar.39
+					id = DRVnamwar.39
 				}
 			}
 			PRC = {
@@ -201,9 +201,9 @@ country_event = {
 					id = prcnamwar.5
 				}
 			}
-			CMN = {
+			KMP = {
 				country_event = {
-					id = cmnnamwar.2
+					id = KMPnamwar.2
 				}
 			}
 			CAM = {
@@ -216,9 +216,9 @@ country_event = {
 					id = laonamwar.2
 				}
 			}
-			LIN = {
+			PHL = {
 				country_event = {
-					id = linnamwar.1
+					id = PHLnamwar.1
 				}
 			}
 		remove_ideas = {
@@ -256,7 +256,7 @@ country_event = {
 		retire_country_leader = yes
 	create_country_leader = {
 		name = "Richard Nixon"
-		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 		picture = "Portrait_USA_RichardNixon.dds"
 		expire = "1974.8.1"
 		ideology = conservatism

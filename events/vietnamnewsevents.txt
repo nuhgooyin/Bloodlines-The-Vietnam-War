@@ -15,7 +15,7 @@ news_event = {
 	trigger = {
 		trigger = {
 	NOT = {
-		TAG = VIT
+		TAG = DRV
 	}
 		date > 1960.2.11
 	}
@@ -27,7 +27,7 @@ news_event = {
 		name = vietnamnews.1.a
 		trigger = {
 			NOT = {
-				TAG = VIT
+				TAG = DRV
 			}
 	}
 }

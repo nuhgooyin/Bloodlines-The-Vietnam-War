@@ -11,18 +11,18 @@ country_event = {
 	is_triggered_only = no ##States whether the event fires on its #######own or via a trigger   ######i.e only fires past january 17th
 
 	trigger = {
-    tag = VIC
+    tag = NLF
 		286 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		788 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		790 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		791 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		date > 1960.1.11
 	}
@@ -38,12 +38,12 @@ option = {
 	name = vietcong.1.a
     286 = {
         if = {
-            limit = { is_owned_by = VIN }
+            limit = { is_owned_by = RVN }
 		}
     }
-        VIC = {
+        NLF = {
 		declare_war_on = {
-		target = VIN
+		target = RVN
 		type = annex_everything
 		}
 	}
@@ -62,8 +62,8 @@ country_event = {
 	is_triggered_only = no
 	
 	trigger = {
-		tag = VIC
-		has_idea = VIC_liberate_the_south
+		tag = NLF
+		has_idea = NLF_liberate_the_south
 		date > 1968.2.1
 	}
 	
@@ -76,18 +76,18 @@ country_event = {
 			factor = 160
 		}
 		name = vietcong.2.a
-			VIN = {
+			RVN = {
 				country_event = {
-					id = vinnamwar.7
+					id = RVNnamwar.7
 				}
 			}
 		add_manpower = 40000
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
 		amount = 4000
-		producer = VIC
+		producer = NLF
 	}
-	load_oob = "VIC_Tet_Offensive"
+	load_oob = "NLF_Tet_Offensive"
 	}
 	option = {
 		ai_chance = {
@@ -101,7 +101,7 @@ country_event = {
 	id = vietcong.3
 	title = vietcong.3.t
 	desc = vietcong.3.d
-	picture = GFX_report_event_VIT_dynamic_event_bonus
+	picture = GFX_report_event_DRV_dynamic_event_bonus
 
 	fire_only_once = yes
 
@@ -116,11 +116,11 @@ country_event = {
 			factor = 160
 		}
 		name = vietcong.4.a
-		VIN = {
+		RVN = {
 			country_event = {
-				id = vinnamwar.10
+				id = RVNnamwar.10
 			}
 		}
-	load_oob = "VIC_Launch_Offensive_Bonus"
+	load_oob = "NLF_Launch_Offensive_Bonus"
 	}
 }

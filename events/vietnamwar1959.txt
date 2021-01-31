@@ -11,18 +11,18 @@ country_event = {
 	is_triggered_only = no ##States whether the event fires on its #######own or via a trigger   ######i.e only fires past january 17th
 
 	trigger = {
-    tag = VIT
+    tag = DRV
 		286 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		788 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		790 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		791 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		date > 1959.12.11
 	}
@@ -38,12 +38,12 @@ option = {
 	name = vietnamwar.1.a
     286 = {
         if = {
-            limit = { is_owned_by = VIN }
+            limit = { is_owned_by = RVN }
 		}
     }
-        VIT = {
+        DRV = {
 		declare_war_on = {
-		target = VIN
+		target = RVN
 		type = annex_everything
 		}
 	}
@@ -57,7 +57,7 @@ option = {
 	add_political_power = -200
 	create_wargoal = {
     type = annex_everything
-    target = VIN
+    target = RVN
 	}
 }
 }
@@ -73,18 +73,18 @@ country_event = {
 	is_triggered_only = no ##States whether the event fires on its #######own or via a trigger   ######i.e only fires past january 17th
 
 	trigger = {
-    tag = VIT
+    tag = DRV
 		286 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		788 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		790 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		791 = {
-		is_owned_by = VIN
+		is_owned_by = RVN
 		}
 		date > 1973.3.1
 	}
@@ -100,12 +100,12 @@ option = {
 	name = vietnamwar.2.a
     286 = {
         if = {
-            limit = { is_owned_by = VIN }
+            limit = { is_owned_by = RVN }
 		}
     }
-        VIT = {
+        DRV = {
 		declare_war_on = {
-		target = VIN
+		target = RVN
 		type = annex_everything
 		}
 	}

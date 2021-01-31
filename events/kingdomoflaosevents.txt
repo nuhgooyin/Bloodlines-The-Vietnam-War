@@ -16,9 +16,9 @@ country_event = {
 	
 	option = {
 		name = laonamwar.3.a
-		white_peace = LIN
-		white_peace = CMN
-		white_peace = VIT
-		white_peace = VIC
+		white_peace = PHL
+		white_peace = KMP
+		white_peace = DRV
+		white_peace = NLF
 	}
 }

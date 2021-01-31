@@ -32,7 +32,7 @@ country_event = {
 		remove_unit_leader = 234
 		remove_unit_leader = 235
 		set_politics = {
-			ruling_party = nationalism
+			ruPHLg_party = nationalism
 		}
 		create_country_leader = {
 			name = "Vương Văn Đông"
@@ -44,7 +44,7 @@ country_event = {
 			}
 	create_country_leader = {
 		name = "Duong Văn Minh"
-		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 		picture = "Portrait_RVN_Doung_van_minh.dds"
 		expire = "1964.10.1"
 		ideology = conservatism
@@ -113,7 +113,7 @@ country_event = {
 		add_war_support = -0.10
 	create_country_leader = {
 		name = "Nguyen Van Thieu"
-		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 		picture = "Portrait_RVN_Nguyen_Van_Thieu.dds"
 		expire = "1975.4.1"
 		ideology = conservatism
@@ -174,11 +174,11 @@ country_event = {
 		remove_unit_leader = 234
 		remove_unit_leader = 235
 		set_politics = {
-			ruling_party = military
+			ruPHLg_party = military
 		}
 		create_country_leader = {
 			name = "Duong Văn Minh"
-			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+			desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 			picture = "Portrait_RVN_Doung_van_minh.dds"
 			expire = "1964.10.1"
 			ideology = dictatorship
@@ -221,7 +221,7 @@ country_event = {
 		add_stability = -0.30
 		create_country_leader = {
 			name = "Nguyen Khanh"
-			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+			desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 			picture = ""
 			expire = "1964.10.1"
 			ideology = dictatorship
@@ -256,11 +256,11 @@ country_event = {
 		add_stability = -0.10
 		add_war_support = -0.01
 		set_politics = {
-			ruling_party = authoritarian_democracy
+			ruPHLg_party = authoritarian_democracy
 		}
 		create_country_leader = {
 			name = "Nguyen Van Thieu"
-			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+			desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
 			picture = "Portrait_RVN_Nguyen_Van_Thieu.dds"
 			expire = "1975.4.1"
 			ideology = authoritarianism
@@ -418,9 +418,9 @@ country_event = {
 	
 	option = {
 		name = vinnamwar.25.a
-		white_peace = VIT
-		white_peace = CMN
-		white_peace = LIN
+		white_peace = DRV
+		white_peace = KMP
+		white_peace = PHL
 		white_peace = LAO
 	}
 }

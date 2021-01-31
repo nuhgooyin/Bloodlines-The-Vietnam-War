@@ -1,9 +1,9 @@
-add_namespace = vitnamwar
+add_namespace = DRVnamwar
 
 country_event = {
-	id = vitnamwar.1
-	title = vitnamwar.1.t
-	desc = vitnamwar.1.d
+	id = DRVnamwar.1
+	title = DRVnamwar.1.t
+	desc = DRVnamwar.1.d
 	picture = GFX_report_event_tonducthangleader
 
 	fire_only_once = yes
@@ -21,7 +21,7 @@ country_event = {
 	}
 	
 	option = {
-		name = vitnamwar.1.a
+		name = DRVnamwar.1.a
 		kill_country_leader = yes
 		add_stability = -0.10
 		add_war_support = -0.10
@@ -51,9 +51,9 @@ country_event = {
 }
 
 country_event = {
-	id = vitnamwar.2
-	title = vitnamwar.2.t
-	desc = vitnamwar.2.d
+	id = DRVnamwar.2
+	title = DRVnamwar.2.t
+	desc = DRVnamwar.2.d
 	picture = GFX_report_event_prcmilitaryaide1
 
 	fire_only_once = yes
@@ -65,7 +65,7 @@ country_event = {
 	}
 	
 	option = {
-		name = vitnamwar.2.a
+		name = DRVnamwar.2.a
 		add_manpower = 10000
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
@@ -76,9 +76,9 @@ country_event = {
 }
 
 country_event = {
-	id = vitnamwar.3
-	title = vitnamwar.3.t
-	desc = vitnamwar.3.d
+	id = DRVnamwar.3
+	title = DRVnamwar.3.t
+	desc = DRVnamwar.3.d
 	picture = GFX_report_event_DRV_dynamic_event_bonus
 
 	fire_only_once = yes
@@ -100,7 +100,7 @@ country_event = {
 		ai_chance = {
 			factor = 160
 		}
-		name = vitnamwar.3.a
+		name = DRVnamwar.3.a
 		add_manpower = 5000
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
@@ -113,14 +113,14 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = vitnamwar.4.a
+		name = DRVnamwar.4.a
 	}
 }
 
 country_event = {
-	id = vitnamwar.39
-	title = vitnamwar.39.t
-	desc = vitnamwar.39.d
+	id = DRVnamwar.39
+	title = DRVnamwar.39.t
+	desc = DRVnamwar.39.d
 	picture = GFX_report_event_parispeaceaccords
 
 	fire_only_once = yes
@@ -132,8 +132,8 @@ country_event = {
 	}
 	
 	option = {
-		name = vitnamwar.13.a
-		white_peace = VIN
+		name = DRVnamwar.13.a
+		white_peace = RVN
 		white_peace = CAM
 		white_peace = LAO
 	}
