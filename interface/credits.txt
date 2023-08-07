@@ -2,8 +2,12 @@
 
 #Version: 0.2 Pre-Alpha
 
-#This mod was created by
-Don'tDie
+#This mod was originally created by:
+nuhgooyin
+
+#Contributors:
+Noodle9
+arrowtt33
 
 ----------------
 
