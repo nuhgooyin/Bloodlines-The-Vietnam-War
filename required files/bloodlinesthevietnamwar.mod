@@ -18,5 +18,5 @@ tags={
 }
 name="Bloodlines: The Vietnam War Pre-Alpha Version 0.2"
 supported_version="1.8.*"
-path="mod/bloodlinesthevietnamwar/"
+path="C:/Users/danng/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/Bloodlines-The-Vietnam-War"
 remote_file_id="1952898975"
