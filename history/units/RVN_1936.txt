@@ -1,383 +1,585 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Infantry Regiment"
+	name = "Infantry Brigade"
 
 	division_names_group = RVN_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
 	support = {
 
 	}
 }
 
+division_template = {
+	name = "Armored Brigade"
+
+	division_names_group = RVN_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motorized Brigade"
+
+	division_names_group = RVN_MOT_01
+
+	regiments = {
+		light_armor = { x = 2 y = 0 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+	}
+}
+
 units = {
 	
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}	
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Brigade"		
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Brigade"		
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Brigade"		
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Brigade"		
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}			
+	division = {			
+		name = "ARVN Infantry Brigade"		
+		location = 4401
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {			
+		name = "ARVN Infantry Brigade"
+		location = 4401
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}		
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}	
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 		division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"
+		name = "ARVN Infantry Brigade"
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "ARVN Infantry Regiment"		
+		name = "ARVN Infantry Brigade"		
 		location = 4401
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 

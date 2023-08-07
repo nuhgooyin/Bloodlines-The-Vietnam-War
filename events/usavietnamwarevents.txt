@@ -13,7 +13,7 @@ country_event = {
 	trigger = {
 		tag = USA
 		NOT = { has_idea = USA_increased_intervention }
-		date > 1963.12.1
+		date > 1963.11.15
 	}
 	
 	mean_time_to_happen = {
@@ -23,7 +23,7 @@ country_event = {
 	option = {
 		name = usanamwar.6.a
 		remove_ideas = {
-			USA_neutrality_bill
+			USA_neutrality_act
 		}
 		add_ideas = {
 			USA_increased_intervention
@@ -60,15 +60,15 @@ country_event = {
 	option = {
 		name = usanamwar.7.a
 		retire_country_leader = yes
-	create_country_leader = {
-		name = "John F. Kennedy"
-		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_USA_John_F_Kennedy.dds"
-		expire = "1963.11.1"
-		ideology = liberalism
-		traits = {
+		create_country_leader = {
+			name = "John F. Kennedy"
+			desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_USA_John_F_Kennedy.dds"
+			expire = "1963.11.1"
+			ideology = liberalism
+			traits = {
+			}
 		}
-	}
 	}
 }
 
@@ -94,16 +94,16 @@ country_event = {
 	
 	option = {
 		name = usanamwar.8.a
-			RVN = {
-				country_event = {
-					id = RVNnamwar.5
-				}
+		RVN = {
+			country_event = {
+				id = vinnamwar.9
 			}
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = -1000
-		producer = USA
-	}
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1500
+			producer = USA
+		}
 	}
 }
 
@@ -152,15 +152,15 @@ country_event = {
 	option = {
 		name = usanamwar.11.a
 		kill_country_leader = yes
-	create_country_leader = {
-		name = "Lyndon B. Johnson"
-		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_USA_Lyndon_B_Johnson.dds"
-		expire = "1969.1.1"
-		ideology = liberalism
-		traits = {
+		create_country_leader = {
+			name = "Lyndon B. Johnson"
+			desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_USA_Lyndon_B_Johnson.dds"
+			expire = "1969.1.1"
+			ideology = liberalism
+			traits = {
+			}
 		}
-	}
 	}
 }
 
@@ -176,7 +176,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		NOT = { has_idea = USA_neutrality_bill }
+		NOT = { has_idea = USA_neutrality_act }
 		date > 1973.1.1
 	}
 	
@@ -186,46 +186,46 @@ country_event = {
 	
 	option = {
 		name = usanamwar.12.a
-			RVN = {
-				country_event = {
-					id = RVNnamwar.46
-				}
+		RVN = {
+			country_event = {
+				id = vinnamwar.46
 			}
-			DRV = {
-				country_event = {
-					id = DRVnamwar.39
-				}
+		}
+		DRV = {
+			country_event = {
+				id = DRVnamwar.39
 			}
-			PRC = {
-				country_event = {
-					id = prcnamwar.5
-				}
+		}
+		PRC = {
+			country_event = {
+				id = chinanamwar.5
 			}
-			KMP = {
-				country_event = {
-					id = KMPnamwar.2
-				}
+		}
+		KMP = {
+			country_event = {
+				id = KMPnamwar.2
 			}
-			CAM = {
-				country_event = {
-					id = camnamwar.1
-				}
+		}
+		CAM = {
+			country_event = {
+				id = camnamwar.1
 			}
-			LAO = {
-				country_event = {
-					id = laonamwar.2
-				}
+		}
+		LAO = {
+			country_event = {
+				id = laonamwar.2
 			}
-			PHL = {
-				country_event = {
-					id = PHLnamwar.1
-				}
+		}
+		PHL = {
+			country_event = {
+				id = PHLnamwar.1
 			}
+		}
 		remove_ideas = {
 			USA_increased_intervention
 		}
 		add_ideas = {
-			USA_neutrality_bill
+			USA_neutrality_act
 		}
 		set_rule = { can_send_volunteers = no }
 	}
@@ -243,7 +243,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		NOT = { has_idea = USA_neutrality_bill }
+		NOT = { has_idea = USA_neutrality_act }
 		date > 1968.12.1
 	}
 	
@@ -254,14 +254,14 @@ country_event = {
 	option = {
 		name = usanamwar.13.a
 		retire_country_leader = yes
-	create_country_leader = {
-		name = "Richard Nixon"
-		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_USA_RichardNixon.dds"
-		expire = "1974.8.1"
-		ideology = conservatism
-		traits = {
+		create_country_leader = {
+			name = "Richard Nixon"
+			desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_USA_RichardNixon.dds"
+			expire = "1974.8.1"
+			ideology = conservatism
+			traits = {
+			}
 		}
-	}
 	}
 }

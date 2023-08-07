@@ -1,11 +1,16 @@
 ##### Division Templates #####
 division_template = {
-	name = "Infantry Regiment"
+	name = "Infantry Brigade"
 
 	division_names_group = KHR_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
 	support = {
 
@@ -15,160 +20,160 @@ division_template = {
 units = {
 		
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-	division = {			
-		name = "KNA Infantry Regiment"		
-		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	
 	division = {			
-		name = "KNA Infantry Regiment"
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+	division = {			
+		name = "KNA Infantry Brigade"
+		location = 7376
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}			
 	division = {			
-		name = "KNA Infantry Regiment"		
+		name = "KNA Infantry Brigade"		
 		location = 7376
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 

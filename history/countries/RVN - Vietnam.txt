@@ -3,7 +3,7 @@
 oob = "RVN_1936"
 
 set_research_slots = 3
-set_stability = 60
+set_stability = 0.6
 set_war_support = 0
 
 # Starting tech

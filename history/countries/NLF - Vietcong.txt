@@ -51,7 +51,7 @@ add_ideas = {
 	NLF_liberate_the_south
 }
 
-add_manpower = 10000 {
+add_manpower = 100000 {
 }
 
 give_guarantee = KMP {

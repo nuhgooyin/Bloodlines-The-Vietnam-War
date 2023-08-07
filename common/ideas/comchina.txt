@@ -25,7 +25,7 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 
 			allowed = {
-				always = no
+				always = yes
 			}
 
 			removal_cost = -1
@@ -35,7 +35,7 @@ ideas = {
 				ai_join_ally_desire_factor = -100
 				send_volunteers_tension = -100
 				guarantee_tension = 1
-				send_volunteer_size = 3
+				send_volunteer_size = 5
 				send_volunteer_divisions_required = -0.50
 				justify_war_goal_time = 5
 				ai_get_ally_desire_factor = -10000
@@ -49,7 +49,7 @@ ideas = {
 			picture = neutrality_idea
 			
 			allowed = {
-				always = no
+				always = yes
 			}
 
 			removal_cost = -1

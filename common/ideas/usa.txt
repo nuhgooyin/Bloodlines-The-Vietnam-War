@@ -1,8 +1,71 @@
 ideas = {
 
 	country = {
-		USA_increased_intervention = {
-			picture = generic_volunteer_expedition_bonus
+		great_depression = {
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.3
+				conscription_factor = -0.5
+				join_faction_tension = 0.20
+				local_resources_factor = -0.2
+			}
+		}
+		great_depression_2 = {
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.65
+				consumer_goods_factor = 0.25
+				conscription_factor = -0.4
+				join_faction_tension = 0.20
+				local_resources_factor = -0.15
+			}
+		}
+		great_depression_3 = {
+			picture = usa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = 0.175
+				conscription_factor = -0.2
+				join_faction_tension = 0.20
+				local_resources_factor = -0.1
+			}
+		}
+		USA_limited_intervention = {
+			picture = generic_production_bonus
 			
 			allowed = {
 				always = no
@@ -15,11 +78,29 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				join_faction_tension = -0.25
+				send_volunteers_tension = -0.35
+				guarantee_tension = -0.2
+				mobilization_laws_cost_factor = 1
+				economy_cost_factor = 1
+			}
+		}
+		USA_increased_intervention = {
+			picture = generic_volunteer_expedition_bonus
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
 				ai_join_ally_desire_factor = -100
 				send_volunteers_tension = -100
+				send_volunteer_factor = 100
 				guarantee_tension = 1
-				send_volunteer_size = 12
-				send_volunteer_divisions_required = -0.50
+				send_volunteer_size = 60
+				send_volunteer_divisions_required = -0.65
 				justify_war_goal_time = 5
 				ai_get_ally_desire_factor = -10000
 				lend_lease_tension = -100
@@ -27,8 +108,7 @@ ideas = {
 				ai_focus_aggressive_factor = -1
 			}
 		}
-		
-		USA_neutrality_bill = {
+		USA_neutrality_act = {
 			picture = neutrality_idea
 			
 			allowed = {
@@ -53,7 +133,6 @@ ideas = {
 				ai_focus_defense_factor = 1
 			}
 		}
-
 		# version if player went down limited intervention
 		USA_lend_lease_act_li = {
 			picture = generic_production_bonus
@@ -96,7 +175,111 @@ ideas = {
 				send_volunteers_tension = 0.5
 				guarantee_tension = 0.5
 			}
-		} 
+		}
+		USA_lend_lease_act_dummy = { #dummy version to show effects
+			picture = generic_production_bonus
+			name = USA_lend_lease_act
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				lend_lease_tension = -1
+			}
+		}
+		USA_accumulated_wealth_tax_act = {
+			picture = generic_foreign_capital
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		USA_intervention_in_the_americas = {
+			picture = generic_war_preparation
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.05
+			}
+		}
+		USA_intervention_in_europe = {
+			picture = generic_fortify_the_borders
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				command_power_gain_mult = 0.1	
+			}
+		}
+		USA_airborne_divisions = {
+			picture = usa_airborne_divisions
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_cap = 0.05	
+			}
+		}
+		USA_womens_armed_service_integration_act = {
+			
+			picture = eng_imperial_conscription
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02	
+			}
+		}
 		USA_war_department = {	
 			picture = usa_war_department
 			allowed = {
@@ -429,6 +612,44 @@ ideas = {
 				mobilization_speed = 0.2
 			}
 		}
+		new_deal = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.2
+				stability_factor = 0.10
+			}
+		}
+
+		wilkies_new_deal = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				stability_factor = 0.05
+				drift_defence_factor = 0.2
+			}
+		}
 		
 		full_employment = {
 			
@@ -671,6 +892,28 @@ ideas = {
 				convoy = {
 					instant = yes
 					build_cost_ic = -0.25
+				}
+			}
+		}
+
+		air_war_plans_division_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+		
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}

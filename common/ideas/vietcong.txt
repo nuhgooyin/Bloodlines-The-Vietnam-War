@@ -11,9 +11,9 @@ ideas = {
 			picture = socialist_science_focus
 
 			modifier = {
-				attrition = -0.5
-				out_of_supply_factor = -0.5
-				supply_consumption_factor = -0.5
+				attrition = -1
+				out_of_supply_factor = -1
+				supply_consumption_factor = -1
 			}
 		}
 		NLF_general_staff = {

@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "Blood Blood Blood"
 		desc = "BLOOD_BLOOD_BLOOD_DESC"
-		date = 1959.11.1.1
+		date = 1959.10.1.1
 		picture = "GFX_select_date_1939"
 		default_country = "RVN"
 		default = yes
@@ -97,9 +97,9 @@ bookmarks = {
 			history = "PRC_TENSIONS_RISE_DESC"
 			ideology = communism
 			ideas = {
+				PRC_neutrality_act
 				PRC_red_army_weakened
 				PRC_maoism
-				PRC_neutrality_act
 			}
 			focuses = {
 				
@@ -111,8 +111,7 @@ bookmarks = {
 			history = "USA_TENSIONS_RISE_DESC"
 			ideology = democratic
 			ideas = {
-				USA_war_department
-				USA_neutrality_bill
+				USA_neutrality_act
 			}
 			focuses = {
 				

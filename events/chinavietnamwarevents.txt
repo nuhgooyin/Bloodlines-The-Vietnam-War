@@ -54,16 +54,16 @@ country_event = {
 	
 	option = {
 		name = chinanamwar.4.a
-			DRV = {
-				country_event = {
-					id = DRVnamwar.2
-				}
+		DRV = {
+			country_event = {
+				id = DRVnamwar.2
 			}
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = -1000
-		producer = PRC
-	}
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1000
+			producer = PRC
+		}
 	}
 }
 

@@ -1,9 +1,5 @@
 add_namespace = vinnamwar
 
-#################################################
-##~Don't Die I love you, please notice my love~##
-#################################################
-
 country_event = {
 	id = vinnamwar.1
 	title = vinnamwar.1.t
@@ -18,7 +14,7 @@ country_event = {
 		tag = RVN
 		has_completed_focus = RVN_the_1960_coup
 		has_idea = RVN_disjointed_government
-		date > 1963.11.1
+		date > 1960.11.1
 	}
 	
 	mean_time_to_happen = {
@@ -32,36 +28,44 @@ country_event = {
 		remove_unit_leader = 234
 		remove_unit_leader = 235
 		set_politics = {
-			ruPHLg_party = nationalism
+			ruling_party = nationalism
 		}
 		create_country_leader = {
-			name = "Vương Văn Đông"
+			name = "Vuong Văn Đông"
 			desc = ""
 			picture = " "
-			expire = "1964.10.1"
+			expire = "1975.10.1"
 			ideology = vietnamese_nationalism
 			traits = {
 			}
-	create_country_leader = {
-		name = "Duong Văn Minh"
-		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_RVN_Doung_van_minh.dds"
-		expire = "1964.10.1"
-		ideology = conservatism
-		traits = {
+		}
+		create_country_leader = {
+			name = "Duong Văn Minh"
+			desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_RVN_Doung_van_minh.dds"
+			expire = "1964.10.1"
+			ideology = conservatism
+			traits = {
+			}
 		}
 		remove_ideas = {
 			RVN_diem_administration
 			RVN_buddhist_crisis
-			RVN_diem_administration
 			RVN_buddhist_crisis2
 			RVN_buddhist_crisis3
+		}
+		ai_chance = {
+			factor = 0
 		}
 	}
 	option = {
 		name = vinnamwar.90.a
 		add_stability = -0.05
 		add_war_support = -0.10
+		
+		ai_chance = {
+			factor = 160
+		}
 	}
 }
 
@@ -79,7 +83,7 @@ country_event = {
 		tag = RVN
 		has_completed_focus = RVN_the_independence_palace_bombing
 		has_idea = RVN_disjointed_government
-		date > 1964.2.1
+		date > 1962.2.1
 	}
 	
 	mean_time_to_happen = {
@@ -107,29 +111,6 @@ country_event = {
 		tag = RVN
 		has_idea = RVN_disjointed_government
 		has_completed_focus = RVN_the_buddhist_crisis
-		name = vinnamwar.8.a
-		retire_country_leader = yes
-		add_stability = -0.10
-		add_war_support = -0.10
-	create_country_leader = {
-		name = "Nguyen Van Thieu"
-		desc = "POLITICS_FRANKPHL_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_RVN_Nguyen_Van_Thieu.dds"
-		expire = "1975.4.1"
-		ideology = conservatism
-		traits = {
-		}
-	}
-	create_corps_commander = {
-		name = "Nguyen Van Thieu"
-		portrait_path = "gfx/leaders/RVN/Portrait_RVN_Nguyen_Van_Thieu.dds"
-		expire = "1975.4.1"
-		traits = { }
-		skill = 2
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 2
 	}
 	
 	mean_time_to_happen = {
@@ -140,8 +121,9 @@ country_event = {
 		name = vinnamwar.3.a
 		add_ideas = {
 			RVN_buddhist_crisis
-			RVN_thieu_administration
 		}
+		add_stability = -0.10
+		add_war_support = -0.10
 	}
 }
 
@@ -159,7 +141,7 @@ country_event = {
 		tag = RVN
 		has_completed_focus = RVN_1963_coup
 		has_idea = RVN_disjointed_government
-		date > 1963.4.1
+		date > 1963.11.1
 	}
 	
 	mean_time_to_happen = {
@@ -174,7 +156,7 @@ country_event = {
 		remove_unit_leader = 234
 		remove_unit_leader = 235
 		set_politics = {
-			ruPHLg_party = military
+			ruling_party = military
 		}
 		create_country_leader = {
 			name = "Duong Văn Minh"
@@ -190,10 +172,8 @@ country_event = {
 			RVN_diem_administration
 			RVN_buddhist_crisis2
 			RVN_buddhist_crisis3
-		name = vinnamwar.9.a
-		add_ideas = {
-			RVN_buddhist_crisis
 		}
+		name = vinnamwar.9.a
 	}
 }
 
@@ -256,7 +236,7 @@ country_event = {
 		add_stability = -0.10
 		add_war_support = -0.01
 		set_politics = {
-			ruPHLg_party = authoritarian_democracy
+			ruling_party = authoritarian_democracy
 		}
 		create_country_leader = {
 			name = "Nguyen Van Thieu"
@@ -293,12 +273,12 @@ country_event = {
 	
 	option = {
 		name = vinnamwar.9.a
-		add_manpower = 10000
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = 1000
-		producer = USA
-	}
+		add_manpower = 15000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = USA
+		}
 	}
 }
 
@@ -332,11 +312,146 @@ country_event = {
 		}
 		name = vinnamwar.10.a
 		add_manpower = 5000
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = 1000
-		producer = RVN
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = RVN
+		}
+	load_oob = "RVN_Dynamic_Event_Bonus"
 	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.11.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.10
+	title = vinnamwar.10.t
+	desc = vinnamwar.10.d
+	id = vinnamwar.6
+	title = vinnamwar.6.t
+	desc = vinnamwar.6.d
+	picture = GFX_report_event_RVN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = RVN
+		has_idea = RVN_disjointed_government
+		date > 1961.1.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.10.a
+		add_manpower = 5000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = RVN
+		}
+	load_oob = "RVN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.11.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.10
+	title = vinnamwar.10.t
+	desc = vinnamwar.10.d
+	id = vinnamwar.6
+	title = vinnamwar.6.t
+	desc = vinnamwar.6.d
+	picture = GFX_report_event_RVN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = RVN
+		has_idea = RVN_disjointed_government
+		date > 1964.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.10.a
+		add_manpower = 5000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = RVN
+		}
+	load_oob = "RVN_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = vinnamwar.11.a
+	}
+}
+
+country_event = {
+	id = vinnamwar.10
+	title = vinnamwar.10.t
+	desc = vinnamwar.10.d
+	id = vinnamwar.6
+	title = vinnamwar.6.t
+	desc = vinnamwar.6.d
+	picture = GFX_report_event_RVN_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = RVN
+		has_idea = RVN_disjointed_government
+		date > 1966.2.1
+		surrender_progress > 0.20
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = vinnamwar.10.a
+		add_manpower = 5000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = RVN
+		}
 	load_oob = "RVN_Dynamic_Event_Bonus"
 	}
 	option = {
@@ -376,7 +491,7 @@ country_event = {
 				}
 			}
 		name = vinnamwar.13.a
-	load_oob = "RVN_Tet_Offensive"
+		load_oob = "RVN_Tet_Offensive"
 	}
 }
 

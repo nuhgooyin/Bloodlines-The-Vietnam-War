@@ -45,7 +45,7 @@
 
 		completion_reward = {
 			add_political_power = 75
-			add_popularity = { ideology = democratic popularity = 0.05 }
+			add_popularity = { ideology = constitutional_republic popularity = 0.05 }
 		}
 	}
 	
@@ -76,7 +76,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.01 }
+			add_popularity = { ideology = constitutional_republic popularity = 0.01 }
 		}
 	}
 	
@@ -107,7 +107,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.01 }
+			add_popularity = { ideology = constitutional_republic popularity = 0.01 }
 		}
 	}
 	
@@ -138,7 +138,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.01 }
+			add_popularity = { ideology = constitutional_republic popularity = 0.01 }
 		}
 	}
 	
@@ -169,7 +169,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.01 }
+			add_popularity = { ideology = constitutional_republic popularity = 0.01 }
 		}
 	}
 	
@@ -200,7 +200,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.01 }
+			add_popularity = { ideology = constitutional_republic popularity = 0.01 }
 		}
 	}
 	
@@ -232,7 +232,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.01 }
+			add_popularity = { ideology = constitutional_republic popularity = 0.01 }
 		}
 	}
 	
@@ -389,7 +389,7 @@
 		}
 
 		available = {
-			has_government = democratic
+			has_government = constitutional_republic
 		}
 
 		bypass = {

@@ -115,6 +115,10 @@ add_opinion_modifier = {
     modifier = anti_communist_ideology
 }
 
+rule = {
+    can_join_factions = no
+}
+
 add_opinion_modifier = {
     target = KMP
     modifier = large_decrease
@@ -135,121 +139,11 @@ add_opinion_modifier = {
     modifier = shares_common_interest
 }
 
-1939.1.1 = {
-
-	add_political_power = 300
-	
-	#adding ministers
-	add_ideas = {
-		carl_spaatz
-		jimmy_doolittle
-		army_ordnance_department
-		general_electric
-		robert_goddard
-		USA_war_department
-		USA_constitutional_monarchy_bill
-	}
-	remove_ideas = {
-		great_depression
-	}
-
-	set_global_flag = earhart_disappeared
-	oob = "USA_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "USA_1939_naval_mtg"
-		else = {
-			set_naval_oob = "USA_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		fighter1 = 1
-		cv_fighter1 = 1
-		heavy_fighter1 = 1
-		tactical_bomber1 = 1
-		CAS2 = 1
-		strategic_bomber1 = 1
-		basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		marines = 1
-
-		#doctrines
-		#Air
-		air_superiority = 1
-		infrastructure_destruction = 1
-		naval_strike_tactics = 1
-
-		sup_delay = 1
-		submarine_operations_bs = 1
-		carrier_primacy = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		fuel_refining3 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			improved_submarine = 1
-			basic_destroyer = 1
-			basic_heavy_cruiser = 1
-			basic_battlecruiser = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			improved_ship_hull_light = 1
-			basic_ship_hull_heavy = 1
-			improved_ship_hull_heavy = 1
-			improved_sonar = 1
-			improved_ship_torpedo_launcher = 1
-			improved_cruiser_armor_scheme = 1
-			improved_heavy_battery = 1
-			dp_secondary_battery = 1
-		}
-	}
-	create_equipment_variant = {
-		name = "Martin M166"
-		type = tac_bomber_equipment_0
-		upgrades = {
-			plane_tac_bomb_upgrade = 2
-			plane_range_upgrade = 1
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 3
-		}
-	}
-}
-
-
-
-
 set_convoys = 500
+
+add_ideas = {
+	free_trade
+}
 
 navy_experience = 0 {
 }
@@ -263,9 +157,13 @@ air_experience = 0 {
 add_command_power = 0 {
 }
 
+add_ideas = {
+	USA_neutrality_act
+}
+
 set_politics = {
 	ruling_party = constitutional_republic
-	last_election = "1932.11.8"
+	last_election = "1955.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -274,24 +172,10 @@ set_popularities = {
 	marxism_leninism = 1
 }
 
-add_ideas = {
-	free_trade
-}
-
-
 # DIPLOMACY
 set_autonomy = {
 	target = PHI
 	autonomous_state =  autonomy_puppet
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = constitutional_republic
-		last_election = "1953.11.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }
 
 create_country_leader = {

@@ -92,7 +92,7 @@ ideas = {
 				political_power_gain = 0.5
 				stability_factor = 0.10
 				command_power_gain_mult = 0.5
-				defence = 0.10
+				defence = 0.15
 				offence = -0.10
 			}
 

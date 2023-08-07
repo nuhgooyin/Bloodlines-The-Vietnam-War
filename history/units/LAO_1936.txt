@@ -1,6 +1,6 @@
 ##### Division Templates #####
 division_template = {
-	name = "Infantry Regiment"
+	name = "Infantry Brigade"
 
 	division_names_group = LAO_INF_01
 
@@ -13,44 +13,6 @@ division_template = {
 		infantry = { x = 1 y = 2 }	
 	}
 	support = {
-		recon = { x = 0 y = 0 }
-	}
-}
-
-division_template = {
-	name = "Armored Division"
-
-	division_names_group = LAO_ARM_01
-
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-        light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		motorized = { x = 2 y = 0 }
-        motorized = { x = 2 y = 1 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        artillery = { x = 0 y = 2 }
-	}
-}
-
-division_template = {
-	name = "Motorized Division"
-
-	division_names_group = LAO_MOT_01
-
-	regiments = {
-		light_armor = { x = 2 y = 0 }
-        motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 0 y = 0 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
 	}
 }
 
@@ -59,144 +21,151 @@ units = {
 	### Infantry Regiments ###
 
 	division = {			
-		name = "1st Laotian Infantry Regiment"
+		name = "1st Laotian Infantry Brigade"
 		location = 4613
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "2nd Laotian Infantry Regiment"		
+		name = "2nd Laotian Infantry Brigade"		
 		location = 4613
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 
 	division = {			
-		name = "3rd Laotian Infantry Regiment"
+		name = "3rd Laotian Infantry Brigade"
 		location = 4613
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}		
 	division = {			
-		name = "4th Laotian Infantry Regiment"
+		name = "4th Laotian Infantry Brigade"
 		location = 1464
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}	
 	division = {			
-		name = "5th Laotian Infantry Regiment"
+		name = "5th Laotian Infantry Brigade"
 		location = 1464
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "6th Laotian Infantry Regiment"		
+		name = "6th Laotian Infantry Brigade"		
 		location = 1464
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 
 	division = {			
-		name = "7th Laotian Infantry Regiment"
-		location = 1464
-		division_template = "Infantry Regiment"
+		name = "13rd Laotian Infantry Brigade"
+		location = 4613
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}		
 	division = {			
-		name = "8th Laotian Infantry Regiment"
-		location = 4539
-		division_template = "Infantry Regiment"
+		name = "12th Laotian Infantry Brigade"
+		location = 1464
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}	
 	division = {			
-		name = "9th Laotian Infantry Regiment"		
-		location = 4539
-		division_template = "Infantry Regiment"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-
-	}
-
-	division = {			
-		name = "10th Laotian Infantry Regiment"
-		location = 4539
-		division_template = "Infantry Regiment"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-
-	}		
-	division = {			
-		name = "11th Laotian Infantry Regiment"		
-		location = 1563
-		division_template = "Infantry Regiment"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-
-	}
-
-	division = {			
-		name = "12th Laotian Infantry Regiment"
-		location = 1563
-		division_template = "Infantry Regiment"
+		name = "11th Laotian Infantry Brigade"
+		location = 1464
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}			
 	division = {			
-		name = "13th Laotian Infantry Regiment"		
+		name = "10th Laotian Infantry Brigade"		
+		location = 1464
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+
+	division = {			
+		name = "7th Laotian Infantry Brigade"
+		location = 1464
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}		
+	division = {			
+		name = "8th Laotian Infantry Brigade"
+		location = 4539
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}	
+	division = {			
+		name = "9th Laotian Infantry Brigade"		
+		location = 4539
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+
+	division = {			
+		name = "10th Laotian Infantry Brigade"
+		location = 4539
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}		
+	division = {			
+		name = "11th Laotian Infantry Brigade"		
 		location = 1563
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+
+	division = {			
+		name = "12th Laotian Infantry Brigade"
+		location = 1563
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}			
+	division = {			
+		name = "13th Laotian Infantry Brigade"		
+		location = 1563
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
 	division = {			
-		name = "14th Laotian Infantry Regiment"		
+		name = "14th Laotian Infantry Brigade"		
 		location = 1563
-		division_template = "Infantry Regiment"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 
 	}
-
-	### Armoured Divisions ###
-
-	division = {
-		name = "1st Loatian Armoured Division"
-		location = 1464
-		division_template = "Armored Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "2nd Loatian Armoured Division"
-		location = 1464
-		division_template = "Armored Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	### Motorised Divisions ###
-
-	division = {
-		name = "1st Loatian Motorised Division"
-		location = 1464
-		division_template = "Armored Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1

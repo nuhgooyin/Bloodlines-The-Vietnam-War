@@ -27,26 +27,26 @@ country_event = {
 		add_war_support = -0.10
 		remove_unit_leader = 236
 		remove_unit_leader = 237
-	create_country_leader = {
-		name = "Tôn Duc Thang"
-		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-		picture = "Portrait_DRV_Ton_Duc_Thang.dds"
-		expire = "1976.6.1"
-		ideology = marxism
-		traits = {
+		create_country_leader = {
+			name = "Tôn Duc Thang"
+			desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+			picture = "Portrait_DRV_Ton_Duc_Thang.dds"
+			expire = "1976.6.1"
+			ideology = marxism_leninism
+			traits = {
+			}
 		}
-	}
-	create_corps_commander = {
-		name = "Tôn Duc Thang"
-		portrait_path = "Portrait_DRV_Ton_Duc_Thang.dds"
-		expire = "1976.6.1"
-		traits = { }
-		skill = 2
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 2
-	}
+		create_corps_commander = {
+			name = "Tôn Duc Thang"
+			portrait_path = "Portrait_DRV_Ton_Duc_Thang.dds"
+			expire = "1976.6.1"
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
 	}
 }
 
@@ -66,12 +66,12 @@ country_event = {
 	
 	option = {
 		name = DRVnamwar.2.a
-		add_manpower = 10000
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = 1000
-		producer = PRC
-	}
+		add_manpower = 15000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = PRC
+		}
 	}
 }
 
@@ -101,13 +101,139 @@ country_event = {
 			factor = 160
 		}
 		name = DRVnamwar.3.a
-		add_manpower = 5000
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = 1000
-		producer = DRV
+		add_manpower = 10000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = DRV
+		}
+		load_oob = "DRV_Dynamic_Event_Bonus"
 	}
-	load_oob = "DRV_Dynamic_Event_Bonus"
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = DRVnamwar.4.a
+	}
+}
+
+country_event = {
+	id = DRVnamwar.3
+	title = DRVnamwar.3.t
+	desc = DRVnamwar.3.d
+	picture = GFX_report_event_DRV_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = DRV
+		has_idea = DRV_popular_government
+		date > 1961.1.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = DRVnamwar.3.a
+		add_manpower = 10000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = DRV
+		}
+		load_oob = "DRV_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = DRVnamwar.4.a
+	}
+}
+
+country_event = {
+	id = DRVnamwar.3
+	title = DRVnamwar.3.t
+	desc = DRVnamwar.3.d
+	picture = GFX_report_event_DRV_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = DRV
+		has_idea = DRV_popular_government
+		date > 1964.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = DRVnamwar.3.a
+		add_manpower = 10000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = DRV
+		}
+		load_oob = "DRV_Dynamic_Event_Bonus"
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = DRVnamwar.4.a
+	}
+}
+
+country_event = {
+	id = DRVnamwar.3
+	title = DRVnamwar.3.t
+	desc = DRVnamwar.3.d
+	picture = GFX_report_event_DRV_dynamic_event_bonus
+
+	fire_only_once = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = DRV
+		has_idea = DRV_popular_government
+		date > 1966.2.1
+		surrender_progress > 0.1
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 160
+		}
+		name = DRVnamwar.3.a
+		add_manpower = 10000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = DRV
+		}
+		load_oob = "DRV_Dynamic_Event_Bonus"
 	}
 	option = {
 		ai_chance = {

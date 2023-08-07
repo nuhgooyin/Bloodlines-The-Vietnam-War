@@ -31,24 +31,23 @@ country_event = {
 		days = 10
 	}
 
-option = { 
-	ai_will_do = {
-	factor = 160
-}
-	name = vietcong.1.a
-    286 = {
-        if = {
-            limit = { is_owned_by = RVN }
+	option = { 
+		ai_will_do = {
+		factor = 160
 		}
-    }
+		name = vietcong.1.a
+		286 = {
+			if = {
+				limit = { is_owned_by = RVN }
+			}
+		}
         NLF = {
-		declare_war_on = {
-		target = RVN
-		type = annex_everything
+			declare_war_on = {
+				target = RVN
+				type = annex_everything
+			}
 		}
 	}
-}
-
 }
 
 country_event = {
@@ -81,13 +80,13 @@ country_event = {
 					id = RVNnamwar.7
 				}
 			}
-		add_manpower = 40000
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = 4000
-		producer = NLF
-	}
-	load_oob = "NLF_Tet_Offensive"
+		add_manpower = 80000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 9500
+			producer = NLF
+		}
+		load_oob = "NLF_Tet_Offensive"
 	}
 	option = {
 		ai_chance = {
@@ -121,6 +120,6 @@ country_event = {
 				id = RVNnamwar.10
 			}
 		}
-	load_oob = "NLF_Launch_Offensive_Bonus"
+		load_oob = "NLF_Launch_Offensive_Bonus"
 	}
 }

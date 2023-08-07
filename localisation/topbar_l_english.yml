@@ -1,6 +1,6 @@
 ﻿l_english:
  TOPBAR_DEPLOYMENT:0 "Recruit & Deploy"
- TOPBAR_DEPLOYMENT_DESC:0 "Set up regiments and templates, and deploy troops to the map."
+ TOPBAR_DEPLOYMENT_DESC:0 "Set up brigades and templates, and deploy troops to the map."
  TOPBAR_POLITICS:0 "Politics"
  TOPBAR_POLITICS_DESC:0 "Manage your country's internal politics."
  TOPBAR_TRADE:0 "Trade"
@@ -16,7 +16,7 @@
  TOPBAR_CONSTRUCTION:0 "Construction"
  TOPBAR_CONSTRUCTION_DESC:0 "Construct buildings and see ongoing constructions."
  TOPBAR_ARMY:0 "Army"
- TOPBAR_ARMY_DESC:0 "See an overview of your regiments."
+ TOPBAR_ARMY_DESC:0 "See an overview of your brigades."
  TOPBAR_NAVY:0 "Navy"
  TOPBAR_NAVY_DESC:0 "See an overview of your fleets."
  TOPBAR_AIR:0 "Air"
